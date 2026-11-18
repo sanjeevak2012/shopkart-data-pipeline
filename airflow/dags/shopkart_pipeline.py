@@ -1,5 +1,7 @@
 
 import json
+import subprocess
+import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -35,24 +37,79 @@ BRONZE_DATASET = "shopkart_bronze"
 
 
 # =====================================================
-# 2. UPLOAD SOURCE DATA TO GCS
+# 2. GENERATE SOURCE DATA
+# =====================================================
+
+def generate_source_data():
+
+    generator_script = (
+        PROJECT_ROOT
+        / "scripts"
+        / "generators"
+        / "generate_all.py"
+    )
+
+    if not generator_script.exists():
+        raise FileNotFoundError(
+            f"Generator script not found: {generator_script}"
+        )
+
+    print("Starting ShopKart source data generation")
+
+    subprocess.run(
+        [
+            sys.executable,
+            str(generator_script)
+        ],
+        cwd=PROJECT_ROOT,
+        check=True
+    )
+
+    print("All ShopKart source datasets generated successfully!")
+
+
+# =====================================================
+# 3. GENERATE UNIQUE GCS OBJECT PATH
+# =====================================================
+
+def get_gcs_object_path(dataset, context):
+
+    ingestion_date = context["ds"]
+
+    run_id = context["run_id"]
+
+    # Make run_id safe for use in a GCS object path.
+    safe_run_id = (
+        run_id
+        .replace(":", "_")
+        .replace("+", "_")
+        .replace("/", "_")
+    )
+
+    destination = (
+        f"raw/{dataset}/"
+        f"ingestion_date={ingestion_date}/"
+        f"run_id={safe_run_id}/"
+        f"{dataset}.csv"
+    )
+
+    return destination
+
+
+# =====================================================
+# 4. UPLOAD SOURCE DATA TO GCS
 # =====================================================
 
 def upload_to_gcs(**context):
 
     from google.cloud import storage
 
-    # Airflow execution date
-    ingestion_date = context["ds"]
-
-    # Authenticate
     credentials, _ = google.auth.default(
         scopes=[
             "https://www.googleapis.com/auth/cloud-platform"
         ]
     )
 
-    # Connect to GCS
     client = storage.Client(
         project=GCP_PROJECT,
         credentials=credentials
@@ -60,7 +117,6 @@ def upload_to_gcs(**context):
 
     bucket = client.bucket(GCS_BUCKET)
 
-    # Upload all six CSV files
     for dataset in DATASETS:
 
         print(f"Starting GCS upload: {dataset}")
@@ -72,73 +128,57 @@ def upload_to_gcs(**context):
             / f"{dataset}.csv"
         )
 
-        # Verify local file
         if not local_file.exists():
-
             raise FileNotFoundError(
                 f"File not found: {local_file}"
             )
 
-        # GCS destination
-        destination = (
-            f"raw/{dataset}/"
-            f"ingestion_date={ingestion_date}/"
-            f"{dataset}.csv"
+        # Use a unique path for every DAG run.
+        destination = get_gcs_object_path(
+            dataset,
+            context
         )
 
         blob = bucket.blob(destination)
 
-        # Prevent overwriting existing files
-        if blob.exists(client):
-
-            raise FileExistsError(
-                f"GCS file already exists: {destination}"
-            )
-
-        # Upload file
+        # Prevent accidental overwriting.
         blob.upload_from_filename(
             str(local_file),
             content_type="text/csv",
             if_generation_match=0
         )
 
-        # Verify upload
         blob.reload()
 
         print(
             f"SUCCESS: {dataset} | "
-            f"Size: {blob.size:,} bytes"
+            f"Size: {blob.size:,} bytes | "
+            f"Object: {destination}"
         )
 
     print("All six datasets uploaded successfully!")
 
 
 # =====================================================
-# 3. LOAD DATA FROM GCS INTO BIGQUERY BRONZE
+# 5. LOAD DATA FROM GCS INTO BIGQUERY BRONZE
 # =====================================================
 
 def load_bronze_tables(**context):
 
     from google.cloud import bigquery, storage
 
-    # Airflow execution date
-    ingestion_date = context["ds"]
-
-    # Authenticate
     credentials, _ = google.auth.default(
         scopes=[
             "https://www.googleapis.com/auth/cloud-platform"
         ]
     )
 
-    # BigQuery client
     bq_client = bigquery.Client(
         project=GCP_PROJECT,
         location=BQ_LOCATION,
         credentials=credentials
     )
 
-    # GCS client
     storage_client = storage.Client(
         project=GCP_PROJECT,
         credentials=credentials
@@ -146,25 +186,19 @@ def load_bronze_tables(**context):
 
     bucket = storage_client.bucket(GCS_BUCKET)
 
-    # Process all six datasets
     for dataset in DATASETS:
 
         print(f"Starting Bronze load: {dataset}")
 
-        # -----------------------------------------
-        # 3.1 GCS SOURCE FILE
-        # -----------------------------------------
-
-        object_name = (
-            f"raw/{dataset}/"
-            f"ingestion_date={ingestion_date}/"
-            f"{dataset}.csv"
+        # Read from the exact GCS path created by this DAG run.
+        object_name = get_gcs_object_path(
+            dataset,
+            context
         )
 
         blob = bucket.blob(object_name)
 
         if not blob.exists(storage_client):
-
             raise FileNotFoundError(
                 f"GCS file not found: "
                 f"gs://{GCS_BUCKET}/{object_name}"
@@ -174,10 +208,7 @@ def load_bronze_tables(**context):
             f"gs://{GCS_BUCKET}/{object_name}"
         )
 
-        # -----------------------------------------
-        # 3.2 READ JSON SCHEMA
-        # -----------------------------------------
-
+        # Load the explicit BigQuery schema.
         schema_file = (
             PROJECT_ROOT
             / "config"
@@ -186,7 +217,6 @@ def load_bronze_tables(**context):
         )
 
         if not schema_file.exists():
-
             raise FileNotFoundError(
                 f"Schema not found: {schema_file}"
             )
@@ -199,14 +229,12 @@ def load_bronze_tables(**context):
 
             schema_data = json.load(file)
 
-        # Support both JSON formats
         fields = (
             schema_data["fields"]
             if isinstance(schema_data, dict)
             else schema_data
         )
 
-        # Build BigQuery schema
         schema = [
             bigquery.SchemaField(
                 field["name"],
@@ -216,62 +244,31 @@ def load_bronze_tables(**context):
             for field in fields
         ]
 
-        # -----------------------------------------
-        # 3.3 BIGQUERY DESTINATION
-        # -----------------------------------------
-
         table_id = (
             f"{GCP_PROJECT}."
             f"{BRONZE_DATASET}."
             f"{dataset}"
         )
 
-        # -----------------------------------------
-        # 3.4 LOAD JOB CONFIGURATION
-        # -----------------------------------------
-
-        
         job_config = bigquery.LoadJobConfig(
-
             source_format=bigquery.SourceFormat.CSV,
-
             skip_leading_rows=1,
-
             schema=schema,
-
             autodetect=False,
-
             write_disposition=(
                 bigquery.WriteDisposition.WRITE_TRUNCATE
             ),
-
-            allow_quoted_newlines=True,
-
+            allow_quoted_newlines=True
         )
-
-
-        # -----------------------------------------
-        # 3.5 EXECUTE BIGQUERY LOAD JOB
-        # -----------------------------------------
 
         load_job = bq_client.load_table_from_uri(
-
             source_uri,
-
             table_id,
-
             job_config=job_config,
-
             location=BQ_LOCATION
-
         )
 
-        # Wait for completion
         load_job.result()
-
-        # -----------------------------------------
-        # 3.6 VERIFY BRONZE TABLE
-        # -----------------------------------------
 
         table = bq_client.get_table(table_id)
 
@@ -281,13 +278,178 @@ def load_bronze_tables(**context):
             f"Table: {table_id}"
         )
 
+    print("All six Bronze tables loaded successfully!")
+
+
+# =====================================================
+# 6. TRANSFORM BRONZE INTO SILVER
+# =====================================================
+
+def transform_silver():
+
+    from google.cloud import bigquery
+
+    credentials, _ = google.auth.default(
+        scopes=[
+            "https://www.googleapis.com/auth/cloud-platform"
+        ]
+    )
+
+    bq_client = bigquery.Client(
+        project=GCP_PROJECT,
+        location=BQ_LOCATION,
+        credentials=credentials
+    )
+
+    sql_directory = (
+        PROJECT_ROOT
+        / "sql"
+        / "bronze_to_silver"
+    )
+
+    sql_files = [
+        "customers.sql",
+        "products.sql",
+        "orders.sql",
+        "order_items.sql",
+        "payments.sql",
+        "inventory_events.sql",
+    ]
+
+    for sql_file in sql_files:
+
+        sql_path = sql_directory / sql_file
+
+        if not sql_path.exists():
+            raise FileNotFoundError(
+                f"SQL file not found: {sql_path}"
+            )
+
+        print(
+            f"Starting Silver transformation: {sql_file}"
+        )
+
+        query = sql_path.read_text(
+            encoding="utf-8"
+        )
+
+        query_job = bq_client.query(
+            query,
+            location=BQ_LOCATION
+        )
+
+        query_job.result()
+
+        print(
+            f"SUCCESS: Silver transformation completed: "
+            f"{sql_file}"
+        )
+
+    print("All six Silver transformations completed!")
+
+
+# =====================================================
+# 7. TRANSFORM SILVER INTO GOLD
+# =====================================================
+
+def transform_gold():
+
+    from google.cloud import bigquery
+
+    credentials, _ = google.auth.default(
+        scopes=[
+            "https://www.googleapis.com/auth/cloud-platform"
+        ]
+    )
+
+    bq_client = bigquery.Client(
+        project=GCP_PROJECT,
+        location=BQ_LOCATION,
+        credentials=credentials
+    )
+
+    sql_directory = (
+        PROJECT_ROOT
+        / "sql"
+        / "silver_to_gold"
+    )
+
+    sql_files = [
+        "daily_sales_summary.sql",
+        "product_performance.sql",
+        "customer_analytics.sql",
+        "payment_analytics.sql",
+        "inventory_analytics.sql",
+    ]
+
+    for sql_file in sql_files:
+
+        sql_path = sql_directory / sql_file
+
+        if not sql_path.exists():
+            raise FileNotFoundError(
+                f"SQL file not found: {sql_path}"
+            )
+
+        print(
+            f"Starting Gold transformation: {sql_file}"
+        )
+
+        query = sql_path.read_text(
+            encoding="utf-8"
+        )
+
+        query_job = bq_client.query(
+            query,
+            location=BQ_LOCATION
+        )
+
+        query_job.result()
+
+        print(
+            f"SUCCESS: Gold transformation completed: "
+            f"{sql_file}"
+        )
+
+    print("All five Gold transformations completed!")
+
+
+# =====================================================
+# 8. RUN DATA QUALITY VALIDATION SCRIPTS
+# =====================================================
+
+def run_validation_script(script_name):
+
+    script_path = (
+        PROJECT_ROOT
+        / "scripts"
+        / "validation"
+        / script_name
+    )
+
+    if not script_path.exists():
+        raise FileNotFoundError(
+            f"Validation script not found: {script_path}"
+        )
+
+    print(f"Starting validation: {script_name}")
+
+    subprocess.run(
+        [
+            sys.executable,
+            str(script_path)
+        ],
+        cwd=PROJECT_ROOT,
+        check=True
+    )
+
     print(
-        "All six Bronze tables loaded successfully!"
+        f"SUCCESS: {script_name} completed!"
     )
 
 
 # =====================================================
-# 4. AIRFLOW DAG DEFINITION
+# 9. AIRFLOW DAG DEFINITION
 # =====================================================
 
 with DAG(
@@ -316,7 +478,6 @@ with DAG(
 
 ) as dag:
 
-
     # ---------------------------------------------
     # START
     # ---------------------------------------------
@@ -325,86 +486,86 @@ with DAG(
         task_id="start_pipeline"
     )
 
-
     # ---------------------------------------------
     # GENERATE SOURCE DATA
     # ---------------------------------------------
 
-    generate_data = EmptyOperator(
-        task_id="generate_source_data"
+    generate_data = PythonOperator(
+        task_id="generate_source_data",
+        python_callable=generate_source_data
     )
-
 
     # ---------------------------------------------
     # UPLOAD TO GCS
     # ---------------------------------------------
 
     upload_gcs = PythonOperator(
-
         task_id="upload_to_gcs",
-
-        python_callable=upload_to_gcs,
-
+        python_callable=upload_to_gcs
     )
-
 
     # ---------------------------------------------
     # LOAD BRONZE
     # ---------------------------------------------
 
     load_bronze = PythonOperator(
-
         task_id="load_bronze",
-
-        python_callable=load_bronze_tables,
-
+        python_callable=load_bronze_tables
     )
-
 
     # ---------------------------------------------
     # VALIDATE BRONZE
     # ---------------------------------------------
 
-    validate_bronze = EmptyOperator(
-        task_id="validate_bronze"
+    validate_bronze = PythonOperator(
+        task_id="validate_bronze",
+        python_callable=run_validation_script,
+        op_kwargs={
+            "script_name": "validate_bronze.py"
+        }
     )
-
 
     # ---------------------------------------------
     # TRANSFORM SILVER
     # ---------------------------------------------
 
-    transform_silver = EmptyOperator(
-        task_id="transform_silver"
+    silver_transformation = PythonOperator(
+        task_id="transform_silver",
+        python_callable=transform_silver
     )
-
 
     # ---------------------------------------------
     # VALIDATE SILVER
     # ---------------------------------------------
 
-    validate_silver = EmptyOperator(
-        task_id="validate_silver"
+    validate_silver = PythonOperator(
+        task_id="validate_silver",
+        python_callable=run_validation_script,
+        op_kwargs={
+            "script_name": "validate_silver.py"
+        }
     )
-
 
     # ---------------------------------------------
     # TRANSFORM GOLD
     # ---------------------------------------------
 
-    transform_gold = EmptyOperator(
-        task_id="transform_gold"
+    gold_transformation = PythonOperator(
+        task_id="transform_gold",
+        python_callable=transform_gold
     )
-
 
     # ---------------------------------------------
     # VALIDATE GOLD
     # ---------------------------------------------
 
-    validate_gold = EmptyOperator(
-        task_id="validate_gold"
+    validate_gold = PythonOperator(
+        task_id="validate_gold",
+        python_callable=run_validation_script,
+        op_kwargs={
+            "script_name": "validate_gold.py"
+        }
     )
-
 
     # ---------------------------------------------
     # END
@@ -414,9 +575,8 @@ with DAG(
         task_id="end_pipeline"
     )
 
-
     # =================================================
-    # 5. TASK DEPENDENCIES
+    # 10. TASK DEPENDENCIES
     # =================================================
 
     (
@@ -425,9 +585,9 @@ with DAG(
         >> upload_gcs
         >> load_bronze
         >> validate_bronze
-        >> transform_silver
+        >> silver_transformation
         >> validate_silver
-        >> transform_gold
+        >> gold_transformation
         >> validate_gold
         >> end
     )
