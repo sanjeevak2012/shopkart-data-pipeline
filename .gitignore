@@ -15,6 +15,9 @@ __pycache__/
 # Airflow secrets and generated logs
 airflow/.env
 airflow/logs/
+airflow/build-error.log
+airflow/config/
+airflow/docker-compose.yaml.backup
 
 # GCP credentials
 config/gcp-adc.json
