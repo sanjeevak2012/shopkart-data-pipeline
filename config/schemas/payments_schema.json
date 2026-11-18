@@ -1,0 +1,14 @@
+
+[
+  {"name": "payment_id", "type": "INT64", "mode": "REQUIRED"},
+  {"name": "order_id", "type": "INT64", "mode": "NULLABLE"},
+  {"name": "attempt_number", "type": "INT64", "mode": "NULLABLE"},
+  {"name": "payment_date", "type": "TIMESTAMP", "mode": "NULLABLE"},
+  {"name": "payment_method", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "payment_amount", "type": "NUMERIC", "mode": "NULLABLE"},
+  {"name": "payment_status", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "transaction_id", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "payment_provider", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "created_at", "type": "TIMESTAMP", "mode": "NULLABLE"},
+  {"name": "updated_at", "type": "TIMESTAMP", "mode": "NULLABLE"}
+]

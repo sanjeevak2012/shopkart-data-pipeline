@@ -1,0 +1,29 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# IDE settings
+.vscode/
+.idea/
+
+# Airflow secrets and generated logs
+airflow/.env
+airflow/logs/
+
+# GCP credentials
+config/gcp-adc.json
+**/application_default_credentials.json
+**/*service-account*.json
+
+# Environment secrets
+.env
+.env.*
+
+# Generated validation output
+gold_validation_output.txt

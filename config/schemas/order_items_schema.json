@@ -1,0 +1,8 @@
+
+[
+  {"name": "order_id", "type": "INT64", "mode": "REQUIRED"},
+  {"name": "product_id", "type": "INT64", "mode": "REQUIRED"},
+  {"name": "quantity", "type": "INT64", "mode": "NULLABLE"},
+  {"name": "unit_price", "type": "NUMERIC", "mode": "NULLABLE"},
+  {"name": "line_total", "type": "NUMERIC", "mode": "NULLABLE"}
+]

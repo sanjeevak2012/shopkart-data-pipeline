@@ -1,0 +1,9 @@
+
+[
+  {"name": "order_id", "type": "INT64", "mode": "REQUIRED"},
+  {"name": "customer_id", "type": "INT64", "mode": "NULLABLE"},
+  {"name": "order_date", "type": "TIMESTAMP", "mode": "NULLABLE"},
+  {"name": "order_status", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "total_quantity", "type": "INT64", "mode": "NULLABLE"},
+  {"name": "order_total", "type": "NUMERIC", "mode": "NULLABLE"}
+]

@@ -1,0 +1,11 @@
+
+[
+  {"name": "event_id", "type": "INT64", "mode": "REQUIRED"},
+  {"name": "product_id", "type": "INT64", "mode": "NULLABLE"},
+  {"name": "event_type", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "quantity_change", "type": "INT64", "mode": "NULLABLE"},
+  {"name": "event_timestamp", "type": "TIMESTAMP", "mode": "NULLABLE"},
+  {"name": "reference_id", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "reason", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "created_at", "type": "TIMESTAMP", "mode": "NULLABLE"}
+]

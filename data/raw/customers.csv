@@ -1,0 +1,1001 @@
+customer_id,customer_name,email,phone,city,state,pincode,registration_date,customer_segment,is_active,created_at,updated_at
+1,Yash Kapoor,customer1@shopkart.example,+918618286074,Hyderabad,Telangana,500438,2026-02-27,Premium,True,2026-02-27 14:37:59.713545,2026-03-22 14:37:59.713545
+2,Pahal Balay,customer2@shopkart.example,+918105915915,Chennai,Tamil Nadu,600975,2025-02-27,Premium,True,2025-02-27 09:12:15.042853,2025-03-01 09:12:15.042853
+3,Rushil Saini,customer3@shopkart.example,+919358992917,Delhi,Delhi,110450,2024-12-09,Regular,False,2024-12-09 07:15:38.263526,2024-12-12 07:15:38.263526
+4,Nathaniel Sami,customer4@shopkart.example,+917609657457,Kochi,Kerala,682822,2025-04-27,Regular,True,2025-04-27 06:14:52.078008,2025-05-16 06:14:52.078008
+5,Harsh Chanda,customer5@shopkart.example,+919551559372,Hyderabad,Telangana,500063,2025-07-24,Premium,True,2025-07-24 03:45:41.085386,2025-08-10 03:45:41.085386
+6,Aishani Bassi,customer6@shopkart.example,+918802091865,Bengaluru,Karnataka,560354,2025-08-22,VIP,True,2025-08-22 23:00:16.067270,2025-09-14 23:00:16.067270
+7,Farhan Memon,customer7@shopkart.example,+919039597764,Vijayawada,Andhra Pradesh,520194,2026-05-04,Regular,True,2026-05-04 09:07:48.628885,2026-05-28 09:07:48.628885
+8,Rehaan Boase,customer8@shopkart.example,+918973503629,Delhi,Delhi,110683,2026-07-16,Premium,False,2026-07-16 00:38:34.707358,2026-07-20 00:38:34.707358
+9,Fariq Kaul,customer9@shopkart.example,+919622143061,Pune,Maharashtra,411370,2024-12-21,Regular,True,2024-12-21 16:32:48.691913,2024-12-31 16:32:48.691913
+10,Janya Gaba,customer10@shopkart.example,+918745912843,Pune,Maharashtra,411475,2026-08-12,Regular,True,2026-08-12 07:03:00.134534,2026-08-16 07:03:00.134534
+11,Ekbal Garg,customer11@shopkart.example,+916642752648,Jaipur,Rajasthan,302832,2025-08-15,Premium,True,2025-08-15 14:28:23.185537,2025-08-28 14:28:23.185537
+12,Ladli Madan,customer12@shopkart.example,+917740866670,Kochi,Kerala,682804,2025-12-12,Regular,True,2025-12-12 01:22:37.022692,2026-01-06 01:22:37.022692
+13,Ekta Bhalla,customer13@shopkart.example,+916559009933,Chennai,Tamil Nadu,600832,2026-11-10,Regular,True,2026-11-10 06:48:25.898345,2026-11-18 10:49:24.842990
+14,Nandini Loyal,customer14@shopkart.example,+918659403425,Bengaluru,Karnataka,560471,2025-05-04,Premium,True,2025-05-04 21:31:44.551895,2025-05-28 21:31:44.551895
+15,Simon Tata,customer15@shopkart.example,+918274964783,Kochi,Kerala,682037,2025-01-05,Regular,True,2025-01-05 19:33:16.904029,2025-01-20 19:33:16.904029
+16,Luke Lanka,customer16@shopkart.example,+917884384823,Bengaluru,Karnataka,560855,2025-09-02,Premium,True,2025-09-02 03:19:36.112973,2025-09-22 03:19:36.112973
+17,Priya Rastogi,customer17@shopkart.example,+918214317602,Delhi,Delhi,110090,2025-02-27,Regular,True,2025-02-27 11:34:11.045848,2025-03-16 11:34:11.045848
+18,Yashodhara Tak,customer18@shopkart.example,+917746869556,Delhi,Delhi,110982,2025-08-09,Regular,True,2025-08-09 21:25:38.261038,2025-08-19 21:25:38.261038
+19,Michael Dutta,customer19@shopkart.example,+916935757943,Chennai,Tamil Nadu,600821,2025-01-23,Regular,True,2025-01-23 20:44:05.074834,2025-01-24 20:44:05.074834
+20,Lekha Raj,customer20@shopkart.example,+918647666058,Hyderabad,Telangana,500126,2026-06-19,Premium,True,2026-06-19 13:31:43.047707,2026-07-02 13:31:43.047707
+21,Advay Contractor,customer21@shopkart.example,+917625547445,Delhi,Delhi,110417,2026-01-26,Regular,True,2026-01-26 22:44:23.673812,2026-02-07 22:44:23.673812
+22,Harini Choudhury,customer22@shopkart.example,+919086209654,Kolkata,West Bengal,700722,2026-03-30,Regular,True,2026-03-30 19:13:06.782525,2026-04-02 19:13:06.782525
+23,Adya Tella,customer23@shopkart.example,+919752205566,Jaipur,Rajasthan,302152,2025-06-20,Premium,True,2025-06-20 19:10:05.197249,2025-07-05 19:10:05.197249
+24,Chanchal Tripathi,customer24@shopkart.example,+916955065063,Bengaluru,Karnataka,560301,2026-05-28,Premium,True,2026-05-28 07:34:39.956549,2026-06-08 07:34:39.956549
+25,Aadi Naik,customer25@shopkart.example,+917370363097,Jaipur,Rajasthan,302118,2026-02-05,VIP,False,2026-02-05 07:18:48.705112,2026-02-07 07:18:48.705112
+26,Damyanti Khatri,customer26@shopkart.example,+917829669944,Pune,Maharashtra,411265,2025-11-09,VIP,True,2025-11-09 02:27:31.056043,2025-11-30 02:27:31.056043
+27,Frederick Sunder,customer27@shopkart.example,+919156026248,Chennai,Tamil Nadu,600449,2024-12-30,Regular,True,2024-12-30 01:05:20.953308,2025-01-21 01:05:20.953308
+28,Kabir Soman,customer28@shopkart.example,+916510307398,Pune,Maharashtra,411455,2026-07-06,Regular,True,2026-07-06 01:39:12.958879,2026-08-02 01:39:12.958879
+29,Siddharth Zacharia,customer29@shopkart.example,+918187629089,Kolkata,West Bengal,700176,2026-10-10,Premium,True,2026-10-10 14:05:20.287030,2026-10-27 14:05:20.287030
+30,Mohini Prakash,customer30@shopkart.example,+918653192051,Pune,Maharashtra,411432,2026-05-23,Premium,True,2026-05-23 07:28:04.915954,2026-06-14 07:28:04.915954
+31,Yug Kar,customer31@shopkart.example,+918514981147,Hyderabad,Telangana,500084,2025-10-03,Regular,True,2025-10-03 20:54:58.450314,2025-10-23 20:54:58.450314
+32,Thomas Amble,customer32@shopkart.example,+916752900687,Bengaluru,Karnataka,560329,2025-01-03,Regular,True,2025-01-03 23:54:34.921177,2025-01-18 23:54:34.921177
+33,Ekansh Balay,customer33@shopkart.example,+919173932938,Bengaluru,Karnataka,560170,2025-01-08,VIP,True,2025-01-08 10:45:54.477164,2025-01-26 10:45:54.477164
+34,Arya Sunder,customer34@shopkart.example,+918449807678,Pune,Maharashtra,411590,2026-08-07,Regular,False,2026-08-07 02:14:29.641918,2026-08-17 02:14:29.641918
+35,Xavier Solanki,customer35@shopkart.example,+917868430210,Pune,Maharashtra,411782,2025-04-23,Regular,True,2025-04-23 20:07:11.386345,2025-05-07 20:07:11.386345
+36,Raagini Pandya,customer36@shopkart.example,+917764672309,Vijayawada,Andhra Pradesh,520937,2026-06-30,Regular,True,2026-06-30 20:26:39.014899,2026-07-15 20:26:39.014899
+37,Guneet Bhat,customer37@shopkart.example,+919815091450,Kolkata,West Bengal,700331,2025-09-23,Regular,True,2025-09-23 15:33:15.288275,2025-10-01 15:33:15.288275
+38,Yuvraj Handa,customer38@shopkart.example,+917454713014,Chennai,Tamil Nadu,600826,2025-09-07,Premium,True,2025-09-07 03:57:05.166460,2025-09-07 03:57:05.166460
+39,Qadim Mallick,customer39@shopkart.example,+917262768675,Mumbai,Maharashtra,400108,2025-04-05,Premium,True,2025-04-05 03:34:13.596836,2025-04-22 03:34:13.596836
+40,Saanvi Chaudhari,customer40@shopkart.example,+918921182347,Chennai,Tamil Nadu,600726,2025-10-21,Premium,True,2025-10-21 20:09:41.589242,2025-11-10 20:09:41.589242
+41,Girik Khalsa,customer41@shopkart.example,+919900621277,Vijayawada,Andhra Pradesh,520230,2024-12-24,Regular,True,2024-12-24 13:03:15.544207,2025-01-21 13:03:15.544207
+42,Nandini Bhargava,customer42@shopkart.example,+917239821757,Delhi,Delhi,110829,2025-03-19,Premium,True,2025-03-19 09:55:17.059834,2025-03-30 09:55:17.059834
+43,Alka Sha,customer43@shopkart.example,+918539324353,Chennai,Tamil Nadu,600290,2025-03-18,Regular,True,2025-03-18 18:41:41.907838,2025-04-16 18:41:41.907838
+44,Mohammed Gupta,customer44@shopkart.example,+916722807985,Jaipur,Rajasthan,302164,2025-06-14,Regular,True,2025-06-14 00:03:47.293494,2025-07-13 00:03:47.293494
+45,Dipta Bhandari,customer45@shopkart.example,+916606159772,Jaipur,Rajasthan,302891,2025-06-22,Premium,True,2025-06-22 08:58:26.536738,2025-07-22 08:58:26.536738
+46,Dakshesh Trivedi,customer46@shopkart.example,+916463923619,Chennai,Tamil Nadu,600518,2024-12-24,Regular,True,2024-12-24 11:54:54.257634,2025-01-20 11:54:54.257634
+47,Wahab Raval,customer47@shopkart.example,+917640879693,Mumbai,Maharashtra,400373,2025-01-15,Regular,True,2025-01-15 14:20:12.445739,2025-02-04 14:20:12.445739
+48,Balveer Bumb,customer48@shopkart.example,+916021228288,Mumbai,Maharashtra,400936,2025-02-13,Regular,True,2025-02-13 02:53:26.524683,2025-02-21 02:53:26.524683
+49,Advika Jayaraman,customer49@shopkart.example,+919567645815,Hyderabad,Telangana,500153,2025-09-20,Regular,True,2025-09-20 01:19:14.593257,2025-10-15 01:19:14.593257
+50,Meghana Deep,customer50@shopkart.example,+916179139349,Kochi,Kerala,682196,2026-03-21,Regular,True,2026-03-21 07:28:28.223577,2026-04-17 07:28:28.223577
+51,Elijah Andra,customer51@shopkart.example,+917997227940,Mumbai,Maharashtra,400500,2026-03-23,Regular,True,2026-03-23 13:47:27.441804,2026-04-22 13:47:27.441804
+52,Ethan Yogi,customer52@shopkart.example,+917117190020,Bengaluru,Karnataka,560131,2025-10-18,Premium,True,2025-10-18 08:11:26.934923,2025-10-25 08:11:26.934923
+53,Ekapad Konda,customer53@shopkart.example,+919710009453,Chennai,Tamil Nadu,600694,2025-04-22,Regular,True,2025-04-22 15:47:49.729341,2025-05-07 15:47:49.729341
+54,Abhiram Mistry,customer54@shopkart.example,+916100405298,Kolkata,West Bengal,700715,2025-08-14,Premium,True,2025-08-14 06:16:40.655513,2025-09-07 06:16:40.655513
+55,Aishani D’Alia,customer55@shopkart.example,+918269128867,Pune,Maharashtra,411927,2026-09-29,Regular,True,2026-09-29 01:21:03.627574,2026-10-02 01:21:03.627574
+56,Anita Manda,customer56@shopkart.example,+918033490331,Bengaluru,Karnataka,560662,2026-08-29,VIP,True,2026-08-29 00:59:38.602208,2026-09-13 00:59:38.602208
+57,Aishani Tiwari,customer57@shopkart.example,+917996659103,Jaipur,Rajasthan,302024,2026-02-02,Regular,True,2026-02-02 17:12:12.467916,2026-03-02 17:12:12.467916
+58,George Sampath,customer58@shopkart.example,+916561358387,Kolkata,West Bengal,700748,2025-11-09,VIP,True,2025-11-09 18:34:23.558780,2025-11-12 18:34:23.558780
+59,Kalpit Lala,customer59@shopkart.example,+919732092886,Pune,Maharashtra,411738,2026-07-16,Regular,True,2026-07-16 22:08:11.755410,2026-07-21 22:08:11.755410
+60,Aditya Choudhury,customer60@shopkart.example,+916071347135,Kolkata,West Bengal,700663,2025-03-15,Premium,True,2025-03-15 07:58:06.048636,2025-04-10 07:58:06.048636
+61,Balendra Pingle,customer61@shopkart.example,+916930562967,Bengaluru,Karnataka,560334,2025-01-11,Premium,True,2025-01-11 22:24:21.075533,2025-01-25 22:24:21.075533
+62,Benjamin Morar,customer62@shopkart.example,+918412428628,Delhi,Delhi,110289,2026-01-17,Regular,True,2026-01-17 17:09:51.668470,2026-02-09 17:09:51.668470
+63,Ishita Kade,customer63@shopkart.example,+918607724102,Pune,Maharashtra,411962,2025-08-11,Regular,True,2025-08-11 07:46:52.205395,2025-08-14 07:46:52.205395
+64,Niharika Dubey,customer64@shopkart.example,+916946649451,Kolkata,West Bengal,700994,2026-03-30,Premium,True,2026-03-30 20:13:01.147786,2026-04-07 20:13:01.147786
+65,Peter Sachar,customer65@shopkart.example,+916266235426,Kochi,Kerala,682475,2026-09-24,Regular,True,2026-09-24 07:47:46.091823,2026-10-21 07:47:46.091823
+66,Nisha Kothari,customer66@shopkart.example,+917241338695,Delhi,Delhi,110923,2024-12-06,VIP,True,2024-12-06 11:01:03.719580,2024-12-15 11:01:03.719580
+67,Lavanya Barad,customer67@shopkart.example,+917138880329,Bengaluru,Karnataka,560577,2025-05-31,Regular,True,2025-05-31 01:27:08.178179,2025-06-04 01:27:08.178179
+68,Inaya Mody,customer68@shopkart.example,+916221581635,Bengaluru,Karnataka,560194,2026-08-06,Regular,True,2026-08-06 03:51:32.553136,2026-08-27 03:51:32.553136
+69,Arjun Hans,customer69@shopkart.example,+918722858106,Bengaluru,Karnataka,560803,2026-07-09,Regular,True,2026-07-09 03:05:46.683434,2026-07-24 03:05:46.683434
+70,Arya Panchal,customer70@shopkart.example,+919500019768,Mumbai,Maharashtra,400792,2025-09-04,Regular,True,2025-09-04 02:30:05.903521,2025-09-26 02:30:05.903521
+71,Ayaan D’Alia,customer71@shopkart.example,+916946979483,Kolkata,West Bengal,700228,2026-03-01,Regular,True,2026-03-01 11:58:05.859503,2026-03-28 11:58:05.859503
+72,Balvan Chopra,customer72@shopkart.example,+916197016479,Chennai,Tamil Nadu,600007,2026-08-20,Regular,True,2026-08-20 20:43:26.901484,2026-08-28 20:43:26.901484
+73,Rajata Vaidya,customer73@shopkart.example,+916426968112,Mumbai,Maharashtra,400051,2026-01-27,VIP,True,2026-01-27 19:20:07.333394,2026-01-29 19:20:07.333394
+74,Aachal Basu,customer74@shopkart.example,+919202786150,Kolkata,West Bengal,700902,2025-02-10,VIP,True,2025-02-10 14:47:43.688700,2025-03-08 14:47:43.688700
+75,Januja Sankar,customer75@shopkart.example,+918511277679,Delhi,Delhi,110642,2026-04-19,Premium,True,2026-04-19 03:17:22.650276,2026-05-13 03:17:22.650276
+76,Dipta Dash,customer76@shopkart.example,+917292333695,Kolkata,West Bengal,700514,2025-01-08,Premium,True,2025-01-08 20:05:56.265492,2025-01-24 20:05:56.265492
+77,Nilima Narain,customer77@shopkart.example,+918744661924,Kochi,Kerala,682639,2026-04-27,Regular,True,2026-04-27 07:56:00.305349,2026-05-08 07:56:00.305349
+78,Rehaan Salvi,customer78@shopkart.example,+916660482929,Pune,Maharashtra,411416,2025-09-07,Regular,True,2025-09-07 08:53:02.235285,2025-09-21 08:53:02.235285
+79,Charvi Ravi,customer79@shopkart.example,+918947778472,Delhi,Delhi,110327,2026-03-18,Regular,True,2026-03-18 21:56:19.640455,2026-03-29 21:56:19.640455
+80,Shivansh Sani,customer80@shopkart.example,+919171007827,Chennai,Tamil Nadu,600948,2025-12-22,VIP,True,2025-12-22 10:24:21.336078,2025-12-31 10:24:21.336078
+81,Udyati Sathe,customer81@shopkart.example,+917841988207,Kochi,Kerala,682535,2026-06-14,Premium,True,2026-06-14 16:01:30.509787,2026-06-24 16:01:30.509787
+82,Omkaar Chad,customer82@shopkart.example,+918212151830,Chennai,Tamil Nadu,600532,2025-10-06,Premium,True,2025-10-06 17:49:53.380784,2025-10-30 17:49:53.380784
+83,Girik Keer,customer83@shopkart.example,+916140588687,Bengaluru,Karnataka,560202,2025-06-13,Premium,True,2025-06-13 20:42:28.414898,2025-07-05 20:42:28.414898
+84,Manan Bakshi,customer84@shopkart.example,+919810044372,Jaipur,Rajasthan,302614,2026-03-24,Regular,True,2026-03-24 00:16:02.737402,2026-03-28 00:16:02.737402
+85,Tamanna Sachdeva,customer85@shopkart.example,+918092909809,Delhi,Delhi,110935,2024-12-21,Regular,False,2024-12-21 17:09:01.535704,2024-12-23 17:09:01.535704
+86,Warda Ratta,customer86@shopkart.example,+917626868425,Bengaluru,Karnataka,560593,2026-08-26,Premium,True,2026-08-26 19:44:28.044674,2026-09-19 19:44:28.044674
+87,Hredhaan Sandal,customer87@shopkart.example,+917013533415,Jaipur,Rajasthan,302721,2025-05-15,Regular,True,2025-05-15 21:37:30.269553,2025-06-13 21:37:30.269553
+88,Chandresh Krish,customer88@shopkart.example,+916685165216,Delhi,Delhi,110129,2025-04-26,Regular,True,2025-04-26 17:52:38.772981,2025-05-01 17:52:38.772981
+89,Ucchal Wali,customer89@shopkart.example,+918090527101,Delhi,Delhi,110727,2026-09-18,Premium,True,2026-09-18 06:42:39.817436,2026-10-09 06:42:39.817436
+90,Yamini Sandhu,customer90@shopkart.example,+918398373765,Kochi,Kerala,682139,2026-11-09,Regular,True,2026-11-09 18:58:14.764006,2026-11-16 18:58:14.764006
+91,Vaishnavi Sengupta,customer91@shopkart.example,+916350836046,Jaipur,Rajasthan,302488,2026-07-17,Regular,True,2026-07-17 06:53:03.751096,2026-08-08 06:53:03.751096
+92,Vedhika Khare,customer92@shopkart.example,+918922138341,Vijayawada,Andhra Pradesh,520333,2025-05-26,Premium,True,2025-05-26 12:24:32.689471,2025-06-01 12:24:32.689471
+93,Wahab Magar,customer93@shopkart.example,+919180891794,Vijayawada,Andhra Pradesh,520364,2025-06-06,Regular,True,2025-06-06 18:02:19.914446,2025-06-14 18:02:19.914446
+94,Lakshit Dora,customer94@shopkart.example,+916345035256,Jaipur,Rajasthan,302936,2025-07-21,Regular,True,2025-07-21 00:50:39.682820,2025-07-25 00:50:39.682820
+95,Devansh Sachdeva,customer95@shopkart.example,+916703997998,Bengaluru,Karnataka,560552,2025-05-05,VIP,True,2025-05-05 02:53:14.144793,2025-05-27 02:53:14.144793
+96,David Jhaveri,customer96@shopkart.example,+916559712463,Vijayawada,Andhra Pradesh,520376,2025-09-11,VIP,True,2025-09-11 23:47:15.059386,2025-09-25 23:47:15.059386
+97,Lajita Sood,customer97@shopkart.example,+917695214760,Kolkata,West Bengal,700118,2026-07-19,Premium,True,2026-07-19 13:21:15.239182,2026-08-17 13:21:15.239182
+98,Oni Yohannan,customer98@shopkart.example,+917912688455,Bengaluru,Karnataka,560588,2024-11-22,Premium,True,2024-11-22 22:44:46.373806,2024-11-25 22:44:46.373806
+99,Vinaya Kanda,customer99@shopkart.example,+918890341741,Hyderabad,Telangana,500825,2026-05-17,Regular,True,2026-05-17 03:28:50.179168,2026-05-31 03:28:50.179168
+100,Gayathri Ravel,customer100@shopkart.example,+916048366601,Mumbai,Maharashtra,400301,2025-06-05,VIP,True,2025-06-05 10:21:15.743203,2025-06-18 10:21:15.743203
+101,Avi Ramesh,customer101@shopkart.example,+917563705889,Delhi,Delhi,110997,2026-04-30,Premium,True,2026-04-30 21:13:14.433426,2026-05-03 21:13:14.433426
+102,Priya Deshmukh,customer102@shopkart.example,+916172876387,Kochi,Kerala,682106,2026-01-24,VIP,True,2026-01-24 02:51:16.653162,2026-02-18 02:51:16.653162
+103,Ladli Narang,customer103@shopkart.example,+918493259483,Bengaluru,Karnataka,560090,2026-08-12,Premium,True,2026-08-12 12:03:34.320339,2026-09-01 12:03:34.320339
+104,Arunima Sama,customer104@shopkart.example,+917813169320,Chennai,Tamil Nadu,600143,2025-04-21,Premium,True,2025-04-21 08:51:21.149695,2025-04-28 08:51:21.149695
+105,Charles Palla,customer105@shopkart.example,+917155633633,Hyderabad,Telangana,500656,2025-05-21,Regular,True,2025-05-21 15:20:02.952291,2025-06-18 15:20:02.952291
+106,Azaan Kota,customer106@shopkart.example,+919279923406,Bengaluru,Karnataka,560605,2025-04-30,Premium,True,2025-04-30 13:51:43.874089,2025-05-01 13:51:43.874089
+107,William Date,customer107@shopkart.example,+916979531161,Chennai,Tamil Nadu,600057,2025-04-12,Premium,False,2025-04-12 09:41:49.976299,2025-05-08 09:41:49.976299
+108,Udyati Kunda,customer108@shopkart.example,+919384511631,Bengaluru,Karnataka,560698,2025-10-29,Premium,True,2025-10-29 11:48:57.258739,2025-11-21 11:48:57.258739
+109,Nihal Mukhopadhyay,customer109@shopkart.example,+916454917649,Pune,Maharashtra,411124,2026-05-31,Regular,True,2026-05-31 21:28:58.515653,2026-06-06 21:28:58.515653
+110,Keya Ranganathan,customer110@shopkart.example,+916344097904,Delhi,Delhi,110851,2025-02-04,Regular,True,2025-02-04 11:32:27.165103,2025-02-23 11:32:27.165103
+111,Harsh Mitra,customer111@shopkart.example,+916062997770,Hyderabad,Telangana,500270,2026-10-06,Premium,False,2026-10-06 09:22:24.409980,2026-10-11 09:22:24.409980
+112,Benjamin Palan,customer112@shopkart.example,+918037253417,Kochi,Kerala,682054,2026-07-31,Premium,True,2026-07-31 19:43:46.569802,2026-08-18 19:43:46.569802
+113,Yashawini Om,customer113@shopkart.example,+917835720524,Chennai,Tamil Nadu,600709,2025-12-11,Regular,True,2025-12-11 09:42:01.197695,2026-01-07 09:42:01.197695
+114,Hitesh Sant,customer114@shopkart.example,+917505507313,Kochi,Kerala,682980,2024-11-27,Regular,True,2024-11-27 21:50:04.630225,2024-12-02 21:50:04.630225
+115,Michael Saran,customer115@shopkart.example,+919490766059,Chennai,Tamil Nadu,600572,2026-10-20,Regular,False,2026-10-20 13:36:46.985925,2026-11-08 13:36:46.985925
+116,Veda Shroff,customer116@shopkart.example,+917673473326,Delhi,Delhi,110578,2025-03-26,Premium,True,2025-03-26 12:34:30.224942,2025-04-04 12:34:30.224942
+117,Ekantika Korpal,customer117@shopkart.example,+916631691159,Pune,Maharashtra,411148,2025-10-01,Regular,True,2025-10-01 09:34:57.334537,2025-10-30 09:34:57.334537
+118,Yagnesh Shetty,customer118@shopkart.example,+916517345621,Jaipur,Rajasthan,302119,2026-07-17,Regular,True,2026-07-17 11:03:32.227173,2026-07-31 11:03:32.227173
+119,Ayush Talwar,customer119@shopkart.example,+918458792147,Hyderabad,Telangana,500427,2026-01-07,Premium,True,2026-01-07 22:00:12.206406,2026-01-16 22:00:12.206406
+120,Isha Kuruvilla,customer120@shopkart.example,+916613774770,Jaipur,Rajasthan,302408,2026-08-01,Regular,True,2026-08-01 19:19:15.211965,2026-08-13 19:19:15.211965
+121,Advaith Varughese,customer121@shopkart.example,+919681828387,Vijayawada,Andhra Pradesh,520036,2025-07-24,Regular,True,2025-07-24 01:04:11.654516,2025-08-02 01:04:11.654516
+122,Vrinda Khosla,customer122@shopkart.example,+916380968468,Bengaluru,Karnataka,560572,2026-10-11,Regular,True,2026-10-11 15:32:58.019620,2026-10-17 15:32:58.019620
+123,Sara Badal,customer123@shopkart.example,+918348600419,Delhi,Delhi,110652,2026-04-06,Regular,True,2026-04-06 22:10:35.879605,2026-04-26 22:10:35.879605
+124,Damini Pillay,customer124@shopkart.example,+916787892319,Mumbai,Maharashtra,400431,2025-01-24,Premium,True,2025-01-24 18:21:49.274321,2025-02-10 18:21:49.274321
+125,Ganga Pandey,customer125@shopkart.example,+919233201632,Jaipur,Rajasthan,302736,2025-10-29,Premium,False,2025-10-29 03:25:16.371533,2025-11-13 03:25:16.371533
+126,Vihaan Dara,customer126@shopkart.example,+918933567816,Kolkata,West Bengal,700520,2026-04-15,Premium,True,2026-04-15 09:51:45.752854,2026-04-30 09:51:45.752854
+127,Rehaan Kalita,customer127@shopkart.example,+917535704375,Delhi,Delhi,110494,2026-04-28,Regular,True,2026-04-28 15:37:12.583076,2026-05-23 15:37:12.583076
+128,Harish Hari,customer128@shopkart.example,+919287545233,Kolkata,West Bengal,700055,2026-05-11,Regular,True,2026-05-11 09:42:23.955184,2026-06-06 09:42:23.955184
+129,Akshay Walla,customer129@shopkart.example,+918923112072,Pune,Maharashtra,411313,2025-06-22,Premium,True,2025-06-22 11:12:25.250361,2025-06-27 11:12:25.250361
+130,Brinda Date,customer130@shopkart.example,+918824659257,Pune,Maharashtra,411856,2025-02-18,Regular,True,2025-02-18 14:37:16.110611,2025-03-15 14:37:16.110611
+131,Advik Mane,customer131@shopkart.example,+918673818473,Chennai,Tamil Nadu,600119,2026-02-26,Regular,False,2026-02-26 14:19:35.652606,2026-03-16 14:19:35.652606
+132,Charan Krishnan,customer132@shopkart.example,+917798314783,Hyderabad,Telangana,500772,2025-10-26,Regular,True,2025-10-26 22:30:36.328464,2025-11-25 22:30:36.328464
+133,Nandini Swamy,customer133@shopkart.example,+919012309541,Bengaluru,Karnataka,560387,2026-10-05,Premium,True,2026-10-05 00:56:36.214471,2026-10-26 00:56:36.214471
+134,Max Dixit,customer134@shopkart.example,+919026106024,Vijayawada,Andhra Pradesh,520525,2025-01-11,Regular,True,2025-01-11 00:26:31.873085,2025-01-17 00:26:31.873085
+135,Yuvraj Dani,customer135@shopkart.example,+919681463393,Pune,Maharashtra,411989,2026-07-03,Regular,True,2026-07-03 12:19:04.738501,2026-07-28 12:19:04.738501
+136,Lajita Seshadri,customer136@shopkart.example,+918603791581,Kolkata,West Bengal,700141,2025-12-30,Regular,True,2025-12-30 04:52:17.275253,2026-01-29 04:52:17.275253
+137,Dalaja Bhasin,customer137@shopkart.example,+919341826194,Mumbai,Maharashtra,400755,2026-09-12,Regular,True,2026-09-12 15:29:24.810865,2026-09-14 15:29:24.810865
+138,Siddharth Lalla,customer138@shopkart.example,+917225377984,Jaipur,Rajasthan,302180,2026-02-06,VIP,True,2026-02-06 16:32:16.612238,2026-02-10 16:32:16.612238
+139,Falan Dugar,customer139@shopkart.example,+916770244286,Vijayawada,Andhra Pradesh,520292,2026-03-15,Regular,True,2026-03-15 22:21:59.907526,2026-03-22 22:21:59.907526
+140,Bishakha Bali,customer140@shopkart.example,+916055629083,Kochi,Kerala,682084,2024-11-19,Regular,True,2024-11-19 10:01:23.066938,2024-12-04 10:01:23.066938
+141,Ekavir Kaur,customer141@shopkart.example,+918224692623,Kolkata,West Bengal,700649,2025-05-05,Premium,True,2025-05-05 07:49:42.226625,2025-05-24 07:49:42.226625
+142,Pavani Contractor,customer142@shopkart.example,+918899797735,Vijayawada,Andhra Pradesh,520366,2026-09-23,Regular,True,2026-09-23 11:34:51.641047,2026-09-24 11:34:51.641047
+143,Lucky Bora,customer143@shopkart.example,+917324428097,Jaipur,Rajasthan,302482,2025-12-20,Premium,True,2025-12-20 21:40:57.557879,2026-01-15 21:40:57.557879
+144,Reva Dash,customer144@shopkart.example,+917723459066,Mumbai,Maharashtra,400909,2024-12-31,Regular,True,2024-12-31 05:10:55.223984,2025-01-15 05:10:55.223984
+145,Anita Tella,customer145@shopkart.example,+918331668862,Mumbai,Maharashtra,400498,2025-10-26,Regular,True,2025-10-26 15:09:31.989383,2025-11-05 15:09:31.989383
+146,Rachana Naidu,customer146@shopkart.example,+919992824124,Hyderabad,Telangana,500917,2025-12-17,Premium,True,2025-12-17 15:18:26.592836,2025-12-29 15:18:26.592836
+147,Ansh Luthra,customer147@shopkart.example,+917265872577,Hyderabad,Telangana,500191,2026-02-01,Regular,False,2026-02-01 08:30:55.041034,2026-02-11 08:30:55.041034
+148,Upma Venkataraman,customer148@shopkart.example,+917681072716,Vijayawada,Andhra Pradesh,520307,2026-01-12,Regular,True,2026-01-12 22:24:31.907283,2026-01-25 22:24:31.907283
+149,Rajata Swamy,customer149@shopkart.example,+916681126939,Pune,Maharashtra,411703,2026-03-08,Premium,False,2026-03-08 19:48:25.277139,2026-03-16 19:48:25.277139
+150,Gauri Nagi,customer150@shopkart.example,+919516086218,Kolkata,West Bengal,700477,2026-10-26,Premium,False,2026-10-26 16:16:12.023062,2026-11-14 16:16:12.023062
+151,Nisha Tandon,customer151@shopkart.example,+917138923539,Delhi,Delhi,110963,2026-03-22,Premium,True,2026-03-22 19:00:15.837147,2026-04-13 19:00:15.837147
+152,Suhani Chakrabarti,customer152@shopkart.example,+918028465951,Hyderabad,Telangana,500732,2025-06-16,Regular,True,2025-06-16 19:43:44.295456,2025-06-19 19:43:44.295456
+153,Yoshita Agarwal,customer153@shopkart.example,+917667375752,Jaipur,Rajasthan,302969,2025-07-05,VIP,True,2025-07-05 03:48:31.453768,2025-07-25 03:48:31.453768
+154,Chatura Guha,customer154@shopkart.example,+919881416962,Kolkata,West Bengal,700749,2026-03-13,Regular,True,2026-03-13 15:02:19.744201,2026-04-04 15:02:19.744201
+155,Riya Behl,customer155@shopkart.example,+918032718589,Chennai,Tamil Nadu,600777,2025-12-01,Regular,False,2025-12-01 11:59:16.271380,2025-12-02 11:59:16.271380
+156,Raksha Sundaram,customer156@shopkart.example,+917301041555,Kolkata,West Bengal,700977,2025-04-15,Regular,True,2025-04-15 06:51:23.166624,2025-04-29 06:51:23.166624
+157,Nathan Mukhopadhyay,customer157@shopkart.example,+916887712342,Vijayawada,Andhra Pradesh,520555,2025-02-14,Premium,False,2025-02-14 13:32:06.219840,2025-02-16 13:32:06.219840
+158,Umang Comar,customer158@shopkart.example,+916953524229,Pune,Maharashtra,411036,2025-12-25,Regular,True,2025-12-25 06:31:47.118991,2026-01-19 06:31:47.118991
+159,Wishi Manne,customer159@shopkart.example,+918701222513,Mumbai,Maharashtra,400762,2025-10-20,Premium,True,2025-10-20 09:53:35.920825,2025-10-23 09:53:35.920825
+160,Urmi Kohli,customer160@shopkart.example,+918957725873,Kochi,Kerala,682393,2025-11-24,Regular,True,2025-11-24 12:36:46.332134,2025-12-16 12:36:46.332134
+161,Yashoda Deshpande,customer161@shopkart.example,+918487591093,Kolkata,West Bengal,700233,2025-10-17,Regular,True,2025-10-17 00:03:03.582588,2025-10-20 00:03:03.582588
+162,Harini Tripathi,customer162@shopkart.example,+918709149597,Kolkata,West Bengal,700530,2026-08-10,Regular,True,2026-08-10 03:56:41.873254,2026-08-18 03:56:41.873254
+163,Vrishti Dixit,customer163@shopkart.example,+918686451234,Hyderabad,Telangana,500254,2025-06-01,Premium,True,2025-06-01 07:03:57.891037,2025-06-19 07:03:57.891037
+164,Krishna Shah,customer164@shopkart.example,+919413378683,Chennai,Tamil Nadu,600902,2025-10-09,Regular,True,2025-10-09 09:51:25.287663,2025-11-02 09:51:25.287663
+165,Leela Kaur,customer165@shopkart.example,+917099300202,Chennai,Tamil Nadu,600549,2026-09-29,Regular,True,2026-09-29 08:48:40.497809,2026-10-02 08:48:40.497809
+166,Urvashi Raj,customer166@shopkart.example,+917367707753,Kolkata,West Bengal,700449,2026-08-04,Premium,False,2026-08-04 00:54:30.948494,2026-08-24 00:54:30.948494
+167,Warhi Bansal,customer167@shopkart.example,+917185448227,Kochi,Kerala,682775,2025-08-26,Regular,True,2025-08-26 10:26:01.343112,2025-09-14 10:26:01.343112
+168,Harish Sarraf,customer168@shopkart.example,+919990320148,Pune,Maharashtra,411855,2025-02-18,Regular,True,2025-02-18 15:44:54.261133,2025-02-23 15:44:54.261133
+169,Maanas Rout,customer169@shopkart.example,+919661195040,Kochi,Kerala,682219,2025-01-29,Regular,True,2025-01-29 20:04:28.247580,2025-02-13 20:04:28.247580
+170,Upasna Lanka,customer170@shopkart.example,+916268666675,Pune,Maharashtra,411350,2026-08-15,Regular,True,2026-08-15 06:57:20.428547,2026-08-17 06:57:20.428547
+171,Falguni Walla,customer171@shopkart.example,+918538161058,Chennai,Tamil Nadu,600880,2025-07-23,Regular,False,2025-07-23 06:00:36.821489,2025-08-21 06:00:36.821489
+172,Balendra Biswas,customer172@shopkart.example,+919007852485,Mumbai,Maharashtra,400503,2025-08-22,Regular,True,2025-08-22 18:40:43.249497,2025-09-20 18:40:43.249497
+173,Utkarsh Chana,customer173@shopkart.example,+916940388467,Delhi,Delhi,110560,2025-05-08,VIP,True,2025-05-08 17:02:07.020661,2025-05-19 17:02:07.020661
+174,Sachi Ganesan,customer174@shopkart.example,+918969271796,Mumbai,Maharashtra,400215,2025-09-30,Premium,True,2025-09-30 04:48:29.870761,2025-10-30 04:48:29.870761
+175,Ekta Bhalla,customer175@shopkart.example,+916965488245,Delhi,Delhi,110299,2026-04-08,Regular,True,2026-04-08 01:00:55.433294,2026-05-04 01:00:55.433294
+176,Yash Wali,customer176@shopkart.example,+917132987732,Mumbai,Maharashtra,400060,2025-06-20,Premium,True,2025-06-20 11:49:27.811321,2025-06-20 11:49:27.811321
+177,Onkar Gill,customer177@shopkart.example,+917753545033,Delhi,Delhi,110860,2025-09-14,VIP,True,2025-09-14 17:02:40.232962,2025-10-03 17:02:40.232962
+178,Widisha Dhar,customer178@shopkart.example,+919258553772,Pune,Maharashtra,411671,2025-01-14,Premium,True,2025-01-14 02:02:57.377690,2025-01-21 02:02:57.377690
+179,Aadhya Andra,customer179@shopkart.example,+918248682934,Jaipur,Rajasthan,302319,2025-05-06,Premium,False,2025-05-06 18:09:11.782208,2025-05-11 18:09:11.782208
+180,Nakul Borah,customer180@shopkart.example,+918050928256,Bengaluru,Karnataka,560934,2026-09-05,Regular,False,2026-09-05 20:18:31.665543,2026-09-29 20:18:31.665543
+181,Panini Krishna,customer181@shopkart.example,+916412010735,Pune,Maharashtra,411293,2025-10-06,Regular,True,2025-10-06 06:45:37.869345,2025-10-28 06:45:37.869345
+182,Vasudha Chhabra,customer182@shopkart.example,+917820471368,Hyderabad,Telangana,500263,2025-10-17,Regular,True,2025-10-17 17:08:05.618222,2025-11-16 17:08:05.618222
+183,Chakrika Bains,customer183@shopkart.example,+916446401472,Delhi,Delhi,110635,2025-05-10,Regular,True,2025-05-10 22:50:40.257667,2025-06-05 22:50:40.257667
+184,Abhiram Bawa,customer184@shopkart.example,+916828082165,Mumbai,Maharashtra,400977,2026-11-01,Regular,True,2026-11-01 00:30:37.665893,2026-11-14 00:30:37.665893
+185,Victor Pandey,customer185@shopkart.example,+916006642830,Mumbai,Maharashtra,400289,2026-09-13,Premium,True,2026-09-13 06:54:04.672125,2026-09-17 06:54:04.672125
+186,Laksh Chatterjee,customer186@shopkart.example,+918032669423,Bengaluru,Karnataka,560274,2025-04-26,Regular,True,2025-04-26 01:52:03.775633,2025-04-29 01:52:03.775633
+187,Ridhi Bandi,customer187@shopkart.example,+919122324549,Pune,Maharashtra,411467,2026-09-08,Regular,True,2026-09-08 00:25:23.349618,2026-09-25 00:25:23.349618
+188,Chakrika Narain,customer188@shopkart.example,+916969931411,Kolkata,West Bengal,700914,2026-01-15,Premium,True,2026-01-15 02:30:24.726213,2026-02-02 02:30:24.726213
+189,Jasmit Wali,customer189@shopkart.example,+917322942967,Pune,Maharashtra,411246,2026-05-17,Regular,True,2026-05-17 00:02:24.484417,2026-06-09 00:02:24.484417
+190,Aarini Subramaniam,customer190@shopkart.example,+918846232165,Jaipur,Rajasthan,302191,2025-11-19,Regular,True,2025-11-19 21:05:12.190357,2025-12-15 21:05:12.190357
+191,Ishwar Sidhu,customer191@shopkart.example,+919675292774,Bengaluru,Karnataka,560089,2026-10-25,Regular,True,2026-10-25 16:43:15.498082,2026-10-25 16:43:15.498082
+192,Mekhala Pau,customer192@shopkart.example,+916442517870,Hyderabad,Telangana,500706,2026-10-21,Regular,True,2026-10-21 06:58:16.111292,2026-10-25 06:58:16.111292
+193,Jatin Sha,customer193@shopkart.example,+918360781530,Vijayawada,Andhra Pradesh,520687,2025-01-22,Regular,True,2025-01-22 11:08:47.010793,2025-01-29 11:08:47.010793
+194,Lakshmi Prabhu,customer194@shopkart.example,+918476476345,Kolkata,West Bengal,700457,2025-08-14,Premium,True,2025-08-14 01:17:32.372464,2025-08-30 01:17:32.372464
+195,Falak Kant,customer195@shopkart.example,+917017053934,Bengaluru,Karnataka,560248,2025-02-05,Regular,True,2025-02-05 18:07:52.230301,2025-02-14 18:07:52.230301
+196,Chasmum Rege,customer196@shopkart.example,+919938598133,Jaipur,Rajasthan,302079,2026-03-05,Premium,True,2026-03-05 19:16:22.389937,2026-04-02 19:16:22.389937
+197,Daksha Tailor,customer197@shopkart.example,+919196854088,Mumbai,Maharashtra,400112,2025-02-11,Regular,True,2025-02-11 02:24:38.789725,2025-02-27 02:24:38.789725
+198,Lipika Setty,customer198@shopkart.example,+917270542536,Vijayawada,Andhra Pradesh,520823,2025-02-10,Regular,True,2025-02-10 01:50:14.961402,2025-03-01 01:50:14.961402
+199,Mohammed Sachdeva,customer199@shopkart.example,+916076136590,Hyderabad,Telangana,500702,2025-08-15,Premium,True,2025-08-15 19:31:35.740894,2025-08-26 19:31:35.740894
+200,Ati Bali,customer200@shopkart.example,+918954321545,Bengaluru,Karnataka,560825,2026-03-11,Premium,True,2026-03-11 08:23:40.810863,2026-03-20 08:23:40.810863
+201,Warinder Patil,customer201@shopkart.example,+916504105366,Mumbai,Maharashtra,400776,2026-04-05,Premium,True,2026-04-05 21:00:58.940730,2026-04-12 21:00:58.940730
+202,Darsh Rao,customer202@shopkart.example,+918029170805,Bengaluru,Karnataka,560121,2025-01-29,Regular,True,2025-01-29 07:36:06.174152,2025-02-22 07:36:06.174152
+203,Gavin Kala,customer203@shopkart.example,+919972338327,Jaipur,Rajasthan,302577,2025-06-07,Regular,True,2025-06-07 22:25:39.243491,2025-06-24 22:25:39.243491
+204,Chandresh Nath,customer204@shopkart.example,+919521521200,Delhi,Delhi,110415,2026-03-01,Premium,True,2026-03-01 23:26:18.694369,2026-03-03 23:26:18.694369
+205,Ekapad Johal,customer205@shopkart.example,+916202078784,Delhi,Delhi,110447,2025-05-14,Regular,True,2025-05-14 03:00:43.670792,2025-06-05 03:00:43.670792
+206,Falguni Divan,customer206@shopkart.example,+919344980706,Delhi,Delhi,110189,2026-01-20,Regular,True,2026-01-20 13:00:58.789412,2026-02-19 13:00:58.789412
+207,Maanav De,customer207@shopkart.example,+919495553990,Hyderabad,Telangana,500839,2026-06-16,Premium,True,2026-06-16 18:53:37.701110,2026-07-12 18:53:37.701110
+208,Atharv Deep,customer208@shopkart.example,+917584665999,Chennai,Tamil Nadu,600751,2025-12-17,Premium,True,2025-12-17 11:38:06.025613,2026-01-02 11:38:06.025613
+209,Ekiya Babu,customer209@shopkart.example,+919033688948,Vijayawada,Andhra Pradesh,520717,2024-11-28,Regular,True,2024-11-28 06:54:13.877271,2024-12-06 06:54:13.877271
+210,Ishaan Bhatt,customer210@shopkart.example,+916049879510,Jaipur,Rajasthan,302035,2025-03-25,Regular,True,2025-03-25 14:43:02.775429,2025-04-23 14:43:02.775429
+211,Siya Thakur,customer211@shopkart.example,+916376287851,Kochi,Kerala,682772,2025-10-31,Regular,True,2025-10-31 15:42:59.543341,2025-11-29 15:42:59.543341
+212,Tara Balasubramanian,customer212@shopkart.example,+917438601389,Kolkata,West Bengal,700961,2025-04-28,Regular,True,2025-04-28 02:55:33.879881,2025-05-12 02:55:33.879881
+213,Pooja Chokshi,customer213@shopkart.example,+919650330975,Jaipur,Rajasthan,302243,2025-01-01,Regular,True,2025-01-01 01:33:54.016802,2025-01-27 01:33:54.016802
+214,Faris Nagy,customer214@shopkart.example,+919513462934,Chennai,Tamil Nadu,600645,2025-11-10,Regular,True,2025-11-10 10:40:45.811778,2025-11-29 10:40:45.811778
+215,Ekta Raj,customer215@shopkart.example,+918135769958,Mumbai,Maharashtra,400782,2026-02-05,Regular,True,2026-02-05 13:52:20.762811,2026-02-25 13:52:20.762811
+216,Yashasvi Sani,customer216@shopkart.example,+918797960548,Kochi,Kerala,682865,2026-11-14,Premium,True,2026-11-14 13:22:53.532344,2026-11-18 10:49:24.842990
+217,Qushi Seth,customer217@shopkart.example,+917823228276,Hyderabad,Telangana,500023,2025-01-29,VIP,True,2025-01-29 18:48:49.246711,2025-02-04 18:48:49.246711
+218,Mohini Sagar,customer218@shopkart.example,+919725074092,Kolkata,West Bengal,700887,2026-08-28,Regular,True,2026-08-28 03:55:31.551700,2026-09-19 03:55:31.551700
+219,Aadhya Prasad,customer219@shopkart.example,+918285595028,Mumbai,Maharashtra,400580,2026-05-04,Regular,True,2026-05-04 07:59:24.444763,2026-05-22 07:59:24.444763
+220,Ekalinga Chand,customer220@shopkart.example,+918017118232,Delhi,Delhi,110467,2026-10-15,Regular,True,2026-10-15 00:24:07.116631,2026-11-12 00:24:07.116631
+221,Kashish De,customer221@shopkart.example,+919075671197,Mumbai,Maharashtra,400131,2026-07-18,Regular,True,2026-07-18 21:32:15.971716,2026-07-30 21:32:15.971716
+222,Jason Roy,customer222@shopkart.example,+916094745689,Hyderabad,Telangana,500954,2025-12-29,Regular,True,2025-12-29 01:50:15.939535,2026-01-08 01:50:15.939535
+223,Charan Mani,customer223@shopkart.example,+918336840775,Pune,Maharashtra,411881,2025-08-03,Regular,True,2025-08-03 17:59:04.112454,2025-08-26 17:59:04.112454
+224,Mohammed Subramaniam,customer224@shopkart.example,+916228185441,Jaipur,Rajasthan,302468,2026-01-30,Regular,True,2026-01-30 14:35:39.013754,2026-02-04 14:35:39.013754
+225,Ishwar Mallick,customer225@shopkart.example,+916359364566,Hyderabad,Telangana,500959,2025-04-30,Premium,True,2025-04-30 06:51:23.445200,2025-05-14 06:51:23.445200
+226,Amara Balakrishnan,customer226@shopkart.example,+916936126485,Kolkata,West Bengal,700252,2026-01-11,Regular,True,2026-01-11 09:18:44.937118,2026-01-14 09:18:44.937118
+227,Harinakshi Panchal,customer227@shopkart.example,+919090696389,Mumbai,Maharashtra,400901,2025-03-29,VIP,False,2025-03-29 21:12:49.297832,2025-04-25 21:12:49.297832
+228,Ekaraj Dhar,customer228@shopkart.example,+918354422496,Mumbai,Maharashtra,400071,2024-11-22,Regular,True,2024-11-22 18:57:37.055142,2024-12-21 18:57:37.055142
+229,Tanveer Puri,customer229@shopkart.example,+917700645919,Chennai,Tamil Nadu,600096,2026-05-12,Premium,True,2026-05-12 19:08:35.375154,2026-05-29 19:08:35.375154
+230,Devika Nair,customer230@shopkart.example,+916661245292,Pune,Maharashtra,411081,2025-09-20,Regular,True,2025-09-20 06:25:34.107715,2025-10-06 06:25:34.107715
+231,Charles Dugal,customer231@shopkart.example,+918336911439,Chennai,Tamil Nadu,600524,2026-06-08,Regular,True,2026-06-08 00:17:26.095918,2026-06-19 00:17:26.095918
+232,Anita Savant,customer232@shopkart.example,+917619419856,Kochi,Kerala,682110,2025-03-12,Premium,True,2025-03-12 20:48:16.476868,2025-04-06 20:48:16.476868
+233,Oeshi Mahajan,customer233@shopkart.example,+919766155426,Kochi,Kerala,682408,2026-03-16,Premium,True,2026-03-16 20:10:57.133812,2026-04-03 20:10:57.133812
+234,Qushi Choudhry,customer234@shopkart.example,+917058159244,Bengaluru,Karnataka,560177,2025-04-24,Regular,True,2025-04-24 05:24:48.122210,2025-05-05 05:24:48.122210
+235,Darika Bath,customer235@shopkart.example,+917799437199,Kolkata,West Bengal,700185,2025-06-12,Premium,True,2025-06-12 20:35:24.382679,2025-06-13 20:35:24.382679
+236,Abhimanyu Jayaraman,customer236@shopkart.example,+919498300558,Chennai,Tamil Nadu,600747,2025-04-27,Regular,True,2025-04-27 07:15:36.800708,2025-05-14 07:15:36.800708
+237,Aadhya Mann,customer237@shopkart.example,+916979186005,Mumbai,Maharashtra,400296,2025-06-26,VIP,True,2025-06-26 11:32:53.862058,2025-07-06 11:32:53.862058
+238,Parth Dayal,customer238@shopkart.example,+919109434853,Bengaluru,Karnataka,560328,2025-07-15,Regular,True,2025-07-15 14:12:54.283732,2025-07-15 14:12:54.283732
+239,Ekbal Ranganathan,customer239@shopkart.example,+918146272053,Delhi,Delhi,110825,2025-08-22,Regular,True,2025-08-22 02:06:28.768452,2025-09-03 02:06:28.768452
+240,Tripti Brahmbhatt,customer240@shopkart.example,+919808998863,Pune,Maharashtra,411089,2026-08-09,VIP,True,2026-08-09 20:21:55.680068,2026-08-14 20:21:55.680068
+241,Omisha Mann,customer241@shopkart.example,+918217666207,Pune,Maharashtra,411959,2026-08-09,Regular,True,2026-08-09 15:44:57.036121,2026-08-20 15:44:57.036121
+242,Onveer Sharma,customer242@shopkart.example,+916475813242,Chennai,Tamil Nadu,600157,2025-02-10,Regular,True,2025-02-10 07:18:21.842029,2025-02-21 07:18:21.842029
+243,Rajeshri Cherian,customer243@shopkart.example,+917860056527,Jaipur,Rajasthan,302970,2026-07-18,Regular,True,2026-07-18 15:09:11.494323,2026-07-20 15:09:11.494323
+244,Meghana Mukherjee,customer244@shopkart.example,+919954415593,Pune,Maharashtra,411142,2025-05-14,Premium,True,2025-05-14 01:35:52.433072,2025-06-09 01:35:52.433072
+245,Faraj Uppal,customer245@shopkart.example,+916611508487,Kolkata,West Bengal,700828,2026-05-16,Regular,True,2026-05-16 06:13:36.166528,2026-06-11 06:13:36.166528
+246,Ikshita Panchal,customer246@shopkart.example,+917369614706,Jaipur,Rajasthan,302057,2026-02-23,Premium,True,2026-02-23 13:18:23.580309,2026-03-23 13:18:23.580309
+247,Warinder Chauhan,customer247@shopkart.example,+919174541534,Kochi,Kerala,682827,2026-05-02,VIP,True,2026-05-02 00:38:11.306358,2026-05-21 00:38:11.306358
+248,Faqid Goel,customer248@shopkart.example,+918556054596,Chennai,Tamil Nadu,600753,2025-03-04,VIP,True,2025-03-04 09:51:21.695462,2025-03-12 09:51:21.695462
+249,Saumya Naidu,customer249@shopkart.example,+916248252425,Hyderabad,Telangana,500397,2026-10-13,Regular,True,2026-10-13 22:03:15.397542,2026-11-09 22:03:15.397542
+250,Ria Bir,customer250@shopkart.example,+918529131251,Pune,Maharashtra,411496,2026-08-10,VIP,True,2026-08-10 17:23:15.587857,2026-09-03 17:23:15.587857
+251,Daksh Pandey,customer251@shopkart.example,+918904720513,Mumbai,Maharashtra,400719,2025-10-26,Premium,True,2025-10-26 07:27:16.330661,2025-11-07 07:27:16.330661
+252,Baljiwan Bhandari,customer252@shopkart.example,+917891135890,Pune,Maharashtra,411613,2025-11-23,Regular,True,2025-11-23 20:42:50.255795,2025-11-25 20:42:50.255795
+253,Yashica Rajagopalan,customer253@shopkart.example,+918712376243,Jaipur,Rajasthan,302986,2025-08-14,Regular,True,2025-08-14 03:42:56.107562,2025-08-16 03:42:56.107562
+254,Shivani Guha,customer254@shopkart.example,+919569950758,Kolkata,West Bengal,700746,2025-10-21,VIP,True,2025-10-21 04:08:32.280495,2025-10-29 04:08:32.280495
+255,David Seshadri,customer255@shopkart.example,+918639982874,Kochi,Kerala,682172,2025-07-10,VIP,True,2025-07-10 09:46:52.406137,2025-08-02 09:46:52.406137
+256,Frado Thaman,customer256@shopkart.example,+917576886422,Mumbai,Maharashtra,400403,2025-02-01,Regular,True,2025-02-01 18:22:15.455214,2025-02-23 18:22:15.455214
+257,Reva Viswanathan,customer257@shopkart.example,+918900416859,Delhi,Delhi,110907,2026-03-04,Regular,True,2026-03-04 04:41:15.978967,2026-03-19 04:41:15.978967
+258,Barkha Ram,customer258@shopkart.example,+918786093119,Pune,Maharashtra,411408,2025-12-04,Regular,True,2025-12-04 00:34:38.865795,2025-12-14 00:34:38.865795
+259,Gaurika Bhatti,customer259@shopkart.example,+917299515420,Kolkata,West Bengal,700667,2025-09-12,Premium,True,2025-09-12 17:31:18.031984,2025-09-14 17:31:18.031984
+260,Bhanumati Krishnan,customer260@shopkart.example,+919549408852,Mumbai,Maharashtra,400326,2025-07-16,Regular,True,2025-07-16 22:29:48.241144,2025-07-16 22:29:48.241144
+261,Gauri Bumb,customer261@shopkart.example,+916986721508,Jaipur,Rajasthan,302913,2026-04-30,Regular,True,2026-04-30 09:57:34.906414,2026-05-26 09:57:34.906414
+262,Dayita Ramanathan,customer262@shopkart.example,+916554617984,Vijayawada,Andhra Pradesh,520280,2026-01-17,Premium,False,2026-01-17 05:43:16.629048,2026-02-09 05:43:16.629048
+263,Dayita Puri,customer263@shopkart.example,+919842320122,Chennai,Tamil Nadu,600542,2025-02-20,Premium,False,2025-02-20 08:18:41.444003,2025-03-14 08:18:41.444003
+264,Girik Sampath,customer264@shopkart.example,+918982111489,Delhi,Delhi,110255,2026-03-02,Premium,True,2026-03-02 05:57:54.583473,2026-03-20 05:57:54.583473
+265,Pranit Kala,customer265@shopkart.example,+918077985337,Kochi,Kerala,682399,2025-11-24,Premium,True,2025-11-24 17:56:36.448964,2025-12-24 17:56:36.448964
+266,Upkaar Devan,customer266@shopkart.example,+918803206812,Delhi,Delhi,110875,2025-07-25,Premium,True,2025-07-25 05:46:39.025905,2025-08-06 05:46:39.025905
+267,Yashica Zacharia,customer267@shopkart.example,+919389246492,Bengaluru,Karnataka,560853,2025-03-11,Regular,True,2025-03-11 05:08:36.029429,2025-04-09 05:08:36.029429
+268,Gayathri Deep,customer268@shopkart.example,+917771080643,Kochi,Kerala,682632,2026-07-20,Regular,True,2026-07-20 21:29:31.564425,2026-08-04 21:29:31.564425
+269,Noah Sarma,customer269@shopkart.example,+919817812541,Pune,Maharashtra,411923,2026-01-27,Premium,False,2026-01-27 16:05:46.765552,2026-02-24 16:05:46.765552
+270,Sachi Mane,customer270@shopkart.example,+919986982730,Hyderabad,Telangana,500764,2024-12-19,Premium,True,2024-12-19 11:37:50.950537,2025-01-11 11:37:50.950537
+271,William More,customer271@shopkart.example,+918799334176,Vijayawada,Andhra Pradesh,520240,2026-05-21,Premium,True,2026-05-21 19:20:33.168370,2026-06-04 19:20:33.168370
+272,Jhalak Sastry,customer272@shopkart.example,+917847108379,Mumbai,Maharashtra,400585,2026-10-23,Regular,True,2026-10-23 15:29:27.462234,2026-10-30 15:29:27.462234
+273,Yadavi Wable,customer273@shopkart.example,+917162817561,Vijayawada,Andhra Pradesh,520860,2025-10-21,Regular,True,2025-10-21 22:26:08.287762,2025-11-15 22:26:08.287762
+274,Lakshit Krishna,customer274@shopkart.example,+917817849708,Hyderabad,Telangana,500797,2025-09-19,Premium,True,2025-09-19 19:57:33.084072,2025-09-29 19:57:33.084072
+275,Harshil Varty,customer275@shopkart.example,+918419648959,Vijayawada,Andhra Pradesh,520115,2024-12-26,Regular,False,2024-12-26 11:42:08.662057,2025-01-19 11:42:08.662057
+276,Anjali Sengupta,customer276@shopkart.example,+919783605144,Chennai,Tamil Nadu,600153,2026-08-01,Regular,True,2026-08-01 07:30:14.911212,2026-08-06 07:30:14.911212
+277,Gavin Kapadia,customer277@shopkart.example,+917158555648,Kolkata,West Bengal,700980,2026-09-09,Regular,True,2026-09-09 05:38:04.851722,2026-10-07 05:38:04.851722
+278,Oeshi Bera,customer278@shopkart.example,+916997752670,Delhi,Delhi,110270,2026-07-07,Premium,True,2026-07-07 13:58:47.347378,2026-07-31 13:58:47.347378
+279,Finn Prasad,customer279@shopkart.example,+918843507256,Pune,Maharashtra,411832,2025-09-03,Regular,True,2025-09-03 05:14:42.959740,2025-09-06 05:14:42.959740
+280,Gautami Dhingra,customer280@shopkart.example,+916974623778,Delhi,Delhi,110500,2025-04-30,Premium,True,2025-04-30 19:43:41.274737,2025-05-17 19:43:41.274737
+281,Liam Singh,customer281@shopkart.example,+916095070439,Hyderabad,Telangana,500999,2025-02-26,Regular,True,2025-02-26 01:10:20.970261,2025-03-28 01:10:20.970261
+282,Anirudh Kunda,customer282@shopkart.example,+916472946716,Vijayawada,Andhra Pradesh,520976,2025-10-11,Regular,True,2025-10-11 02:18:15.518343,2025-11-02 02:18:15.518343
+283,Indrajit Mani,customer283@shopkart.example,+916839925397,Bengaluru,Karnataka,560051,2025-04-24,Premium,True,2025-04-24 08:06:01.138462,2025-05-07 08:06:01.138462
+284,Oni Shankar,customer284@shopkart.example,+918724753323,Mumbai,Maharashtra,400832,2025-05-10,Premium,True,2025-05-10 10:54:13.324833,2025-06-03 10:54:13.324833
+285,Amol Varma,customer285@shopkart.example,+916940890426,Mumbai,Maharashtra,400748,2025-01-02,Premium,True,2025-01-02 13:33:11.678098,2025-01-11 13:33:11.678098
+286,Pushti Agarwal,customer286@shopkart.example,+917069644945,Chennai,Tamil Nadu,600143,2026-01-11,Premium,True,2026-01-11 01:58:43.975349,2026-02-07 01:58:43.975349
+287,Rachit Chada,customer287@shopkart.example,+917231463042,Mumbai,Maharashtra,400533,2026-02-09,Regular,True,2026-02-09 19:55:59.433194,2026-02-13 19:55:59.433194
+288,Madhavi Singhal,customer288@shopkart.example,+917745266638,Chennai,Tamil Nadu,600850,2025-12-05,Regular,True,2025-12-05 16:56:11.498348,2025-12-05 16:56:11.498348
+289,Zehaan Babu,customer289@shopkart.example,+919292509268,Kochi,Kerala,682342,2024-12-19,Regular,True,2024-12-19 15:12:51.332558,2025-01-11 15:12:51.332558
+290,Hemang Natarajan,customer290@shopkart.example,+919292498439,Bengaluru,Karnataka,560553,2025-08-05,Premium,True,2025-08-05 13:55:36.155007,2025-08-13 13:55:36.155007
+291,Parth Shetty,customer291@shopkart.example,+917577926071,Delhi,Delhi,110545,2025-02-23,Regular,True,2025-02-23 04:07:02.793158,2025-03-08 04:07:02.793158
+292,Krishna Bhatnagar,customer292@shopkart.example,+918016714417,Kochi,Kerala,682538,2026-11-03,Regular,True,2026-11-03 16:49:17.295880,2026-11-09 16:49:17.295880
+293,Chaaya Jaggi,customer293@shopkart.example,+916876756865,Kochi,Kerala,682625,2026-04-24,Premium,True,2026-04-24 19:44:27.953336,2026-05-06 19:44:27.953336
+294,Diya Mukherjee,customer294@shopkart.example,+916343929399,Chennai,Tamil Nadu,600337,2024-12-19,Regular,True,2024-12-19 01:49:04.868015,2025-01-11 01:49:04.868015
+295,Zehaan Bansal,customer295@shopkart.example,+917594026493,Bengaluru,Karnataka,560699,2025-11-29,Regular,True,2025-11-29 11:17:05.890422,2025-11-30 11:17:05.890422
+296,Champak Narula,customer296@shopkart.example,+917794918028,Jaipur,Rajasthan,302917,2026-05-21,Premium,False,2026-05-21 06:14:20.184216,2026-05-26 06:14:20.184216
+297,Mugdha Sarraf,customer297@shopkart.example,+919491435834,Mumbai,Maharashtra,400454,2025-06-05,Regular,True,2025-06-05 16:46:40.556502,2025-07-04 16:46:40.556502
+298,Watika Tank,customer298@shopkart.example,+917156334325,Bengaluru,Karnataka,560251,2026-09-02,Regular,True,2026-09-02 17:15:58.463963,2026-10-01 17:15:58.463963
+299,Fitan Samra,customer299@shopkart.example,+919314187698,Kochi,Kerala,682371,2025-08-13,Regular,True,2025-08-13 01:51:44.282763,2025-08-24 01:51:44.282763
+300,Chaaya Nagi,customer300@shopkart.example,+918406233808,Kochi,Kerala,682372,2025-01-14,Regular,True,2025-01-14 05:44:07.258640,2025-02-11 05:44:07.258640
+301,Damini Sehgal,customer301@shopkart.example,+919031641274,Pune,Maharashtra,411103,2025-01-31,Regular,True,2025-01-31 16:24:50.363078,2025-02-08 16:24:50.363078
+302,Indali Sekhon,customer302@shopkart.example,+917082787045,Kolkata,West Bengal,700132,2026-01-31,Regular,True,2026-01-31 18:05:09.368815,2026-02-23 18:05:09.368815
+303,Radhika Maharaj,customer303@shopkart.example,+918706609529,Delhi,Delhi,110844,2024-12-18,Regular,True,2024-12-18 09:57:07.867711,2025-01-06 09:57:07.867711
+304,Falan Ravi,customer304@shopkart.example,+919578045990,Hyderabad,Telangana,500773,2026-02-27,Regular,True,2026-02-27 07:24:42.778403,2026-03-17 07:24:42.778403
+305,Azaan Dhar,customer305@shopkart.example,+917904367025,Vijayawada,Andhra Pradesh,520840,2025-08-10,Regular,True,2025-08-10 03:07:26.198664,2025-08-12 03:07:26.198664
+306,Bakhshi Date,customer306@shopkart.example,+918343085300,Jaipur,Rajasthan,302463,2026-07-30,Premium,True,2026-07-30 14:27:02.731759,2026-08-13 14:27:02.731759
+307,Janaki Rajagopal,customer307@shopkart.example,+916396627881,Bengaluru,Karnataka,560414,2025-01-06,Regular,True,2025-01-06 00:11:28.902896,2025-02-02 00:11:28.902896
+308,Shivani Prabhakar,customer308@shopkart.example,+916538768099,Chennai,Tamil Nadu,600651,2026-10-12,Regular,True,2026-10-12 19:40:22.992307,2026-10-14 19:40:22.992307
+309,Jeevika Rao,customer309@shopkart.example,+916221081637,Kolkata,West Bengal,700525,2025-08-16,Regular,True,2025-08-16 10:10:36.322937,2025-08-23 10:10:36.322937
+310,Atharv Grewal,customer310@shopkart.example,+916821561190,Mumbai,Maharashtra,400801,2025-07-05,VIP,True,2025-07-05 21:44:01.785563,2025-07-17 21:44:01.785563
+311,Adweta Lad,customer311@shopkart.example,+916429611824,Kolkata,West Bengal,700050,2025-11-17,Premium,True,2025-11-17 20:05:46.251552,2025-12-10 20:05:46.251552
+312,Vritti Iyengar,customer312@shopkart.example,+919409529271,Bengaluru,Karnataka,560962,2026-04-15,Premium,True,2026-04-15 19:08:11.340616,2026-04-21 19:08:11.340616
+313,Orinder Saxena,customer313@shopkart.example,+919986708845,Kochi,Kerala,682442,2025-02-15,Regular,True,2025-02-15 20:25:07.711822,2025-02-19 20:25:07.711822
+314,Idika Bhattacharyya,customer314@shopkart.example,+919794581994,Hyderabad,Telangana,500086,2026-11-16,Premium,True,2026-11-16 18:39:47.260255,2026-11-18 10:49:24.842990
+315,Nakul Ghosh,customer315@shopkart.example,+919914536574,Delhi,Delhi,110326,2025-12-24,Regular,False,2025-12-24 09:46:36.770850,2026-01-17 09:46:36.770850
+316,Sai Dewan,customer316@shopkart.example,+917522929443,Pune,Maharashtra,411805,2026-06-20,Regular,True,2026-06-20 15:07:15.516918,2026-07-19 15:07:15.516918
+317,Jyoti Sibal,customer317@shopkart.example,+916867434565,Mumbai,Maharashtra,400193,2025-05-09,Regular,True,2025-05-09 12:41:05.910498,2025-05-29 12:41:05.910498
+318,Dominic More,customer318@shopkart.example,+918309619119,Hyderabad,Telangana,500358,2026-06-27,Regular,True,2026-06-27 17:07:54.891714,2026-07-15 17:07:54.891714
+319,Nirja Rout,customer319@shopkart.example,+917516187953,Kolkata,West Bengal,700926,2025-09-04,VIP,True,2025-09-04 14:51:06.582152,2025-09-23 14:51:06.582152
+320,Ethan Sengupta,customer320@shopkart.example,+917083715088,Kochi,Kerala,682451,2026-07-12,Regular,True,2026-07-12 04:54:13.269935,2026-07-22 04:54:13.269935
+321,Qabil Dayal,customer321@shopkart.example,+917401698964,Chennai,Tamil Nadu,600554,2025-10-24,Regular,True,2025-10-24 09:18:05.231677,2025-11-13 09:18:05.231677
+322,Jeet Vasa,customer322@shopkart.example,+918128576003,Hyderabad,Telangana,500094,2025-09-29,Regular,True,2025-09-29 10:59:42.851750,2025-10-10 10:59:42.851750
+323,Umang Pal,customer323@shopkart.example,+919453034462,Jaipur,Rajasthan,302214,2025-03-09,Regular,True,2025-03-09 19:48:07.818038,2025-03-21 19:48:07.818038
+324,Farhan Krishna,customer324@shopkart.example,+918104736661,Delhi,Delhi,110826,2026-10-10,VIP,True,2026-10-10 08:03:21.582436,2026-10-17 08:03:21.582436
+325,Jeremiah Mitter,customer325@shopkart.example,+919969342946,Bengaluru,Karnataka,560052,2025-04-10,VIP,True,2025-04-10 15:16:19.762255,2025-04-30 15:16:19.762255
+326,Mitesh Garg,customer326@shopkart.example,+919685290144,Bengaluru,Karnataka,560578,2026-02-09,Regular,True,2026-02-09 00:24:53.564189,2026-03-09 00:24:53.564189
+327,Benjamin Balakrishnan,customer327@shopkart.example,+919653714678,Jaipur,Rajasthan,302562,2026-03-13,Regular,True,2026-03-13 11:17:52.769357,2026-04-03 11:17:52.769357
+328,Shivansh Saha,customer328@shopkart.example,+916957933847,Bengaluru,Karnataka,560496,2025-01-16,Regular,True,2025-01-16 11:43:40.182312,2025-02-11 11:43:40.182312
+329,Chasmum Subramanian,customer329@shopkart.example,+919745104256,Delhi,Delhi,110330,2026-02-12,Premium,True,2026-02-12 04:52:36.577477,2026-03-08 04:52:36.577477
+330,Chameli Setty,customer330@shopkart.example,+916233082824,Kolkata,West Bengal,700270,2025-05-15,Regular,True,2025-05-15 01:06:22.985802,2025-06-01 01:06:22.985802
+331,Ojasvi Sule,customer331@shopkart.example,+918145951694,Bengaluru,Karnataka,560240,2025-01-10,VIP,True,2025-01-10 17:17:12.047829,2025-01-25 17:17:12.047829
+332,Dhriti Nagar,customer332@shopkart.example,+916750437170,Jaipur,Rajasthan,302931,2025-10-23,Premium,True,2025-10-23 15:41:47.751940,2025-11-18 15:41:47.751940
+333,Kalpit Prabhakar,customer333@shopkart.example,+916404424663,Delhi,Delhi,110389,2026-05-07,Regular,True,2026-05-07 00:54:39.763663,2026-05-10 00:54:39.763663
+334,Unnati Das,customer334@shopkart.example,+919928577184,Kolkata,West Bengal,700729,2025-11-28,Regular,True,2025-11-28 00:27:30.821774,2025-12-17 00:27:30.821774
+335,Chandresh Mannan,customer335@shopkart.example,+917670477170,Vijayawada,Andhra Pradesh,520128,2025-06-01,Premium,True,2025-06-01 15:02:17.289392,2025-06-04 15:02:17.289392
+336,Yuvraj Dutta,customer336@shopkart.example,+917137588538,Bengaluru,Karnataka,560706,2026-10-09,Premium,True,2026-10-09 09:26:56.126814,2026-10-11 09:26:56.126814
+337,Ranveer Dutta,customer337@shopkart.example,+918081829774,Mumbai,Maharashtra,400506,2026-07-04,Premium,True,2026-07-04 02:37:18.406091,2026-08-02 02:37:18.406091
+338,Darika Tank,customer338@shopkart.example,+918673322962,Pune,Maharashtra,411113,2025-11-16,Premium,True,2025-11-16 15:22:33.165581,2025-12-05 15:22:33.165581
+339,Wridesh Kale,customer339@shopkart.example,+917846908788,Mumbai,Maharashtra,400961,2024-12-04,Regular,True,2024-12-04 15:18:24.043096,2024-12-22 15:18:24.043096
+340,Warda Singhal,customer340@shopkart.example,+916753897211,Delhi,Delhi,110492,2026-01-17,Regular,False,2026-01-17 21:28:18.198907,2026-02-03 21:28:18.198907
+341,Raagini Desai,customer341@shopkart.example,+917619976245,Mumbai,Maharashtra,400224,2025-06-14,VIP,True,2025-06-14 21:20:35.203505,2025-06-20 21:20:35.203505
+342,Jasmit Bath,customer342@shopkart.example,+918606677871,Kolkata,West Bengal,700990,2026-08-24,Premium,True,2026-08-24 07:23:40.031755,2026-09-11 07:23:40.031755
+343,Janani Mani,customer343@shopkart.example,+917724305430,Kolkata,West Bengal,700364,2025-09-06,Regular,False,2025-09-06 20:35:59.954665,2025-09-10 20:35:59.954665
+344,Jagat Dave,customer344@shopkart.example,+919834830103,Hyderabad,Telangana,500660,2025-01-10,Premium,True,2025-01-10 03:15:52.367424,2025-01-24 03:15:52.367424
+345,Jasmit Dhawan,customer345@shopkart.example,+919611956613,Hyderabad,Telangana,500388,2026-10-30,VIP,True,2026-10-30 12:39:16.263603,2026-11-15 12:39:16.263603
+346,Chakradev Barad,customer346@shopkart.example,+916470017528,Hyderabad,Telangana,500282,2025-04-12,Premium,True,2025-04-12 05:59:49.173275,2025-05-10 05:59:49.173275
+347,Zilmil Shan,customer347@shopkart.example,+918139592611,Hyderabad,Telangana,500069,2025-02-26,Regular,True,2025-02-26 01:42:01.078046,2025-03-20 01:42:01.078046
+348,Falak Nagar,customer348@shopkart.example,+917780064218,Jaipur,Rajasthan,302989,2025-03-06,VIP,True,2025-03-06 05:07:41.995590,2025-03-30 05:07:41.995590
+349,Gayathri Tripathi,customer349@shopkart.example,+916757453965,Hyderabad,Telangana,500513,2025-03-16,VIP,True,2025-03-16 11:43:42.644342,2025-04-09 11:43:42.644342
+350,Vaishnavi Badal,customer350@shopkart.example,+919469212161,Chennai,Tamil Nadu,600127,2026-07-15,Premium,False,2026-07-15 14:24:03.123134,2026-08-04 14:24:03.123134
+351,Darika Bala,customer351@shopkart.example,+919368618621,Kochi,Kerala,682361,2025-08-13,Regular,True,2025-08-13 15:09:36.425642,2025-09-01 15:09:36.425642
+352,Charan Srinivasan,customer352@shopkart.example,+917552240856,Jaipur,Rajasthan,302543,2026-01-27,Premium,False,2026-01-27 12:20:59.299837,2026-02-05 12:20:59.299837
+353,Manbir Kibe,customer353@shopkart.example,+919056892392,Pune,Maharashtra,411482,2025-03-22,Regular,True,2025-03-22 06:47:36.185778,2025-04-12 06:47:36.185778
+354,Rayaan Bahl,customer354@shopkart.example,+916779531022,Chennai,Tamil Nadu,600391,2024-12-11,Regular,True,2024-12-11 09:21:39.217264,2024-12-22 09:21:39.217264
+355,Samar Roy,customer355@shopkart.example,+918897926221,Delhi,Delhi,110446,2025-10-05,VIP,True,2025-10-05 08:23:21.357307,2025-10-29 08:23:21.357307
+356,David Devi,customer356@shopkart.example,+917260880144,Hyderabad,Telangana,500157,2025-11-19,Regular,False,2025-11-19 17:34:44.014452,2025-11-20 17:34:44.014452
+357,Krisha Murthy,customer357@shopkart.example,+917534172403,Kolkata,West Bengal,700515,2025-12-01,VIP,False,2025-12-01 16:12:56.292311,2025-12-07 16:12:56.292311
+358,Irya Lalla,customer358@shopkart.example,+918252004891,Hyderabad,Telangana,500049,2026-10-17,Regular,True,2026-10-17 17:12:43.763739,2026-10-24 17:12:43.763739
+359,Arya Misra,customer359@shopkart.example,+916594376169,Bengaluru,Karnataka,560568,2026-02-06,VIP,True,2026-02-06 08:59:44.414721,2026-02-12 08:59:44.414721
+360,Bhavya Johal,customer360@shopkart.example,+919185531170,Vijayawada,Andhra Pradesh,520201,2025-05-01,Premium,True,2025-05-01 15:46:08.589661,2025-05-20 15:46:08.589661
+361,Ikshita Mahal,customer361@shopkart.example,+918499485204,Vijayawada,Andhra Pradesh,520948,2026-04-05,Regular,True,2026-04-05 06:13:41.116004,2026-05-01 06:13:41.116004
+362,Megha Pai,customer362@shopkart.example,+917628628904,Pune,Maharashtra,411437,2025-06-16,VIP,True,2025-06-16 05:44:28.831224,2025-06-23 05:44:28.831224
+363,Brijesh Mani,customer363@shopkart.example,+916494609133,Mumbai,Maharashtra,400540,2026-10-15,Regular,True,2026-10-15 06:09:48.370040,2026-11-07 06:09:48.370040
+364,Aahana Srinivas,customer364@shopkart.example,+916696792571,Bengaluru,Karnataka,560672,2026-10-16,Regular,True,2026-10-16 20:55:55.763186,2026-11-05 20:55:55.763186
+365,Anita Devan,customer365@shopkart.example,+919610628316,Kochi,Kerala,682168,2025-04-23,VIP,True,2025-04-23 01:40:50.038956,2025-05-15 01:40:50.038956
+366,Xavier Bedi,customer366@shopkart.example,+918355377095,Kolkata,West Bengal,700497,2025-02-05,Regular,True,2025-02-05 08:15:35.592793,2025-02-08 08:15:35.592793
+367,Charles Chaudhry,customer367@shopkart.example,+917107652181,Jaipur,Rajasthan,302994,2026-03-21,Regular,True,2026-03-21 15:02:03.911391,2026-04-03 15:02:03.911391
+368,Laksh Ahluwalia,customer368@shopkart.example,+919893206614,Jaipur,Rajasthan,302066,2025-09-15,Regular,True,2025-09-15 10:29:27.786241,2025-09-28 10:29:27.786241
+369,Niharika Soni,customer369@shopkart.example,+918444679757,Kochi,Kerala,682050,2026-10-23,VIP,True,2026-10-23 12:51:54.624894,2026-11-11 12:51:54.624894
+370,Ekani Mangal,customer370@shopkart.example,+917131383679,Pune,Maharashtra,411475,2025-11-01,Regular,True,2025-11-01 18:54:27.891955,2025-11-28 18:54:27.891955
+371,Vincent Warrior,customer371@shopkart.example,+918990444066,Kochi,Kerala,682781,2026-03-04,Regular,True,2026-03-04 19:11:40.307753,2026-03-24 19:11:40.307753
+372,Parth Sahni,customer372@shopkart.example,+919082053346,Bengaluru,Karnataka,560631,2026-05-11,Regular,True,2026-05-11 01:17:16.383097,2026-06-06 01:17:16.383097
+373,Mekhala Tandon,customer373@shopkart.example,+919719731147,Kochi,Kerala,682960,2026-08-24,Regular,True,2026-08-24 02:09:07.915157,2026-09-13 02:09:07.915157
+374,Baljiwan Andra,customer374@shopkart.example,+917477329765,Vijayawada,Andhra Pradesh,520505,2025-04-03,Premium,True,2025-04-03 21:06:10.619198,2025-04-28 21:06:10.619198
+375,Bhavani Sha,customer375@shopkart.example,+918391869941,Delhi,Delhi,110745,2025-06-23,Regular,True,2025-06-23 02:06:38.599890,2025-06-29 02:06:38.599890
+376,Krish Thaman,customer376@shopkart.example,+916453578436,Mumbai,Maharashtra,400747,2026-11-10,Premium,True,2026-11-10 07:30:05.125469,2026-11-18 10:49:24.842990
+377,Ganga Gaba,customer377@shopkart.example,+916398957212,Delhi,Delhi,110956,2025-10-25,Regular,True,2025-10-25 17:51:00.148880,2025-10-28 17:51:00.148880
+378,Akshay Nazareth,customer378@shopkart.example,+917312250822,Mumbai,Maharashtra,400529,2026-05-05,Premium,True,2026-05-05 10:05:11.359478,2026-05-14 10:05:11.359478
+379,Parth Ravi,customer379@shopkart.example,+919344979702,Bengaluru,Karnataka,560175,2026-06-18,Regular,True,2026-06-18 21:51:46.024240,2026-07-09 21:51:46.024240
+380,Nandini Chandran,customer380@shopkart.example,+917556320233,Kolkata,West Bengal,700273,2026-07-14,Regular,True,2026-07-14 04:30:49.002071,2026-07-18 04:30:49.002071
+381,Yuvraj Ahuja,customer381@shopkart.example,+919317078489,Kochi,Kerala,682705,2025-04-01,Regular,True,2025-04-01 06:36:11.089663,2025-04-18 06:36:11.089663
+382,Forum Mittal,customer382@shopkart.example,+918326330015,Chennai,Tamil Nadu,600747,2025-05-27,Premium,True,2025-05-27 01:26:44.778735,2025-06-20 01:26:44.778735
+383,Jagvi Keer,customer383@shopkart.example,+917107386845,Pune,Maharashtra,411240,2026-01-17,Regular,True,2026-01-17 18:50:45.359454,2026-02-11 18:50:45.359454
+384,Nathaniel Ravi,customer384@shopkart.example,+917373422860,Chennai,Tamil Nadu,600392,2025-01-02,Regular,True,2025-01-02 04:11:19.327188,2025-01-16 04:11:19.327188
+385,Jacob Merchant,customer385@shopkart.example,+916734205267,Bengaluru,Karnataka,560272,2026-04-02,Regular,True,2026-04-02 22:38:58.697245,2026-04-11 22:38:58.697245
+386,Vanya Dua,customer386@shopkart.example,+919441828197,Kochi,Kerala,682369,2025-08-13,Regular,True,2025-08-13 05:49:16.944043,2025-08-22 05:49:16.944043
+387,Ojasvi Sinha,customer387@shopkart.example,+917459836097,Hyderabad,Telangana,500497,2025-10-16,Premium,True,2025-10-16 13:18:37.165951,2025-11-13 13:18:37.165951
+388,Yug Bumb,customer388@shopkart.example,+917886051171,Vijayawada,Andhra Pradesh,520613,2026-05-24,Premium,False,2026-05-24 19:22:59.378344,2026-06-23 19:22:59.378344
+389,Faras Choudhury,customer389@shopkart.example,+917435179357,Delhi,Delhi,110460,2025-12-06,Regular,True,2025-12-06 00:50:10.524026,2025-12-30 00:50:10.524026
+390,Mason Gala,customer390@shopkart.example,+917977258133,Delhi,Delhi,110491,2025-01-02,Regular,True,2025-01-02 15:50:34.071500,2025-01-16 15:50:34.071500
+391,Samesh Suresh,customer391@shopkart.example,+919346452163,Pune,Maharashtra,411989,2025-07-15,Regular,True,2025-07-15 07:55:27.352856,2025-08-03 07:55:27.352856
+392,Sudiksha Deo,customer392@shopkart.example,+919391347468,Bengaluru,Karnataka,560770,2025-01-23,Premium,True,2025-01-23 06:40:31.740071,2025-01-25 06:40:31.740071
+393,Turvi Morar,customer393@shopkart.example,+917257391770,Jaipur,Rajasthan,302128,2025-11-27,Regular,True,2025-11-27 04:39:50.659597,2025-12-01 04:39:50.659597
+394,Tejas Bora,customer394@shopkart.example,+919755221416,Pune,Maharashtra,411431,2026-04-29,Regular,True,2026-04-29 00:18:44.163234,2026-05-18 00:18:44.163234
+395,Darpan Biswas,customer395@shopkart.example,+916679199894,Mumbai,Maharashtra,400223,2024-12-21,Regular,False,2024-12-21 17:49:18.547126,2024-12-27 17:49:18.547126
+396,Nilima Gole,customer396@shopkart.example,+917611518433,Bengaluru,Karnataka,560059,2026-11-07,Premium,True,2026-11-07 11:48:36.452178,2026-11-18 10:49:24.842990
+397,Kavya Raja,customer397@shopkart.example,+916701848985,Kolkata,West Bengal,700225,2026-06-02,Regular,False,2026-06-02 09:58:17.450583,2026-06-24 09:58:17.450583
+398,Keya Buch,customer398@shopkart.example,+917197678973,Kolkata,West Bengal,700677,2025-10-11,Premium,True,2025-10-11 11:30:12.512482,2025-11-03 11:30:12.512482
+399,Ijaya Dani,customer399@shopkart.example,+917368876350,Jaipur,Rajasthan,302964,2026-03-31,Regular,True,2026-03-31 00:55:20.318146,2026-04-08 00:55:20.318146
+400,Udant Aggarwal,customer400@shopkart.example,+918798116736,Jaipur,Rajasthan,302253,2025-03-28,Premium,True,2025-03-28 18:53:46.484620,2025-04-10 18:53:46.484620
+401,Panini Wali,customer401@shopkart.example,+918951519916,Delhi,Delhi,110835,2026-05-24,Regular,True,2026-05-24 14:02:41.692707,2026-06-04 14:02:41.692707
+402,Hiral Dubey,customer402@shopkart.example,+917453981841,Delhi,Delhi,110994,2025-08-21,Regular,True,2025-08-21 08:59:21.952305,2025-09-07 08:59:21.952305
+403,Azad Saini,customer403@shopkart.example,+918915498799,Kolkata,West Bengal,700809,2025-06-07,Regular,True,2025-06-07 02:57:07.080311,2025-06-23 02:57:07.080311
+404,Wridesh Jhaveri,customer404@shopkart.example,+916624942273,Mumbai,Maharashtra,400371,2026-02-09,Regular,True,2026-02-09 18:21:55.099378,2026-03-04 18:21:55.099378
+405,Chanakya Konda,customer405@shopkart.example,+917741152660,Delhi,Delhi,110479,2025-01-06,Premium,True,2025-01-06 10:58:49.399310,2025-01-18 10:58:49.399310
+406,Teerth Bhalla,customer406@shopkart.example,+916537051206,Kochi,Kerala,682982,2026-05-12,Regular,True,2026-05-12 05:51:27.958673,2026-06-02 05:51:27.958673
+407,Eiravati Nagi,customer407@shopkart.example,+916286119116,Chennai,Tamil Nadu,600245,2025-02-28,Premium,True,2025-02-28 01:35:47.782427,2025-03-28 01:35:47.782427
+408,Odika Mital,customer408@shopkart.example,+917656207702,Jaipur,Rajasthan,302468,2025-05-09,Regular,True,2025-05-09 15:53:00.498362,2025-05-12 15:53:00.498362
+409,Prisha Tandon,customer409@shopkart.example,+916951938758,Pune,Maharashtra,411289,2025-06-06,Premium,False,2025-06-06 01:40:45.238926,2025-06-20 01:40:45.238926
+410,Eiravati Saha,customer410@shopkart.example,+918545577724,Delhi,Delhi,110266,2024-12-22,Regular,True,2024-12-22 08:57:42.628070,2025-01-15 08:57:42.628070
+411,Urvashi Khosla,customer411@shopkart.example,+919775193472,Chennai,Tamil Nadu,600513,2025-09-12,Regular,True,2025-09-12 07:38:56.827065,2025-09-16 07:38:56.827065
+412,Ubika Bhardwaj,customer412@shopkart.example,+917023311123,Pune,Maharashtra,411035,2026-07-31,Regular,True,2026-07-31 22:26:00.174360,2026-08-19 22:26:00.174360
+413,Lipika Kibe,customer413@shopkart.example,+916643124722,Pune,Maharashtra,411210,2026-01-02,VIP,True,2026-01-02 04:40:05.814703,2026-01-26 04:40:05.814703
+414,Shivani Prabhakar,customer414@shopkart.example,+916910644587,Chennai,Tamil Nadu,600523,2025-05-23,Premium,True,2025-05-23 08:42:11.402807,2025-06-18 08:42:11.402807
+415,Charan Loyal,customer415@shopkart.example,+918475665524,Hyderabad,Telangana,500537,2025-01-24,Regular,True,2025-01-24 13:46:47.921665,2025-01-27 13:46:47.921665
+416,Elijah Guha,customer416@shopkart.example,+919754045835,Kochi,Kerala,682105,2025-08-20,Regular,True,2025-08-20 12:18:49.508844,2025-08-24 12:18:49.508844
+417,Varenya Joshi,customer417@shopkart.example,+918109830520,Kochi,Kerala,682984,2026-06-28,Premium,True,2026-06-28 07:35:12.708918,2026-07-03 07:35:12.708918
+418,Siddharth Gupta,customer418@shopkart.example,+917151419503,Kochi,Kerala,682423,2026-08-14,Regular,True,2026-08-14 11:36:32.968758,2026-09-02 11:36:32.968758
+419,Xavier Jayaraman,customer419@shopkart.example,+918021107688,Bengaluru,Karnataka,560505,2026-10-21,Regular,True,2026-10-21 07:07:36.461203,2026-11-10 07:07:36.461203
+420,Barkha Rai,customer420@shopkart.example,+919652615000,Delhi,Delhi,110798,2025-09-03,Premium,True,2025-09-03 05:00:23.391768,2025-10-02 05:00:23.391768
+421,Advika Parsa,customer421@shopkart.example,+918092361996,Chennai,Tamil Nadu,600796,2025-10-24,Premium,False,2025-10-24 11:28:53.215919,2025-10-31 11:28:53.215919
+422,Upasna Nagarajan,customer422@shopkart.example,+918887345328,Bengaluru,Karnataka,560814,2025-11-27,VIP,True,2025-11-27 03:50:25.936989,2025-11-27 03:50:25.936989
+423,Chakradev Kant,customer423@shopkart.example,+918552894211,Jaipur,Rajasthan,302659,2026-09-16,VIP,True,2026-09-16 13:29:09.918810,2026-09-27 13:29:09.918810
+424,Chakrika Dua,customer424@shopkart.example,+917649499656,Pune,Maharashtra,411615,2026-05-13,Regular,True,2026-05-13 23:25:05.493445,2026-05-31 23:25:05.493445
+425,Xalak Nazareth,customer425@shopkart.example,+917531132650,Kolkata,West Bengal,700610,2025-04-10,Premium,True,2025-04-10 17:46:35.376562,2025-04-28 17:46:35.376562
+426,Triveni Ganguly,customer426@shopkart.example,+919080772453,Jaipur,Rajasthan,302207,2025-05-24,Premium,True,2025-05-24 22:38:00.578530,2025-05-31 22:38:00.578530
+427,Vrinda Gour,customer427@shopkart.example,+919318381635,Mumbai,Maharashtra,400947,2026-05-06,Regular,True,2026-05-06 14:50:57.301418,2026-06-03 14:50:57.301418
+428,Bahadurjit Borde,customer428@shopkart.example,+918254092947,Hyderabad,Telangana,500605,2026-09-18,Regular,True,2026-09-18 03:18:13.701900,2026-09-27 03:18:13.701900
+429,Nitara Devan,customer429@shopkart.example,+919460400926,Pune,Maharashtra,411750,2026-10-08,Regular,False,2026-10-08 11:30:08.119406,2026-11-02 11:30:08.119406
+430,Aditya Kamdar,customer430@shopkart.example,+916203522937,Hyderabad,Telangana,500359,2026-07-26,Regular,True,2026-07-26 03:11:39.014021,2026-08-21 03:11:39.014021
+431,Vinaya Babu,customer431@shopkart.example,+918984271915,Kochi,Kerala,682734,2025-11-22,Regular,True,2025-11-22 09:54:16.736910,2025-11-28 09:54:16.736910
+432,Anay Wagle,customer432@shopkart.example,+919117079773,Kolkata,West Bengal,700799,2024-11-22,Regular,True,2024-11-22 15:27:00.332977,2024-12-04 15:27:00.332977
+433,Anay Thakkar,customer433@shopkart.example,+919834061175,Chennai,Tamil Nadu,600442,2026-04-29,Premium,True,2026-04-29 04:48:59.723770,2026-05-09 04:48:59.723770
+434,Hredhaan Char,customer434@shopkart.example,+918126451673,Kochi,Kerala,682102,2026-07-04,Regular,True,2026-07-04 08:07:30.755844,2026-08-01 08:07:30.755844
+435,Irya Loke,customer435@shopkart.example,+916806139901,Pune,Maharashtra,411017,2025-12-05,Premium,True,2025-12-05 05:40:04.359037,2025-12-14 05:40:04.359037
+436,Tripti Kohli,customer436@shopkart.example,+918314437186,Kolkata,West Bengal,700128,2026-06-21,VIP,False,2026-06-21 15:51:00.782975,2026-07-21 15:51:00.782975
+437,Azad Chander,customer437@shopkart.example,+919687590025,Bengaluru,Karnataka,560826,2026-11-10,Regular,True,2026-11-10 06:52:14.478109,2026-11-18 10:49:24.842990
+438,Daksh Andra,customer438@shopkart.example,+916749596942,Mumbai,Maharashtra,400120,2025-09-09,Regular,False,2025-09-09 20:49:44.681623,2025-09-13 20:49:44.681623
+439,Garima Chandran,customer439@shopkart.example,+916530168323,Hyderabad,Telangana,500527,2026-04-15,Regular,True,2026-04-15 20:11:44.235091,2026-04-17 20:11:44.235091
+440,Siddharth Soman,customer440@shopkart.example,+917637327558,Kolkata,West Bengal,700882,2026-09-02,Premium,True,2026-09-02 19:14:34.473485,2026-09-03 19:14:34.473485
+441,Bachittar Gola,customer441@shopkart.example,+917658223903,Jaipur,Rajasthan,302447,2025-06-03,Regular,True,2025-06-03 19:48:46.133377,2025-06-25 19:48:46.133377
+442,Maanas Rao,customer442@shopkart.example,+917682833627,Hyderabad,Telangana,500796,2026-09-26,Regular,True,2026-09-26 13:28:18.535696,2026-10-01 13:28:18.535696
+443,Lopa Zachariah,customer443@shopkart.example,+919198105353,Kochi,Kerala,682842,2026-09-27,Regular,True,2026-09-27 14:41:46.746791,2026-10-04 14:41:46.746791
+444,Farhan Tella,customer444@shopkart.example,+919525876800,Vijayawada,Andhra Pradesh,520077,2025-07-18,Premium,True,2025-07-18 02:57:27.003803,2025-08-13 02:57:27.003803
+445,Rajeshri Kata,customer445@shopkart.example,+917809659835,Kochi,Kerala,682688,2026-05-16,VIP,True,2026-05-16 09:17:20.932780,2026-05-22 09:17:20.932780
+446,Eta Balan,customer446@shopkart.example,+916994827983,Jaipur,Rajasthan,302289,2026-07-23,Regular,True,2026-07-23 23:13:47.068730,2026-08-09 23:13:47.068730
+447,Vritti Kari,customer447@shopkart.example,+916620484643,Pune,Maharashtra,411623,2026-02-23,Regular,True,2026-02-23 13:34:57.714058,2026-03-13 13:34:57.714058
+448,Quincy Rai,customer448@shopkart.example,+918238258219,Vijayawada,Andhra Pradesh,520682,2025-08-04,Regular,True,2025-08-04 16:00:31.698465,2025-08-24 16:00:31.698465
+449,Ethan Butala,customer449@shopkart.example,+917740718751,Hyderabad,Telangana,500086,2025-01-19,Regular,True,2025-01-19 00:34:42.130436,2025-01-31 00:34:42.130436
+450,Lopa Nadig,customer450@shopkart.example,+916948248307,Kolkata,West Bengal,700845,2025-06-01,Regular,True,2025-06-01 16:06:33.904810,2025-06-24 16:06:33.904810
+451,Sai Parsa,customer451@shopkart.example,+917890223932,Kolkata,West Bengal,700540,2025-08-08,Premium,False,2025-08-08 09:04:34.694585,2025-09-06 09:04:34.694585
+452,Rachit Sankar,customer452@shopkart.example,+917967250324,Pune,Maharashtra,411958,2026-05-27,Premium,True,2026-05-27 21:41:22.421531,2026-06-24 21:41:22.421531
+453,Harshil Bal,customer453@shopkart.example,+916287401341,Delhi,Delhi,110409,2025-10-11,Regular,False,2025-10-11 23:22:06.382277,2025-10-14 23:22:06.382277
+454,Lekha Arora,customer454@shopkart.example,+917974026321,Delhi,Delhi,110557,2025-01-22,VIP,True,2025-01-22 03:59:36.516923,2025-02-01 03:59:36.516923
+455,Xavier Verma,customer455@shopkart.example,+916723537720,Pune,Maharashtra,411425,2025-06-19,Regular,True,2025-06-19 17:03:27.323873,2025-07-07 17:03:27.323873
+456,Amruta Mitra,customer456@shopkart.example,+917727782643,Chennai,Tamil Nadu,600366,2025-03-21,Premium,True,2025-03-21 21:06:27.723918,2025-04-10 21:06:27.723918
+457,Radhika Majumdar,customer457@shopkart.example,+918279931614,Kochi,Kerala,682975,2025-06-01,VIP,True,2025-06-01 20:40:51.872079,2025-06-07 20:40:51.872079
+458,Jalsa Krishnamurthy,customer458@shopkart.example,+918506556870,Bengaluru,Karnataka,560195,2025-09-21,Premium,True,2025-09-21 02:58:26.847760,2025-10-03 02:58:26.847760
+459,Rohan Shankar,customer459@shopkart.example,+919038572208,Mumbai,Maharashtra,400153,2026-10-08,VIP,True,2026-10-08 00:16:10.305956,2026-10-16 00:16:10.305956
+460,Gaurangi Rai,customer460@shopkart.example,+919024372590,Chennai,Tamil Nadu,600492,2025-02-04,VIP,True,2025-02-04 09:46:26.747823,2025-02-08 09:46:26.747823
+461,Qushi Deshpande,customer461@shopkart.example,+917147569653,Kolkata,West Bengal,700349,2026-06-27,Regular,True,2026-06-27 09:03:59.316054,2026-07-19 09:03:59.316054
+462,Varenya Murthy,customer462@shopkart.example,+919974090091,Chennai,Tamil Nadu,600008,2025-06-25,Regular,True,2025-06-25 23:40:01.832840,2025-07-18 23:40:01.832840
+463,Bishakha Swaminathan,customer463@shopkart.example,+919439882174,Jaipur,Rajasthan,302401,2025-03-27,Regular,True,2025-03-27 14:33:58.090287,2025-04-18 14:33:58.090287
+464,Krisha Mand,customer464@shopkart.example,+916899428493,Jaipur,Rajasthan,302303,2026-10-25,Regular,False,2026-10-25 20:53:03.312973,2026-11-14 20:53:03.312973
+465,Ryan Gole,customer465@shopkart.example,+919677263536,Pune,Maharashtra,411906,2026-07-07,Premium,True,2026-07-07 09:42:30.801536,2026-08-06 09:42:30.801536
+466,Shaurya Sarma,customer466@shopkart.example,+918547593653,Hyderabad,Telangana,500547,2026-03-30,Regular,True,2026-03-30 13:23:36.907737,2026-04-08 13:23:36.907737
+467,Nilima Tata,customer467@shopkart.example,+917650219246,Delhi,Delhi,110408,2026-06-23,Premium,True,2026-06-23 06:06:25.427144,2026-07-12 06:06:25.427144
+468,Mitesh Sampath,customer468@shopkart.example,+918110175623,Pune,Maharashtra,411127,2025-02-27,Regular,True,2025-02-27 11:37:59.572073,2025-03-09 11:37:59.572073
+469,Nandini Warrior,customer469@shopkart.example,+916225319837,Jaipur,Rajasthan,302227,2026-06-17,Premium,True,2026-06-17 15:49:01.742327,2026-06-30 15:49:01.742327
+470,Balhaar Parsa,customer470@shopkart.example,+917265445828,Bengaluru,Karnataka,560112,2025-11-22,Premium,True,2025-11-22 13:30:17.612238,2025-11-22 13:30:17.612238
+471,Ikbal Kothari,customer471@shopkart.example,+916259787116,Bengaluru,Karnataka,560010,2026-04-14,Regular,True,2026-04-14 20:03:49.804129,2026-05-05 20:03:49.804129
+472,Mugdha Narula,customer472@shopkart.example,+919395168452,Hyderabad,Telangana,500102,2026-03-13,Premium,True,2026-03-13 11:14:23.120902,2026-03-13 11:14:23.120902
+473,Guneet Kuruvilla,customer473@shopkart.example,+917771406084,Bengaluru,Karnataka,560382,2026-10-23,Premium,True,2026-10-23 21:47:35.330934,2026-11-12 21:47:35.330934
+474,Sanaya Prasad,customer474@shopkart.example,+916044066669,Hyderabad,Telangana,500548,2025-04-29,VIP,True,2025-04-29 05:00:10.861168,2025-05-02 05:00:10.861168
+475,Hemani Bakshi,customer475@shopkart.example,+916600158312,Bengaluru,Karnataka,560897,2025-08-30,Premium,True,2025-08-30 18:11:47.123513,2025-09-20 18:11:47.123513
+476,Jack Dhar,customer476@shopkart.example,+918397707234,Chennai,Tamil Nadu,600959,2025-11-05,Regular,True,2025-11-05 17:42:09.762758,2025-11-11 17:42:09.762758
+477,Vasudha Pall,customer477@shopkart.example,+919086504590,Jaipur,Rajasthan,302359,2025-07-30,Regular,True,2025-07-30 08:45:36.697228,2025-08-27 08:45:36.697228
+478,Eiravati Bhavsar,customer478@shopkart.example,+917928142802,Bengaluru,Karnataka,560711,2025-10-31,Regular,True,2025-10-31 02:16:45.260172,2025-11-10 02:16:45.260172
+479,Arin Oza,customer479@shopkart.example,+916990652396,Delhi,Delhi,110610,2025-06-25,Premium,True,2025-06-25 23:28:37.416432,2025-07-14 23:28:37.416432
+480,Yagnesh Varty,customer480@shopkart.example,+916183377821,Chennai,Tamil Nadu,600102,2026-03-06,Regular,True,2026-03-06 21:00:01.022788,2026-03-28 21:00:01.022788
+481,Turvi Kata,customer481@shopkart.example,+916713043954,Vijayawada,Andhra Pradesh,520042,2025-03-25,Regular,True,2025-03-25 21:23:55.730973,2025-04-01 21:23:55.730973
+482,Rachana Randhawa,customer482@shopkart.example,+916332807837,Bengaluru,Karnataka,560176,2026-06-23,Premium,False,2026-06-23 13:18:39.955538,2026-07-05 13:18:39.955538
+483,Shivani Sanghvi,customer483@shopkart.example,+918434345343,Pune,Maharashtra,411929,2024-12-09,Regular,False,2024-12-09 08:21:56.367809,2024-12-15 08:21:56.367809
+484,Arya Bhatnagar,customer484@shopkart.example,+918037083628,Delhi,Delhi,110012,2025-08-28,Premium,False,2025-08-28 04:48:20.541625,2025-09-26 04:48:20.541625
+485,Jasmit Nanda,customer485@shopkart.example,+916930494120,Bengaluru,Karnataka,560970,2026-01-13,Regular,True,2026-01-13 00:31:42.327202,2026-02-10 00:31:42.327202
+486,Dhriti Rama,customer486@shopkart.example,+916241706935,Hyderabad,Telangana,500613,2025-04-10,Premium,True,2025-04-10 11:10:54.358416,2025-05-06 11:10:54.358416
+487,Indira Shankar,customer487@shopkart.example,+918007068017,Vijayawada,Andhra Pradesh,520153,2026-02-07,Premium,True,2026-02-07 06:54:14.507682,2026-02-24 06:54:14.507682
+488,Frado Desai,customer488@shopkart.example,+916733659239,Kochi,Kerala,682848,2026-02-11,Regular,True,2026-02-11 18:42:03.365545,2026-03-05 18:42:03.365545
+489,Qadim Prakash,customer489@shopkart.example,+919711506153,Delhi,Delhi,110969,2025-07-04,Premium,True,2025-07-04 10:56:36.796284,2025-07-13 10:56:36.796284
+490,Lakshit Rajagopal,customer490@shopkart.example,+917507996044,Jaipur,Rajasthan,302219,2026-04-08,Regular,False,2026-04-08 14:48:31.514889,2026-04-13 14:48:31.514889
+491,Ojas Suri,customer491@shopkart.example,+916391632957,Delhi,Delhi,110215,2025-09-22,Premium,True,2025-09-22 19:02:12.977485,2025-10-14 19:02:12.977485
+492,Chatresh Parmer,customer492@shopkart.example,+919141220352,Bengaluru,Karnataka,560241,2025-06-16,Premium,False,2025-06-16 01:22:37.198384,2025-07-12 01:22:37.198384
+493,Leena Tiwari,customer493@shopkart.example,+916380114516,Bengaluru,Karnataka,560692,2026-10-13,VIP,True,2026-10-13 23:15:08.350162,2026-10-20 23:15:08.350162
+494,Ojasvi Sawhney,customer494@shopkart.example,+918683648037,Pune,Maharashtra,411674,2026-03-09,Regular,True,2026-03-09 22:48:51.457150,2026-03-11 22:48:51.457150
+495,Thomas Master,customer495@shopkart.example,+919017932100,Pune,Maharashtra,411753,2025-11-09,Regular,True,2025-11-09 12:28:07.639940,2025-11-23 12:28:07.639940
+496,Om Shankar,customer496@shopkart.example,+918925091358,Hyderabad,Telangana,500520,2024-12-11,Premium,True,2024-12-11 05:21:39.936777,2025-01-06 05:21:39.936777
+497,Yasti Chowdhury,customer497@shopkart.example,+917005670407,Kolkata,West Bengal,700650,2026-01-04,Regular,True,2026-01-04 00:36:50.142103,2026-02-02 00:36:50.142103
+498,Benjamin Sastry,customer498@shopkart.example,+917131273687,Vijayawada,Andhra Pradesh,520141,2026-01-10,Regular,True,2026-01-10 12:18:34.827347,2026-01-25 12:18:34.827347
+499,Yug Mishra,customer499@shopkart.example,+918169361620,Bengaluru,Karnataka,560286,2025-12-21,Regular,True,2025-12-21 00:53:26.130992,2025-12-22 00:53:26.130992
+500,Ijaya Chahal,customer500@shopkart.example,+918166864726,Vijayawada,Andhra Pradesh,520521,2026-08-18,Regular,True,2026-08-18 14:25:26.440613,2026-08-30 14:25:26.440613
+501,Shaurya Panchal,customer501@shopkart.example,+917494872011,Vijayawada,Andhra Pradesh,520328,2025-10-04,Regular,True,2025-10-04 22:03:33.611757,2025-10-23 22:03:33.611757
+502,Noah Dewan,customer502@shopkart.example,+916993176991,Vijayawada,Andhra Pradesh,520335,2026-08-08,Regular,True,2026-08-08 11:08:23.470733,2026-08-22 11:08:23.470733
+503,Indali Walia,customer503@shopkart.example,+917511350576,Pune,Maharashtra,411846,2026-06-13,Regular,True,2026-06-13 10:47:45.747363,2026-06-13 10:47:45.747363
+504,Brinda Mann,customer504@shopkart.example,+918060533506,Delhi,Delhi,110756,2025-06-11,Regular,True,2025-06-11 03:49:41.991297,2025-06-30 03:49:41.991297
+505,Krishna Sabharwal,customer505@shopkart.example,+919131282262,Mumbai,Maharashtra,400833,2026-01-10,Regular,True,2026-01-10 11:37:28.378861,2026-01-13 11:37:28.378861
+506,Kevin Krish,customer506@shopkart.example,+919055376268,Jaipur,Rajasthan,302903,2026-09-19,Premium,True,2026-09-19 08:22:26.816461,2026-09-26 08:22:26.816461
+507,Maya Suri,customer507@shopkart.example,+919716650528,Chennai,Tamil Nadu,600983,2025-03-04,Regular,True,2025-03-04 16:54:23.646638,2025-03-12 16:54:23.646638
+508,Keya Seth,customer508@shopkart.example,+918187951149,Jaipur,Rajasthan,302536,2025-03-01,Regular,False,2025-03-01 10:28:23.350457,2025-03-30 10:28:23.350457
+509,Neha Varma,customer509@shopkart.example,+916064921825,Bengaluru,Karnataka,560077,2025-01-12,Premium,True,2025-01-12 03:28:38.844277,2025-01-17 03:28:38.844277
+510,Suhani Sura,customer510@shopkart.example,+916605216217,Pune,Maharashtra,411978,2026-05-19,Regular,True,2026-05-19 18:44:30.517997,2026-05-19 18:44:30.517997
+511,Tara Parmar,customer511@shopkart.example,+918903974760,Chennai,Tamil Nadu,600945,2025-07-14,Regular,True,2025-07-14 09:06:25.267746,2025-07-15 09:06:25.267746
+512,Tejas Sanghvi,customer512@shopkart.example,+918191146487,Hyderabad,Telangana,500423,2026-07-31,VIP,True,2026-07-31 13:37:34.010550,2026-08-02 13:37:34.010550
+513,Bhanumati Nazareth,customer513@shopkart.example,+919895806947,Jaipur,Rajasthan,302258,2026-07-13,Regular,True,2026-07-13 22:13:38.337416,2026-08-12 22:13:38.337416
+514,Hemal Bava,customer514@shopkart.example,+916515596598,Bengaluru,Karnataka,560279,2025-12-22,Premium,True,2025-12-22 03:42:24.006401,2026-01-04 03:42:24.006401
+515,Amol Dash,customer515@shopkart.example,+919647483001,Mumbai,Maharashtra,400976,2024-12-21,Regular,True,2024-12-21 03:53:13.547845,2025-01-06 03:53:13.547845
+516,Aadi Sangha,customer516@shopkart.example,+917612847359,Bengaluru,Karnataka,560391,2026-09-27,Regular,True,2026-09-27 04:17:25.707698,2026-09-27 04:17:25.707698
+517,Chasmum Dutt,customer517@shopkart.example,+918027824377,Pune,Maharashtra,411674,2025-04-14,Regular,True,2025-04-14 19:21:54.649971,2025-04-19 19:21:54.649971
+518,Jalsa Krishna,customer518@shopkart.example,+917213859777,Pune,Maharashtra,411716,2026-08-18,Regular,True,2026-08-18 15:46:23.687875,2026-08-28 15:46:23.687875
+519,Charles Randhawa,customer519@shopkart.example,+916222819871,Bengaluru,Karnataka,560571,2025-01-17,Regular,False,2025-01-17 11:17:08.054764,2025-02-12 11:17:08.054764
+520,Pushti Chand,customer520@shopkart.example,+918964914057,Pune,Maharashtra,411038,2026-02-17,Regular,True,2026-02-17 17:39:20.305505,2026-02-27 17:39:20.305505
+521,Faras Deo,customer521@shopkart.example,+918713801864,Jaipur,Rajasthan,302747,2026-04-15,Regular,True,2026-04-15 13:38:34.001233,2026-04-22 13:38:34.001233
+522,Aditya Anand,customer522@shopkart.example,+916905244776,Jaipur,Rajasthan,302606,2026-01-25,Premium,True,2026-01-25 16:31:38.928513,2026-02-23 16:31:38.928513
+523,Kevin Sridhar,customer523@shopkart.example,+917954573360,Vijayawada,Andhra Pradesh,520341,2026-04-09,Regular,True,2026-04-09 19:24:16.784419,2026-05-09 19:24:16.784419
+524,Harshil Munshi,customer524@shopkart.example,+919127694849,Kolkata,West Bengal,700177,2025-01-08,Premium,True,2025-01-08 10:48:39.727569,2025-01-24 10:48:39.727569
+525,Kiaan Dhar,customer525@shopkart.example,+918420547862,Hyderabad,Telangana,500264,2025-08-13,Regular,True,2025-08-13 03:56:42.675948,2025-09-10 03:56:42.675948
+526,Ria Panchal,customer526@shopkart.example,+917342505312,Kochi,Kerala,682273,2025-01-06,Regular,True,2025-01-06 15:05:46.403291,2025-01-13 15:05:46.403291
+527,Nisha Savant,customer527@shopkart.example,+919649786782,Chennai,Tamil Nadu,600378,2026-04-29,Regular,True,2026-04-29 15:30:18.131000,2026-05-04 15:30:18.131000
+528,Logan Dasgupta,customer528@shopkart.example,+917307867538,Mumbai,Maharashtra,400089,2026-08-07,Regular,True,2026-08-07 23:35:30.262647,2026-08-17 23:35:30.262647
+529,Divya Dey,customer529@shopkart.example,+918397987903,Chennai,Tamil Nadu,600990,2026-01-22,VIP,True,2026-01-22 10:27:59.413844,2026-02-14 10:27:59.413844
+530,Bhavani Bala,customer530@shopkart.example,+919733240918,Kochi,Kerala,682314,2025-05-17,Premium,True,2025-05-17 06:47:32.070368,2025-06-02 06:47:32.070368
+531,Samesh Vasa,customer531@shopkart.example,+917915704278,Kochi,Kerala,682895,2026-07-29,Regular,True,2026-07-29 16:02:37.194870,2026-08-24 16:02:37.194870
+532,Chakrika Bhagat,customer532@shopkart.example,+919057372731,Kochi,Kerala,682308,2026-02-04,VIP,True,2026-02-04 05:11:53.824431,2026-02-28 05:11:53.824431
+533,Warda Raju,customer533@shopkart.example,+917781991132,Jaipur,Rajasthan,302770,2026-06-13,Regular,True,2026-06-13 02:19:04.595411,2026-07-13 02:19:04.595411
+534,Advik Patel,customer534@shopkart.example,+918675083544,Bengaluru,Karnataka,560770,2025-02-08,Premium,True,2025-02-08 01:15:44.016908,2025-02-09 01:15:44.016908
+535,Jasmit Gera,customer535@shopkart.example,+917392106821,Delhi,Delhi,110097,2026-09-30,Regular,True,2026-09-30 00:05:34.180936,2026-10-26 00:05:34.180936
+536,Anay Bir,customer536@shopkart.example,+918636922958,Kolkata,West Bengal,700448,2026-05-28,Regular,True,2026-05-28 04:35:17.360600,2026-05-29 04:35:17.360600
+537,Mitali Toor,customer537@shopkart.example,+916193103464,Kolkata,West Bengal,700879,2024-11-28,Regular,True,2024-11-28 03:45:51.128751,2024-12-11 03:45:51.128751
+538,Pallavi Ratti,customer538@shopkart.example,+919027890718,Jaipur,Rajasthan,302327,2025-06-15,Regular,True,2025-06-15 04:34:13.318022,2025-06-28 04:34:13.318022
+539,Arunima Chacko,customer539@shopkart.example,+917497878400,Pune,Maharashtra,411502,2025-01-17,Regular,True,2025-01-17 09:01:28.964528,2025-01-24 09:01:28.964528
+540,Nachiket Yadav,customer540@shopkart.example,+918204873181,Vijayawada,Andhra Pradesh,520413,2025-07-02,Premium,True,2025-07-02 14:03:23.728452,2025-07-19 14:03:23.728452
+541,Dayita Sarkar,customer541@shopkart.example,+916030337190,Vijayawada,Andhra Pradesh,520784,2025-07-14,VIP,True,2025-07-14 11:55:00.058414,2025-08-13 11:55:00.058414
+542,Yash Chadha,customer542@shopkart.example,+919706319878,Bengaluru,Karnataka,560526,2026-05-04,Regular,True,2026-05-04 18:09:49.736726,2026-05-08 18:09:49.736726
+543,Dayamai Gill,customer543@shopkart.example,+917266135012,Mumbai,Maharashtra,400263,2026-09-23,VIP,True,2026-09-23 16:09:53.710043,2026-10-11 16:09:53.710043
+544,Nihal Taneja,customer544@shopkart.example,+917533144753,Mumbai,Maharashtra,400721,2025-02-13,Regular,True,2025-02-13 22:54:16.391958,2025-03-02 22:54:16.391958
+545,Ojas Prabhu,customer545@shopkart.example,+916048995274,Bengaluru,Karnataka,560067,2026-10-14,Regular,True,2026-10-14 16:08:04.263937,2026-11-08 16:08:04.263937
+546,Jacob Balan,customer546@shopkart.example,+917516105449,Hyderabad,Telangana,500118,2025-02-18,VIP,True,2025-02-18 04:52:14.742450,2025-03-10 04:52:14.742450
+547,Adya Bose,customer547@shopkart.example,+917042569648,Chennai,Tamil Nadu,600323,2025-07-20,Regular,True,2025-07-20 09:52:37.192901,2025-07-25 09:52:37.192901
+548,Xalak Ganesan,customer548@shopkart.example,+917883978789,Pune,Maharashtra,411156,2025-11-15,Regular,False,2025-11-15 17:22:24.399592,2025-11-28 17:22:24.399592
+549,Jack Kari,customer549@shopkart.example,+917257902712,Kochi,Kerala,682872,2025-08-13,Regular,False,2025-08-13 03:38:21.164885,2025-08-27 03:38:21.164885
+550,Yash Batra,customer550@shopkart.example,+919593053096,Jaipur,Rajasthan,302114,2026-05-12,VIP,False,2026-05-12 08:41:05.667385,2026-05-14 08:41:05.667385
+551,Praneel Banik,customer551@shopkart.example,+917304862310,Mumbai,Maharashtra,400355,2025-10-28,Regular,True,2025-10-28 13:42:39.722746,2025-11-06 13:42:39.722746
+552,Udarsh Nagy,customer552@shopkart.example,+918204229984,Mumbai,Maharashtra,400898,2025-12-26,Regular,True,2025-12-26 16:11:59.940641,2025-12-31 16:11:59.940641
+553,Anika Brahmbhatt,customer553@shopkart.example,+918364233187,Vijayawada,Andhra Pradesh,520038,2025-05-18,Premium,True,2025-05-18 07:05:54.135670,2025-05-20 07:05:54.135670
+554,Praneel Kapoor,customer554@shopkart.example,+917782923196,Delhi,Delhi,110094,2026-01-09,VIP,True,2026-01-09 14:35:45.066923,2026-01-29 14:35:45.066923
+555,Ekapad Shroff,customer555@shopkart.example,+916545882215,Pune,Maharashtra,411850,2026-06-28,Regular,True,2026-06-28 07:34:29.030221,2026-07-25 07:34:29.030221
+556,Falak Chadha,customer556@shopkart.example,+917187473941,Mumbai,Maharashtra,400835,2026-08-12,Regular,True,2026-08-12 09:10:24.338596,2026-08-26 09:10:24.338596
+557,Bishakha Modi,customer557@shopkart.example,+917543685165,Hyderabad,Telangana,500188,2025-12-26,Regular,True,2025-12-26 13:30:58.279569,2026-01-15 13:30:58.279569
+558,Wakeeta Hayre,customer558@shopkart.example,+916977914150,Bengaluru,Karnataka,560345,2026-05-11,Regular,True,2026-05-11 19:00:17.111639,2026-05-21 19:00:17.111639
+559,Matthew Ahuja,customer559@shopkart.example,+917159402880,Hyderabad,Telangana,500587,2026-05-06,VIP,True,2026-05-06 00:21:14.249136,2026-05-17 00:21:14.249136
+560,Aditya Nayak,customer560@shopkart.example,+919647400936,Bengaluru,Karnataka,560793,2026-09-29,Regular,True,2026-09-29 17:54:44.705903,2026-10-27 17:54:44.705903
+561,Hemang Jha,customer561@shopkart.example,+918154536306,Jaipur,Rajasthan,302986,2024-11-19,Regular,True,2024-11-19 18:48:50.099127,2024-12-10 18:48:50.099127
+562,Darpan Dhar,customer562@shopkart.example,+916120607914,Pune,Maharashtra,411126,2025-12-09,Premium,True,2025-12-09 00:56:25.423326,2025-12-26 00:56:25.423326
+563,Zinal Sachar,customer563@shopkart.example,+919336293580,Hyderabad,Telangana,500869,2026-04-21,Premium,True,2026-04-21 16:05:19.477171,2026-05-13 16:05:19.477171
+564,Girish Tiwari,customer564@shopkart.example,+918363356885,Pune,Maharashtra,411842,2026-04-13,Premium,True,2026-04-13 16:31:47.561290,2026-05-06 16:31:47.561290
+565,David Saran,customer565@shopkart.example,+918835903671,Hyderabad,Telangana,500216,2025-02-23,Premium,True,2025-02-23 02:22:21.468562,2025-03-12 02:22:21.468562
+566,Advika Murty,customer566@shopkart.example,+916082111309,Pune,Maharashtra,411188,2026-03-16,Regular,True,2026-03-16 12:33:58.746306,2026-03-29 12:33:58.746306
+567,Eesha Sethi,customer567@shopkart.example,+918766666750,Mumbai,Maharashtra,400093,2026-09-25,Premium,True,2026-09-25 18:27:17.179852,2026-10-01 18:27:17.179852
+568,Laban Chopra,customer568@shopkart.example,+917100392617,Hyderabad,Telangana,500292,2025-06-04,VIP,True,2025-06-04 15:57:49.889268,2025-06-10 15:57:49.889268
+569,Dipta Ray,customer569@shopkart.example,+916858611764,Delhi,Delhi,110307,2025-03-11,Regular,True,2025-03-11 23:08:40.063604,2025-03-29 23:08:40.063604
+570,Siya Morar,customer570@shopkart.example,+918467036676,Hyderabad,Telangana,500043,2025-02-14,Regular,True,2025-02-14 13:59:54.271760,2025-03-08 13:59:54.271760
+571,Nakul Modi,customer571@shopkart.example,+917252502811,Jaipur,Rajasthan,302756,2025-10-22,Regular,True,2025-10-22 16:50:40.090217,2025-11-20 16:50:40.090217
+572,Tanveer Narang,customer572@shopkart.example,+917298574668,Kolkata,West Bengal,700786,2026-07-14,Regular,True,2026-07-14 22:54:17.944962,2026-07-27 22:54:17.944962
+573,Meghana Varghese,customer573@shopkart.example,+919592480321,Delhi,Delhi,110617,2025-03-06,Regular,True,2025-03-06 14:46:33.162711,2025-03-25 14:46:33.162711
+574,Azaan Ravel,customer574@shopkart.example,+919048752319,Jaipur,Rajasthan,302352,2024-12-23,Regular,True,2024-12-23 13:12:46.590418,2024-12-23 13:12:46.590418
+575,Girindra Shere,customer575@shopkart.example,+919298091338,Bengaluru,Karnataka,560496,2026-08-03,VIP,True,2026-08-03 04:33:46.011260,2026-08-26 04:33:46.011260
+576,Advik Bhatia,customer576@shopkart.example,+916106288659,Jaipur,Rajasthan,302403,2025-01-31,Regular,True,2025-01-31 18:07:45.897817,2025-02-02 18:07:45.897817
+577,Rudra Rattan,customer577@shopkart.example,+917325657771,Mumbai,Maharashtra,400208,2026-07-17,Regular,True,2026-07-17 06:39:33.343443,2026-08-16 06:39:33.343443
+578,Aashi Borde,customer578@shopkart.example,+916620678468,Pune,Maharashtra,411376,2025-08-16,Premium,True,2025-08-16 17:10:46.755605,2025-08-31 17:10:46.755605
+579,Kabir Chanda,customer579@shopkart.example,+916383451004,Kochi,Kerala,682689,2024-12-03,Premium,True,2024-12-03 10:27:17.911174,2024-12-16 10:27:17.911174
+580,Jason Basak,customer580@shopkart.example,+916276559779,Delhi,Delhi,110324,2026-09-09,Regular,True,2026-09-09 05:57:58.892266,2026-09-26 05:57:58.892266
+581,Megha Taneja,customer581@shopkart.example,+916031892410,Bengaluru,Karnataka,560723,2026-10-06,Regular,True,2026-10-06 00:30:20.682227,2026-11-04 00:30:20.682227
+582,Irya Kala,customer582@shopkart.example,+916301405688,Kochi,Kerala,682088,2024-12-09,Regular,True,2024-12-09 01:21:17.760689,2025-01-03 01:21:17.760689
+583,Manthan Banerjee,customer583@shopkart.example,+918939945693,Delhi,Delhi,110234,2026-09-12,Regular,True,2026-09-12 20:53:10.517402,2026-10-08 20:53:10.517402
+584,Wishi Sabharwal,customer584@shopkart.example,+919545916745,Chennai,Tamil Nadu,600488,2026-02-09,Regular,False,2026-02-09 23:29:31.071939,2026-03-05 23:29:31.071939
+585,Ati Rajagopal,customer585@shopkart.example,+918288651550,Pune,Maharashtra,411830,2026-08-24,Regular,True,2026-08-24 02:00:23.002434,2026-08-28 02:00:23.002434
+586,Anirudh Raja,customer586@shopkart.example,+916448680044,Hyderabad,Telangana,500665,2025-02-26,Premium,True,2025-02-26 19:49:16.328235,2025-03-25 19:49:16.328235
+587,Hemangini Thakkar,customer587@shopkart.example,+916245285242,Kolkata,West Bengal,700366,2026-06-11,Regular,True,2026-06-11 17:11:05.118283,2026-06-23 17:11:05.118283
+588,Eiravati Kanda,customer588@shopkart.example,+918784915665,Pune,Maharashtra,411305,2025-07-10,Regular,True,2025-07-10 10:09:33.988939,2025-07-20 10:09:33.988939
+589,Dalbir Sodhi,customer589@shopkart.example,+919225028953,Hyderabad,Telangana,500872,2024-12-09,Premium,True,2024-12-09 10:29:31.564313,2024-12-13 10:29:31.564313
+590,Nathaniel Chaudhry,customer590@shopkart.example,+919868503399,Pune,Maharashtra,411847,2025-12-09,Regular,True,2025-12-09 11:48:17.919753,2025-12-30 11:48:17.919753
+591,Theodore Rama,customer591@shopkart.example,+916454087582,Delhi,Delhi,110047,2025-05-17,Premium,False,2025-05-17 01:23:37.468575,2025-05-17 01:23:37.468575
+592,Patrick Khalsa,customer592@shopkart.example,+917341972406,Chennai,Tamil Nadu,600748,2025-08-04,Regular,True,2025-08-04 05:17:53.454854,2025-08-05 05:17:53.454854
+593,Ayaan Pandey,customer593@shopkart.example,+919377301660,Mumbai,Maharashtra,400359,2026-01-24,Regular,True,2026-01-24 09:08:39.286309,2026-02-16 09:08:39.286309
+594,Waida More,customer594@shopkart.example,+919884572019,Bengaluru,Karnataka,560257,2026-10-10,Regular,True,2026-10-10 04:17:39.879512,2026-11-09 04:17:39.879512
+595,Viraj Kanda,customer595@shopkart.example,+918447379143,Mumbai,Maharashtra,400596,2025-03-26,Premium,True,2025-03-26 17:07:56.123743,2025-04-12 17:07:56.123743
+596,Saksham De,customer596@shopkart.example,+917559432012,Pune,Maharashtra,411805,2024-12-02,Regular,True,2024-12-02 10:28:58.561700,2024-12-29 10:28:58.561700
+597,Daniel Bains,customer597@shopkart.example,+919490601704,Kochi,Kerala,682329,2025-07-24,VIP,True,2025-07-24 19:24:47.565389,2025-08-02 19:24:47.565389
+598,Indrajit Vora,customer598@shopkart.example,+917997628504,Jaipur,Rajasthan,302416,2025-03-05,Regular,True,2025-03-05 09:13:23.344112,2025-04-04 09:13:23.344112
+599,Meghana Chaudhuri,customer599@shopkart.example,+917558930000,Mumbai,Maharashtra,400236,2026-08-08,Regular,True,2026-08-08 00:59:21.606120,2026-08-11 00:59:21.606120
+600,Rajeshri Sur,customer600@shopkart.example,+919052013697,Kolkata,West Bengal,700123,2025-07-21,Regular,True,2025-07-21 05:26:57.632454,2025-08-18 05:26:57.632454
+601,Udant Gill,customer601@shopkart.example,+916612854390,Kolkata,West Bengal,700900,2026-03-06,Premium,True,2026-03-06 03:20:13.891210,2026-03-09 03:20:13.891210
+602,Joshua Goel,customer602@shopkart.example,+919383868245,Hyderabad,Telangana,500631,2025-08-21,Premium,True,2025-08-21 01:50:16.771752,2025-09-11 01:50:16.771752
+603,Bachittar Gopal,customer603@shopkart.example,+919517057376,Kolkata,West Bengal,700586,2026-05-04,Regular,True,2026-05-04 12:01:04.132735,2026-05-26 12:01:04.132735
+604,Hemang Taneja,customer604@shopkart.example,+916236819230,Bengaluru,Karnataka,560587,2026-01-31,Premium,True,2026-01-31 23:37:24.274860,2026-03-01 23:37:24.274860
+605,Idika Nagarajan,customer605@shopkart.example,+917520170149,Vijayawada,Andhra Pradesh,520997,2025-02-28,Regular,True,2025-02-28 20:15:01.767371,2025-03-23 20:15:01.767371
+606,Gautami Sekhon,customer606@shopkart.example,+917351321988,Vijayawada,Andhra Pradesh,520481,2025-03-20,Regular,True,2025-03-20 22:15:37.652489,2025-04-05 22:15:37.652489
+607,Inaya Kunda,customer607@shopkart.example,+919402005478,Pune,Maharashtra,411582,2024-11-26,Regular,True,2024-11-26 06:51:13.265978,2024-12-08 06:51:13.265978
+608,Libni Sarma,customer608@shopkart.example,+916756963917,Vijayawada,Andhra Pradesh,520641,2026-06-15,Premium,True,2026-06-15 22:00:44.106081,2026-07-07 22:00:44.106081
+609,Waida Radhakrishnan,customer609@shopkart.example,+916100551417,Jaipur,Rajasthan,302606,2026-05-06,Regular,True,2026-05-06 12:39:32.075214,2026-05-22 12:39:32.075214
+610,Umang Gaba,customer610@shopkart.example,+919905759305,Kolkata,West Bengal,700872,2025-08-01,Premium,True,2025-08-01 00:21:39.901201,2025-08-17 00:21:39.901201
+611,Chaitaly Bahri,customer611@shopkart.example,+916728770212,Mumbai,Maharashtra,400221,2025-10-13,Premium,True,2025-10-13 15:03:37.567059,2025-10-31 15:03:37.567059
+612,Hema Garde,customer612@shopkart.example,+919843216707,Mumbai,Maharashtra,400591,2025-07-08,Regular,True,2025-07-08 05:02:20.002278,2025-07-26 05:02:20.002278
+613,Girik Nigam,customer613@shopkart.example,+916143334833,Kolkata,West Bengal,700723,2026-08-28,Regular,True,2026-08-28 20:43:21.668765,2026-09-23 20:43:21.668765
+614,Azaan Sankar,customer614@shopkart.example,+919131085415,Mumbai,Maharashtra,400143,2026-01-25,Regular,True,2026-01-25 17:54:07.037179,2026-01-26 17:54:07.037179
+615,Naksh Bera,customer615@shopkart.example,+917526800875,Jaipur,Rajasthan,302505,2026-10-06,Regular,True,2026-10-06 21:23:13.660542,2026-11-04 21:23:13.660542
+616,Nimrat Zachariah,customer616@shopkart.example,+916148336818,Chennai,Tamil Nadu,600815,2025-01-30,Regular,True,2025-01-30 09:41:32.758403,2025-02-09 09:41:32.758403
+617,Gopal Bawa,customer617@shopkart.example,+918293929100,Kolkata,West Bengal,700110,2025-05-30,Premium,False,2025-05-30 18:27:05.176347,2025-06-23 18:27:05.176347
+618,Mitesh Bhagat,customer618@shopkart.example,+916769975873,Bengaluru,Karnataka,560050,2025-08-31,VIP,True,2025-08-31 11:44:17.748718,2025-09-12 11:44:17.748718
+619,Varsha Iyengar,customer619@shopkart.example,+919965895618,Vijayawada,Andhra Pradesh,520552,2025-08-08,Regular,True,2025-08-08 16:57:30.615284,2025-08-24 16:57:30.615284
+620,Finn Solanki,customer620@shopkart.example,+916791472295,Vijayawada,Andhra Pradesh,520033,2025-01-27,Premium,False,2025-01-27 12:59:49.944622,2025-02-11 12:59:49.944622
+621,Urishilla Suresh,customer621@shopkart.example,+918865164730,Pune,Maharashtra,411277,2026-07-26,Regular,False,2026-07-26 04:20:33.757202,2026-08-20 04:20:33.757202
+622,Qasim Prabhakar,customer622@shopkart.example,+918129661278,Vijayawada,Andhra Pradesh,520780,2026-09-02,Regular,True,2026-09-02 14:03:38.281575,2026-10-01 14:03:38.281575
+623,Chaitanya Lall,customer623@shopkart.example,+916477793742,Vijayawada,Andhra Pradesh,520254,2026-08-26,Regular,True,2026-08-26 11:40:05.852716,2026-09-22 11:40:05.852716
+624,David Dora,customer624@shopkart.example,+916583329202,Hyderabad,Telangana,500020,2025-10-05,Regular,True,2025-10-05 06:29:40.460696,2025-10-16 06:29:40.460696
+625,Hemangini Sachdev,customer625@shopkart.example,+916652826738,Chennai,Tamil Nadu,600398,2026-05-21,Regular,True,2026-05-21 22:59:52.649227,2026-05-31 22:59:52.649227
+626,Lila Virk,customer626@shopkart.example,+919648821361,Delhi,Delhi,110434,2026-10-27,VIP,False,2026-10-27 19:59:12.978374,2026-11-05 19:59:12.978374
+627,Warinder Soni,customer627@shopkart.example,+919316350332,Bengaluru,Karnataka,560254,2025-09-19,Premium,True,2025-09-19 13:16:54.709248,2025-10-18 13:16:54.709248
+628,Yadavi Varughese,customer628@shopkart.example,+918761982204,Vijayawada,Andhra Pradesh,520526,2025-06-24,VIP,True,2025-06-24 05:43:46.532070,2025-07-09 05:43:46.532070
+629,Jai Sen,customer629@shopkart.example,+919125863357,Hyderabad,Telangana,500143,2026-06-25,Regular,True,2026-06-25 02:13:37.682833,2026-06-30 02:13:37.682833
+630,Reyansh Date,customer630@shopkart.example,+918028760476,Mumbai,Maharashtra,400000,2025-03-24,Regular,True,2025-03-24 16:32:02.691956,2025-04-02 16:32:02.691956
+631,Saksham Divan,customer631@shopkart.example,+918110179497,Pune,Maharashtra,411887,2024-12-19,VIP,True,2024-12-19 03:23:36.050594,2024-12-23 03:23:36.050594
+632,Gagan Rama,customer632@shopkart.example,+917278662269,Mumbai,Maharashtra,400937,2026-07-19,Regular,True,2026-07-19 16:55:49.007790,2026-08-07 16:55:49.007790
+633,Zinal Shanker,customer633@shopkart.example,+918574961861,Chennai,Tamil Nadu,600758,2025-12-29,Regular,True,2025-12-29 04:11:41.949699,2026-01-01 04:11:41.949699
+634,Isaiah Sachdeva,customer634@shopkart.example,+916100160811,Jaipur,Rajasthan,302238,2026-09-18,Regular,True,2026-09-18 20:43:23.391308,2026-10-18 20:43:23.391308
+635,Hitesh Chaudhuri,customer635@shopkart.example,+918470677841,Chennai,Tamil Nadu,600615,2025-03-07,Premium,True,2025-03-07 05:51:52.072608,2025-04-01 05:51:52.072608
+636,Nirja Lalla,customer636@shopkart.example,+918415778659,Vijayawada,Andhra Pradesh,520323,2026-06-14,Regular,True,2026-06-14 04:33:26.934112,2026-07-04 04:33:26.934112
+637,Baljiwan Gera,customer637@shopkart.example,+918619983696,Mumbai,Maharashtra,400080,2025-08-24,Regular,True,2025-08-24 05:49:59.088119,2025-09-07 05:49:59.088119
+638,Balvan Randhawa,customer638@shopkart.example,+919004035010,Jaipur,Rajasthan,302475,2025-06-07,Regular,True,2025-06-07 14:29:54.743513,2025-06-26 14:29:54.743513
+639,Chandran Soman,customer639@shopkart.example,+918786899780,Kolkata,West Bengal,700801,2026-08-29,Regular,False,2026-08-29 22:32:02.515153,2026-09-06 22:32:02.515153
+640,Geetika Mitter,customer640@shopkart.example,+916104069613,Kolkata,West Bengal,700286,2026-09-21,Regular,True,2026-09-21 05:32:45.733722,2026-10-02 05:32:45.733722
+641,Vedant Desai,customer641@shopkart.example,+916015576585,Kolkata,West Bengal,700601,2025-07-02,Regular,True,2025-07-02 12:25:17.468431,2025-07-12 12:25:17.468431
+642,Amruta Saha,customer642@shopkart.example,+916348665927,Pune,Maharashtra,411402,2025-06-25,Premium,True,2025-06-25 04:39:26.276915,2025-07-01 04:39:26.276915
+643,Siddharth Ray,customer643@shopkart.example,+919452269131,Kochi,Kerala,682124,2026-02-02,Regular,False,2026-02-02 23:23:23.792587,2026-02-22 23:23:23.792587
+644,Daksh Varma,customer644@shopkart.example,+917480913848,Pune,Maharashtra,411406,2026-05-12,VIP,False,2026-05-12 19:34:38.096077,2026-05-14 19:34:38.096077
+645,Krishna Viswanathan,customer645@shopkart.example,+919346026224,Pune,Maharashtra,411667,2026-06-18,Regular,True,2026-06-18 05:19:48.884239,2026-06-30 05:19:48.884239
+646,Sai Bhardwaj,customer646@shopkart.example,+916407346666,Pune,Maharashtra,411144,2026-08-21,Premium,True,2026-08-21 09:51:55.989440,2026-08-21 09:51:55.989440
+647,Rushil Mahal,customer647@shopkart.example,+916206628267,Kochi,Kerala,682351,2025-05-19,Premium,True,2025-05-19 22:14:44.614086,2025-06-08 22:14:44.614086
+648,Jatin Balasubramanian,customer648@shopkart.example,+917245944688,Delhi,Delhi,110772,2025-08-13,Regular,True,2025-08-13 08:21:01.567135,2025-08-28 08:21:01.567135
+649,Peter Som,customer649@shopkart.example,+917505654942,Chennai,Tamil Nadu,600860,2025-05-13,Premium,False,2025-05-13 18:21:30.241428,2025-05-19 18:21:30.241428
+650,Aarna Chana,customer650@shopkart.example,+919637504273,Mumbai,Maharashtra,400959,2026-01-20,Regular,False,2026-01-20 10:04:21.100897,2026-02-16 10:04:21.100897
+651,Tanish Kant,customer651@shopkart.example,+916596956262,Jaipur,Rajasthan,302422,2025-06-14,Regular,True,2025-06-14 01:49:38.498033,2025-07-01 01:49:38.498033
+652,Nimrat Varghese,customer652@shopkart.example,+918677507611,Hyderabad,Telangana,500241,2026-03-05,Regular,True,2026-03-05 10:11:04.641018,2026-03-13 10:11:04.641018
+653,Urvi Deo,customer653@shopkart.example,+918520607876,Kolkata,West Bengal,700698,2024-12-02,Regular,True,2024-12-02 03:51:08.953259,2024-12-29 03:51:08.953259
+654,Udarsh Krishnan,customer654@shopkart.example,+916837109389,Delhi,Delhi,110249,2026-03-05,Regular,True,2026-03-05 23:52:58.354627,2026-03-24 23:52:58.354627
+655,Pallavi Puri,customer655@shopkart.example,+919039940045,Kolkata,West Bengal,700991,2026-02-05,Premium,True,2026-02-05 08:29:00.710995,2026-03-02 08:29:00.710995
+656,Unnati Mittal,customer656@shopkart.example,+919526468884,Delhi,Delhi,110339,2026-08-01,Premium,True,2026-08-01 21:22:48.386697,2026-08-26 21:22:48.386697
+657,Harsh Amble,customer657@shopkart.example,+919385372067,Kochi,Kerala,682067,2026-03-27,Regular,True,2026-03-27 10:17:50.553830,2026-04-01 10:17:50.553830
+658,Barkha Misra,customer658@shopkart.example,+918978319037,Jaipur,Rajasthan,302067,2025-11-26,VIP,True,2025-11-26 17:35:51.084374,2025-12-08 17:35:51.084374
+659,Aradhana Nair,customer659@shopkart.example,+918261863664,Pune,Maharashtra,411537,2026-04-01,Regular,True,2026-04-01 07:59:22.694268,2026-04-13 07:59:22.694268
+660,Raghav Doctor,customer660@shopkart.example,+917586210890,Bengaluru,Karnataka,560912,2026-08-08,Regular,True,2026-08-08 10:40:29.179865,2026-08-29 10:40:29.179865
+661,Netra Nagarajan,customer661@shopkart.example,+919223267844,Mumbai,Maharashtra,400390,2025-11-30,Regular,True,2025-11-30 09:13:00.479945,2025-12-17 09:13:00.479945
+662,Chakrika Lad,customer662@shopkart.example,+917869093471,Kolkata,West Bengal,700301,2026-03-29,Regular,True,2026-03-29 23:36:32.429343,2026-04-10 23:36:32.429343
+663,Ranveer Oza,customer663@shopkart.example,+917887522849,Vijayawada,Andhra Pradesh,520309,2026-09-11,Regular,True,2026-09-11 17:23:16.692716,2026-09-26 17:23:16.692716
+664,Jagrati Tripathi,customer664@shopkart.example,+919271341239,Delhi,Delhi,110694,2026-05-02,Regular,True,2026-05-02 16:41:42.819134,2026-05-26 16:41:42.819134
+665,Chaaya Chatterjee,customer665@shopkart.example,+919414602675,Kochi,Kerala,682273,2025-06-25,Regular,True,2025-06-25 13:11:25.884274,2025-07-13 13:11:25.884274
+666,Gautami Chakraborty,customer666@shopkart.example,+918956689286,Bengaluru,Karnataka,560360,2025-10-27,Premium,True,2025-10-27 22:10:42.774147,2025-11-20 22:10:42.774147
+667,Osha Narula,customer667@shopkart.example,+918044575053,Chennai,Tamil Nadu,600165,2025-04-29,Regular,True,2025-04-29 17:43:14.699437,2025-05-14 17:43:14.699437
+668,Jacob Singhal,customer668@shopkart.example,+919947778324,Jaipur,Rajasthan,302496,2025-08-16,Regular,True,2025-08-16 11:53:11.245152,2025-08-23 11:53:11.245152
+669,Urmi Hayer,customer669@shopkart.example,+916128597579,Kolkata,West Bengal,700943,2024-12-27,Premium,True,2024-12-27 21:04:57.620377,2025-01-12 21:04:57.620377
+670,Chanchal Sachdev,customer670@shopkart.example,+918130961708,Mumbai,Maharashtra,400024,2025-11-18,Premium,True,2025-11-18 15:46:10.955649,2025-12-08 15:46:10.955649
+671,Sai Oommen,customer671@shopkart.example,+917873621278,Mumbai,Maharashtra,400507,2024-12-27,Regular,True,2024-12-27 05:11:42.881600,2024-12-27 05:11:42.881600
+672,Luke Mutti,customer672@shopkart.example,+918571215056,Kolkata,West Bengal,700801,2025-09-12,Regular,True,2025-09-12 14:47:30.510233,2025-09-29 14:47:30.510233
+673,Vinaya Natarajan,customer673@shopkart.example,+916557995391,Jaipur,Rajasthan,302029,2026-08-09,Regular,True,2026-08-09 23:50:13.697172,2026-09-03 23:50:13.697172
+674,Aayush Seth,customer674@shopkart.example,+919963489911,Kolkata,West Bengal,700404,2026-02-21,Regular,True,2026-02-21 14:29:35.291472,2026-03-09 14:29:35.291472
+675,Nathan Suri,customer675@shopkart.example,+919229789504,Hyderabad,Telangana,500251,2025-06-05,Regular,True,2025-06-05 03:12:31.184684,2025-07-03 03:12:31.184684
+676,Radha Sanghvi,customer676@shopkart.example,+918963260926,Mumbai,Maharashtra,400842,2026-06-14,Regular,True,2026-06-14 17:00:51.248811,2026-06-21 17:00:51.248811
+677,Aayush Barad,customer677@shopkart.example,+919571619980,Kochi,Kerala,682898,2025-09-08,Regular,True,2025-09-08 02:54:32.953767,2025-09-24 02:54:32.953767
+678,Ekanta Wali,customer678@shopkart.example,+917336375438,Hyderabad,Telangana,500552,2025-12-12,Regular,True,2025-12-12 18:31:14.424212,2025-12-13 18:31:14.424212
+679,Upkaar Padmanabhan,customer679@shopkart.example,+918118500963,Chennai,Tamil Nadu,600256,2025-04-06,Regular,True,2025-04-06 17:56:53.199338,2025-04-07 17:56:53.199338
+680,Oliver Bhattacharyya,customer680@shopkart.example,+919377634456,Kochi,Kerala,682533,2025-07-03,Premium,True,2025-07-03 19:25:54.488766,2025-07-12 19:25:54.488766
+681,Tamanna Venkatesh,customer681@shopkart.example,+919131045391,Bengaluru,Karnataka,560176,2026-07-12,Regular,True,2026-07-12 06:52:16.084444,2026-07-26 06:52:16.084444
+682,Hema Suri,customer682@shopkart.example,+916131744057,Chennai,Tamil Nadu,600945,2026-01-27,Premium,True,2026-01-27 16:15:46.421023,2026-02-26 16:15:46.421023
+683,Anirudh Kari,customer683@shopkart.example,+916323141455,Chennai,Tamil Nadu,600567,2025-08-07,Premium,True,2025-08-07 15:15:35.624740,2025-08-10 15:15:35.624740
+684,Anthony Thaman,customer684@shopkart.example,+918793714217,Kolkata,West Bengal,700525,2025-04-30,Regular,True,2025-04-30 07:35:26.130215,2025-05-15 07:35:26.130215
+685,Keya Kumer,customer685@shopkart.example,+919676438657,Vijayawada,Andhra Pradesh,520613,2025-03-21,Regular,True,2025-03-21 02:27:55.473984,2025-04-13 02:27:55.473984
+686,Hritik Bahri,customer686@shopkart.example,+919779220687,Bengaluru,Karnataka,560505,2026-06-04,Premium,True,2026-06-04 21:44:39.707201,2026-06-22 21:44:39.707201
+687,Lajita Dasgupta,customer687@shopkart.example,+919964000991,Pune,Maharashtra,411284,2024-12-23,Premium,True,2024-12-23 14:03:38.320785,2025-01-17 14:03:38.320785
+688,Samesh Andra,customer688@shopkart.example,+916195501507,Bengaluru,Karnataka,560219,2025-12-22,Regular,True,2025-12-22 19:08:55.823682,2025-12-26 19:08:55.823682
+689,Laksh Sahota,customer689@shopkart.example,+918056192783,Kochi,Kerala,682101,2025-06-25,Regular,True,2025-06-25 09:07:08.598345,2025-07-12 09:07:08.598345
+690,Barkha Comar,customer690@shopkart.example,+916413291430,Chennai,Tamil Nadu,600092,2026-07-17,Regular,True,2026-07-17 15:22:26.544525,2026-08-10 15:22:26.544525
+691,Adya Virk,customer691@shopkart.example,+918767540370,Vijayawada,Andhra Pradesh,520238,2026-06-13,Regular,False,2026-06-13 18:05:02.774217,2026-07-06 18:05:02.774217
+692,Chakrika Dyal,customer692@shopkart.example,+917541656925,Vijayawada,Andhra Pradesh,520539,2026-10-29,Regular,True,2026-10-29 23:42:05.801677,2026-11-12 23:42:05.801677
+693,Vasana Narayanan,customer693@shopkart.example,+919953789655,Kolkata,West Bengal,700808,2024-12-16,Regular,True,2024-12-16 23:49:56.272243,2024-12-22 23:49:56.272243
+694,Indrajit Tak,customer694@shopkart.example,+917413158196,Kolkata,West Bengal,700533,2025-05-08,Premium,False,2025-05-08 20:59:22.068775,2025-06-03 20:59:22.068775
+695,Harrison Kunda,customer695@shopkart.example,+917969851667,Vijayawada,Andhra Pradesh,520608,2025-03-06,Regular,True,2025-03-06 12:11:45.743135,2025-03-06 12:11:45.743135
+696,Aishani Shetty,customer696@shopkart.example,+916979060173,Hyderabad,Telangana,500639,2026-03-03,Premium,True,2026-03-03 05:06:33.172961,2026-03-11 05:06:33.172961
+697,Bina Parsa,customer697@shopkart.example,+916663011786,Mumbai,Maharashtra,400021,2024-12-24,Premium,True,2024-12-24 03:33:30.529763,2025-01-21 03:33:30.529763
+698,Girish Bath,customer698@shopkart.example,+916159785862,Hyderabad,Telangana,500444,2026-06-26,Regular,True,2026-06-26 15:08:53.033599,2026-07-08 15:08:53.033599
+699,Falguni Parmar,customer699@shopkart.example,+917019140220,Hyderabad,Telangana,500434,2024-11-25,VIP,True,2024-11-25 04:58:01.220840,2024-12-18 04:58:01.220840
+700,Girik Pradhan,customer700@shopkart.example,+918438706575,Vijayawada,Andhra Pradesh,520054,2026-09-02,VIP,False,2026-09-02 09:47:26.430966,2026-09-23 09:47:26.430966
+701,Mugdha Shan,customer701@shopkart.example,+916227507191,Jaipur,Rajasthan,302465,2026-07-05,Regular,True,2026-07-05 04:40:19.992319,2026-07-27 04:40:19.992319
+702,Oviya Ganesan,customer702@shopkart.example,+916517465790,Delhi,Delhi,110221,2025-06-04,Regular,True,2025-06-04 09:55:04.516722,2025-06-26 09:55:04.516722
+703,Nathaniel Chawla,customer703@shopkart.example,+919033209877,Chennai,Tamil Nadu,600683,2025-02-08,Premium,True,2025-02-08 05:50:01.743223,2025-03-05 05:50:01.743223
+704,Pratyush Raghavan,customer704@shopkart.example,+918091229185,Pune,Maharashtra,411371,2025-09-17,Regular,True,2025-09-17 02:29:41.850344,2025-09-25 02:29:41.850344
+705,Vasudha Sura,customer705@shopkart.example,+918175594267,Mumbai,Maharashtra,400438,2026-06-09,Regular,True,2026-06-09 05:55:29.232029,2026-06-22 05:55:29.232029
+706,Dev Lal,customer706@shopkart.example,+919543913442,Mumbai,Maharashtra,400232,2025-02-08,Regular,True,2025-02-08 14:47:07.314141,2025-02-26 14:47:07.314141
+707,Hamsini Venkataraman,customer707@shopkart.example,+918491908881,Kochi,Kerala,682380,2026-03-11,Regular,True,2026-03-11 18:56:09.504571,2026-03-22 18:56:09.504571
+708,Rachita Kothari,customer708@shopkart.example,+918144613167,Pune,Maharashtra,411758,2025-12-04,VIP,True,2025-12-04 20:51:45.013039,2025-12-13 20:51:45.013039
+709,Manthan Bhagat,customer709@shopkart.example,+918991158892,Jaipur,Rajasthan,302006,2025-11-04,Regular,True,2025-11-04 21:18:38.231319,2025-11-17 21:18:38.231319
+710,Warhi Gandhi,customer710@shopkart.example,+918094128872,Pune,Maharashtra,411104,2024-11-26,Regular,True,2024-11-26 23:42:11.645405,2024-12-02 23:42:11.645405
+711,Ganga Mall,customer711@shopkart.example,+918605402898,Kolkata,West Bengal,700556,2025-01-11,VIP,True,2025-01-11 04:59:40.906912,2025-01-23 04:59:40.906912
+712,Neha Keer,customer712@shopkart.example,+919562152853,Kochi,Kerala,682457,2024-12-24,Regular,True,2024-12-24 19:52:58.364036,2025-01-12 19:52:58.364036
+713,Gaurang Tara,customer713@shopkart.example,+919523253235,Jaipur,Rajasthan,302216,2025-01-14,Regular,True,2025-01-14 05:22:53.065053,2025-01-17 05:22:53.065053
+714,Andrew Chauhan,customer714@shopkart.example,+918148267784,Mumbai,Maharashtra,400000,2025-10-10,Regular,True,2025-10-10 04:31:16.455972,2025-10-26 04:31:16.455972
+715,Gavin Modi,customer715@shopkart.example,+917235569071,Mumbai,Maharashtra,400329,2025-09-08,Regular,True,2025-09-08 10:11:21.543519,2025-09-25 10:11:21.543519
+716,Harita Patla,customer716@shopkart.example,+917970284544,Pune,Maharashtra,411941,2026-08-29,Regular,True,2026-08-29 17:06:24.332163,2026-08-29 17:06:24.332163
+717,Garima Solanki,customer717@shopkart.example,+919534662915,Bengaluru,Karnataka,560981,2026-07-13,Premium,True,2026-07-13 23:57:26.420492,2026-07-17 23:57:26.420492
+718,Ishaan Chatterjee,customer718@shopkart.example,+918932528819,Delhi,Delhi,110088,2026-04-25,VIP,True,2026-04-25 14:35:35.796561,2026-05-25 14:35:35.796561
+719,Isha Manne,customer719@shopkart.example,+918250282860,Kolkata,West Bengal,700420,2026-05-26,Regular,False,2026-05-26 21:30:28.807237,2026-06-14 21:30:28.807237
+720,Chakradev Gala,customer720@shopkart.example,+917710112171,Mumbai,Maharashtra,400997,2025-12-22,Regular,True,2025-12-22 17:46:49.676006,2025-12-26 17:46:49.676006
+721,Hredhaan Kumar,customer721@shopkart.example,+918371780476,Chennai,Tamil Nadu,600057,2025-11-12,VIP,True,2025-11-12 01:39:03.129262,2025-12-12 01:39:03.129262
+722,Tanveer Shankar,customer722@shopkart.example,+919489265910,Vijayawada,Andhra Pradesh,520149,2026-02-06,Regular,True,2026-02-06 07:10:09.659265,2026-02-27 07:10:09.659265
+723,Hritik Sachdeva,customer723@shopkart.example,+916619940712,Bengaluru,Karnataka,560822,2026-07-12,Premium,True,2026-07-12 08:38:04.042840,2026-07-26 08:38:04.042840
+724,Shravya Shankar,customer724@shopkart.example,+918835448313,Chennai,Tamil Nadu,600778,2024-12-21,Regular,True,2024-12-21 20:33:03.285305,2024-12-29 20:33:03.285305
+725,Wishi Agrawal,customer725@shopkart.example,+918696577203,Jaipur,Rajasthan,302603,2026-03-13,Regular,True,2026-03-13 06:50:36.705050,2026-03-16 06:50:36.705050
+726,Vasudha Trivedi,customer726@shopkart.example,+918352585392,Hyderabad,Telangana,500474,2025-12-10,Premium,True,2025-12-10 02:19:41.789086,2025-12-22 02:19:41.789086
+727,Kabir Chawla,customer727@shopkart.example,+916830548687,Mumbai,Maharashtra,400913,2026-06-11,Premium,True,2026-06-11 10:20:25.205933,2026-06-28 10:20:25.205933
+728,Yamini Rajagopalan,customer728@shopkart.example,+917887166028,Delhi,Delhi,110737,2025-08-27,Regular,True,2025-08-27 14:44:46.975035,2025-09-20 14:44:46.975035
+729,Anusha Rao,customer729@shopkart.example,+916044747011,Mumbai,Maharashtra,400155,2025-09-19,Regular,True,2025-09-19 02:50:49.022182,2025-10-09 02:50:49.022182
+730,Kiaan Devi,customer730@shopkart.example,+916674579526,Jaipur,Rajasthan,302663,2026-10-22,Regular,True,2026-10-22 09:38:26.162871,2026-11-18 10:49:24.842990
+731,Dipta Kalla,customer731@shopkart.example,+919193403250,Chennai,Tamil Nadu,600021,2025-09-15,Premium,True,2025-09-15 02:41:56.175540,2025-10-01 02:41:56.175540
+732,Hemani Deo,customer732@shopkart.example,+919106754705,Jaipur,Rajasthan,302187,2025-04-13,VIP,True,2025-04-13 08:42:55.986049,2025-04-15 08:42:55.986049
+733,Yahvi Naidu,customer733@shopkart.example,+918753974571,Bengaluru,Karnataka,560157,2026-11-04,Regular,True,2026-11-04 20:06:32.624027,2026-11-10 20:06:32.624027
+734,Omisha Walla,customer734@shopkart.example,+919189048768,Vijayawada,Andhra Pradesh,520655,2026-04-20,Regular,True,2026-04-20 10:39:41.412429,2026-05-18 10:39:41.412429
+735,Hredhaan Bakshi,customer735@shopkart.example,+919707777476,Jaipur,Rajasthan,302542,2025-06-14,Regular,True,2025-06-14 01:29:41.295954,2025-06-17 01:29:41.295954
+736,Ryan Loke,customer736@shopkart.example,+916733272646,Bengaluru,Karnataka,560255,2025-08-23,Premium,True,2025-08-23 10:46:59.141110,2025-09-09 10:46:59.141110
+737,Zashil Dhingra,customer737@shopkart.example,+919722377083,Pune,Maharashtra,411934,2026-05-19,Premium,True,2026-05-19 12:07:46.117029,2026-05-27 12:07:46.117029
+738,Samar Bali,customer738@shopkart.example,+918840003764,Delhi,Delhi,110217,2026-07-23,Premium,True,2026-07-23 10:04:00.947133,2026-08-13 10:04:00.947133
+739,Lopa Khanna,customer739@shopkart.example,+917112868606,Kochi,Kerala,682743,2025-08-06,Premium,True,2025-08-06 20:31:06.732446,2025-08-31 20:31:06.732446
+740,Champak Raj,customer740@shopkart.example,+916242828737,Hyderabad,Telangana,500963,2025-11-25,Regular,True,2025-11-25 13:52:52.243273,2025-12-18 13:52:52.243273
+741,Chatura Arya,customer741@shopkart.example,+919163460522,Delhi,Delhi,110928,2025-08-27,Regular,True,2025-08-27 21:57:25.027988,2025-09-14 21:57:25.027988
+742,Umang Pillai,customer742@shopkart.example,+918252043039,Kolkata,West Bengal,700049,2026-05-14,Premium,True,2026-05-14 05:29:14.400799,2026-06-09 05:29:14.400799
+743,Rishi Menon,customer743@shopkart.example,+919916972957,Pune,Maharashtra,411752,2026-05-23,Premium,True,2026-05-23 04:13:24.085446,2026-06-18 04:13:24.085446
+744,Rachit Ghose,customer744@shopkart.example,+916979418988,Hyderabad,Telangana,500280,2025-10-11,Regular,True,2025-10-11 16:28:16.937730,2025-10-25 16:28:16.937730
+745,Priya Mallick,customer745@shopkart.example,+918359940888,Kochi,Kerala,682534,2026-05-08,Regular,True,2026-05-08 15:06:07.584425,2026-05-28 15:06:07.584425
+746,Abdul Narayanan,customer746@shopkart.example,+917171743625,Bengaluru,Karnataka,560317,2025-12-29,Premium,True,2025-12-29 04:34:46.808168,2026-01-06 04:34:46.808168
+747,Mitesh Naidu,customer747@shopkart.example,+919505197105,Kolkata,West Bengal,700708,2025-10-24,VIP,True,2025-10-24 20:52:47.350921,2025-11-09 20:52:47.350921
+748,Vritti Parmar,customer748@shopkart.example,+917743109467,Delhi,Delhi,110234,2026-01-27,Regular,True,2026-01-27 03:43:23.483960,2026-02-06 03:43:23.483960
+749,Qarin Verma,customer749@shopkart.example,+916450862322,Delhi,Delhi,110570,2025-01-10,Regular,True,2025-01-10 09:41:09.544986,2025-01-24 09:41:09.544986
+750,Netra Chanda,customer750@shopkart.example,+919399051385,Mumbai,Maharashtra,400859,2025-01-06,Premium,True,2025-01-06 12:26:45.743684,2025-01-14 12:26:45.743684
+751,Garima Patel,customer751@shopkart.example,+917511849746,Pune,Maharashtra,411064,2025-07-31,Regular,True,2025-07-31 23:10:31.067454,2025-08-24 23:10:31.067454
+752,Aditya Contractor,customer752@shopkart.example,+916515467936,Bengaluru,Karnataka,560706,2025-06-20,Premium,True,2025-06-20 01:59:31.547098,2025-07-20 01:59:31.547098
+753,Balveer Nagi,customer753@shopkart.example,+918542165171,Mumbai,Maharashtra,400897,2026-03-21,VIP,True,2026-03-21 22:30:45.369756,2026-03-26 22:30:45.369756
+754,Libni Kunda,customer754@shopkart.example,+917789536290,Mumbai,Maharashtra,400389,2025-08-23,VIP,True,2025-08-23 13:13:16.377174,2025-09-05 13:13:16.377174
+755,Yoshita Trivedi,customer755@shopkart.example,+918570103551,Kochi,Kerala,682680,2025-12-17,Regular,True,2025-12-17 21:35:51.720680,2025-12-26 21:35:51.720680
+756,Ekani Varkey,customer756@shopkart.example,+916390178826,Jaipur,Rajasthan,302824,2025-10-09,Premium,True,2025-10-09 00:54:45.904030,2025-10-24 00:54:45.904030
+757,Dominic Kade,customer757@shopkart.example,+917982139215,Vijayawada,Andhra Pradesh,520461,2025-01-17,Regular,True,2025-01-17 12:54:54.389087,2025-02-12 12:54:54.389087
+758,Hemang Jha,customer758@shopkart.example,+917079597375,Vijayawada,Andhra Pradesh,520230,2026-03-22,Regular,True,2026-03-22 12:29:26.701624,2026-04-06 12:29:26.701624
+759,Ekbal Dube,customer759@shopkart.example,+919531237328,Delhi,Delhi,110319,2025-12-15,Regular,True,2025-12-15 19:11:56.908627,2025-12-20 19:11:56.908627
+760,Gagan Borah,customer760@shopkart.example,+916727771820,Mumbai,Maharashtra,400142,2024-12-05,Regular,True,2024-12-05 06:17:06.809922,2024-12-25 06:17:06.809922
+761,Vedant Kuruvilla,customer761@shopkart.example,+919856054808,Kochi,Kerala,682069,2024-12-27,Premium,True,2024-12-27 04:05:19.815204,2025-01-12 04:05:19.815204
+762,Rachita Mutti,customer762@shopkart.example,+919627229014,Kolkata,West Bengal,700657,2025-09-11,Premium,True,2025-09-11 08:08:19.054367,2025-09-11 08:08:19.054367
+763,Dev Bath,customer763@shopkart.example,+917069198674,Mumbai,Maharashtra,400238,2024-11-30,Regular,True,2024-11-30 02:02:06.990758,2024-12-23 02:02:06.990758
+764,Bimala Mitra,customer764@shopkart.example,+919123675963,Chennai,Tamil Nadu,600819,2026-04-13,Regular,True,2026-04-13 01:52:58.211499,2026-04-22 01:52:58.211499
+765,Lakshmi Rana,customer765@shopkart.example,+917814456713,Kochi,Kerala,682745,2026-02-03,VIP,True,2026-02-03 15:38:40.852541,2026-02-17 15:38:40.852541
+766,Thomas Deshpande,customer766@shopkart.example,+916711957433,Delhi,Delhi,110850,2026-07-11,VIP,True,2026-07-11 06:45:44.756680,2026-07-16 06:45:44.756680
+767,Maanas Misra,customer767@shopkart.example,+917060059374,Jaipur,Rajasthan,302083,2026-05-17,Regular,True,2026-05-17 06:21:49.038094,2026-05-18 06:21:49.038094
+768,Advay Dhaliwal,customer768@shopkart.example,+919753616402,Bengaluru,Karnataka,560953,2026-03-27,Regular,False,2026-03-27 06:30:57.831392,2026-04-01 06:30:57.831392
+769,Frederick Mody,customer769@shopkart.example,+917162295605,Kochi,Kerala,682640,2025-02-15,Premium,True,2025-02-15 11:55:55.926926,2025-03-10 11:55:55.926926
+770,Siddharth Sachar,customer770@shopkart.example,+917755994038,Kochi,Kerala,682186,2025-04-20,VIP,True,2025-04-20 13:15:48.934486,2025-05-10 13:15:48.934486
+771,Naveen Gour,customer771@shopkart.example,+917503018215,Vijayawada,Andhra Pradesh,520711,2026-09-10,Premium,True,2026-09-10 10:35:56.046714,2026-09-17 10:35:56.046714
+772,Ishwar Golla,customer772@shopkart.example,+916605833526,Pune,Maharashtra,411159,2025-04-28,Premium,True,2025-04-28 06:34:13.728863,2025-05-17 06:34:13.728863
+773,Triya Bora,customer773@shopkart.example,+918603849543,Jaipur,Rajasthan,302162,2026-03-22,Regular,True,2026-03-22 18:15:09.113498,2026-03-30 18:15:09.113498
+774,Rudra Sur,customer774@shopkart.example,+916249963449,Kochi,Kerala,682190,2025-06-18,Regular,True,2025-06-18 11:47:59.753802,2025-07-02 11:47:59.753802
+775,Harish Mane,customer775@shopkart.example,+918497191702,Chennai,Tamil Nadu,600688,2026-10-13,VIP,True,2026-10-13 17:03:04.430881,2026-10-16 17:03:04.430881
+776,Vedika Seshadri,customer776@shopkart.example,+918159167560,Chennai,Tamil Nadu,600098,2026-02-13,Regular,True,2026-02-13 08:52:18.040184,2026-03-12 08:52:18.040184
+777,Janya Mutti,customer777@shopkart.example,+918284759280,Delhi,Delhi,110843,2025-07-15,Regular,True,2025-07-15 19:04:17.167023,2025-08-07 19:04:17.167023
+778,Yatin Kant,customer778@shopkart.example,+917213350530,Hyderabad,Telangana,500595,2026-10-18,VIP,True,2026-10-18 13:29:07.365701,2026-10-29 13:29:07.365701
+779,Jagvi Desai,customer779@shopkart.example,+919308032058,Bengaluru,Karnataka,560405,2026-04-21,Premium,True,2026-04-21 17:02:03.181327,2026-04-29 17:02:03.181327
+780,Turvi Sehgal,customer780@shopkart.example,+919433737940,Vijayawada,Andhra Pradesh,520296,2026-03-29,Regular,True,2026-03-29 08:52:32.284508,2026-04-02 08:52:32.284508
+781,Parth Bumb,customer781@shopkart.example,+919228918130,Bengaluru,Karnataka,560123,2025-08-06,Regular,True,2025-08-06 07:32:38.150596,2025-08-15 07:32:38.150596
+782,Ronith Lall,customer782@shopkart.example,+919409336871,Hyderabad,Telangana,500056,2026-07-25,VIP,True,2026-07-25 03:55:21.763238,2026-07-27 03:55:21.763238
+783,Anirudh Tripathi,customer783@shopkart.example,+916481708846,Kochi,Kerala,682964,2026-05-07,Regular,True,2026-05-07 06:57:29.529822,2026-06-06 06:57:29.529822
+784,Simon Bansal,customer784@shopkart.example,+916259025417,Hyderabad,Telangana,500690,2026-02-22,Regular,True,2026-02-22 00:17:45.800537,2026-03-12 00:17:45.800537
+785,Manthan Pau,customer785@shopkart.example,+919209093427,Delhi,Delhi,110604,2025-12-25,VIP,True,2025-12-25 19:41:13.398803,2025-12-27 19:41:13.398803
+786,Krish Shetty,customer786@shopkart.example,+918236775415,Bengaluru,Karnataka,560984,2025-08-31,Premium,True,2025-08-31 00:24:27.450054,2025-09-22 00:24:27.450054
+787,Yadavi Anne,customer787@shopkart.example,+918952486581,Bengaluru,Karnataka,560364,2025-11-18,Regular,True,2025-11-18 07:12:59.724052,2025-12-14 07:12:59.724052
+788,Yoshita Dey,customer788@shopkart.example,+919038636405,Vijayawada,Andhra Pradesh,520257,2026-03-16,Regular,True,2026-03-16 04:55:24.477254,2026-04-14 04:55:24.477254
+789,Veda Parmer,customer789@shopkart.example,+919963535472,Hyderabad,Telangana,500080,2025-10-09,Premium,True,2025-10-09 19:43:39.521564,2025-10-10 19:43:39.521564
+790,Dev Lalla,customer790@shopkart.example,+918302087518,Bengaluru,Karnataka,560288,2024-12-17,Regular,True,2024-12-17 22:22:09.326715,2024-12-21 22:22:09.326715
+791,Zarna Patel,customer791@shopkart.example,+917946177905,Chennai,Tamil Nadu,600699,2025-08-14,Premium,True,2025-08-14 08:45:06.955826,2025-08-31 08:45:06.955826
+792,Balveer Naik,customer792@shopkart.example,+918315444490,Chennai,Tamil Nadu,600094,2025-08-28,Regular,False,2025-08-28 19:50:38.589491,2025-09-14 19:50:38.589491
+793,Adya Ghosh,customer793@shopkart.example,+917238816795,Delhi,Delhi,110922,2025-02-01,VIP,True,2025-02-01 19:21:51.195699,2025-02-24 19:21:51.195699
+794,Zansi Krishnamurthy,customer794@shopkart.example,+919392769752,Delhi,Delhi,110416,2025-08-19,Regular,True,2025-08-19 21:25:45.971823,2025-09-16 21:25:45.971823
+795,Ira Pai,customer795@shopkart.example,+919924208036,Chennai,Tamil Nadu,600095,2025-08-19,Regular,True,2025-08-19 08:53:35.568887,2025-08-22 08:53:35.568887
+796,Yachana Dewan,customer796@shopkart.example,+919900956378,Jaipur,Rajasthan,302590,2025-11-08,Regular,True,2025-11-08 01:18:31.569008,2025-12-02 01:18:31.569008
+797,Siddharth Doctor,customer797@shopkart.example,+918443560555,Chennai,Tamil Nadu,600012,2025-10-05,Regular,True,2025-10-05 03:53:06.747559,2025-10-15 03:53:06.747559
+798,Victor Sachdeva,customer798@shopkart.example,+918156762739,Kolkata,West Bengal,700811,2025-04-03,Premium,True,2025-04-03 08:16:49.603118,2025-04-11 08:16:49.603118
+799,Varenya Srinivas,customer799@shopkart.example,+919153192532,Bengaluru,Karnataka,560807,2026-07-03,Premium,True,2026-07-03 15:16:01.495671,2026-07-07 15:16:01.495671
+800,Anthony Kohli,customer800@shopkart.example,+917384411592,Chennai,Tamil Nadu,600483,2025-04-20,Regular,True,2025-04-20 23:07:49.402288,2025-05-10 23:07:49.402288
+801,Krish Vala,customer801@shopkart.example,+917465685285,Bengaluru,Karnataka,560099,2024-12-19,Regular,True,2024-12-19 10:34:53.745296,2025-01-04 10:34:53.745296
+802,Ojas Kuruvilla,customer802@shopkart.example,+916966687854,Pune,Maharashtra,411284,2024-12-16,Regular,True,2024-12-16 03:39:59.247690,2025-01-14 03:39:59.247690
+803,Anirudh Mander,customer803@shopkart.example,+919784728434,Vijayawada,Andhra Pradesh,520562,2026-09-22,VIP,True,2026-09-22 10:38:28.045715,2026-10-19 10:38:28.045715
+804,Vasatika Garde,customer804@shopkart.example,+919528208462,Bengaluru,Karnataka,560556,2026-10-10,Regular,True,2026-10-10 19:49:20.725153,2026-10-13 19:49:20.725153
+805,Qabil Vaidya,customer805@shopkart.example,+917207090425,Vijayawada,Andhra Pradesh,520472,2025-04-27,VIP,True,2025-04-27 20:47:53.620863,2025-05-24 20:47:53.620863
+806,Sudiksha Biswas,customer806@shopkart.example,+919793622035,Pune,Maharashtra,411488,2025-05-30,Regular,True,2025-05-30 07:22:32.292049,2025-06-07 07:22:32.292049
+807,Amol Jain,customer807@shopkart.example,+919239354965,Hyderabad,Telangana,500308,2025-05-04,Regular,True,2025-05-04 03:28:00.183106,2025-05-07 03:28:00.183106
+808,Mason Char,customer808@shopkart.example,+916634124184,Hyderabad,Telangana,500696,2025-12-04,Regular,True,2025-12-04 22:22:43.370240,2025-12-06 22:22:43.370240
+809,Yahvi Dalal,customer809@shopkart.example,+916255403901,Kolkata,West Bengal,700228,2025-03-27,Regular,True,2025-03-27 07:36:57.894647,2025-04-06 07:36:57.894647
+810,Raagini Vig,customer810@shopkart.example,+917300083441,Mumbai,Maharashtra,400140,2025-01-25,VIP,True,2025-01-25 04:17:33.907422,2025-02-23 04:17:33.907422
+811,Veer Subramaniam,customer811@shopkart.example,+918760474320,Bengaluru,Karnataka,560709,2025-09-21,Premium,True,2025-09-21 20:51:53.495971,2025-10-10 20:51:53.495971
+812,Pavani Desai,customer812@shopkart.example,+918133434349,Bengaluru,Karnataka,560142,2026-06-17,Regular,True,2026-06-17 08:38:35.716294,2026-07-01 08:38:35.716294
+813,Bhanumati Rege,customer813@shopkart.example,+916134439876,Mumbai,Maharashtra,400034,2025-05-22,Regular,True,2025-05-22 01:31:54.763616,2025-06-05 01:31:54.763616
+814,Jacob Venkatesh,customer814@shopkart.example,+918554923650,Chennai,Tamil Nadu,600030,2025-05-25,Regular,True,2025-05-25 15:07:44.529360,2025-06-19 15:07:44.529360
+815,Nilima Pathak,customer815@shopkart.example,+917733495665,Vijayawada,Andhra Pradesh,520463,2024-11-23,Premium,True,2024-11-23 11:46:48.731958,2024-11-27 11:46:48.731958
+816,Advika Wason,customer816@shopkart.example,+917966263068,Mumbai,Maharashtra,400237,2025-02-03,VIP,True,2025-02-03 19:54:20.987213,2025-02-19 19:54:20.987213
+817,Mekhala Jani,customer817@shopkart.example,+917987918240,Pune,Maharashtra,411861,2025-09-23,Regular,False,2025-09-23 10:06:10.706185,2025-10-22 10:06:10.706185
+818,Praneel Prabhakar,customer818@shopkart.example,+917276695886,Pune,Maharashtra,411446,2025-09-15,VIP,True,2025-09-15 13:23:16.444750,2025-09-29 13:23:16.444750
+819,Hemangini Rao,customer819@shopkart.example,+916189455092,Chennai,Tamil Nadu,600922,2025-12-31,Regular,True,2025-12-31 08:03:01.767079,2026-01-10 08:03:01.767079
+820,Victor Sekhon,customer820@shopkart.example,+916286257999,Hyderabad,Telangana,500116,2026-05-09,VIP,True,2026-05-09 23:43:00.689472,2026-05-18 23:43:00.689472
+821,Tanish Trivedi,customer821@shopkart.example,+918466555724,Jaipur,Rajasthan,302436,2026-06-12,Regular,True,2026-06-12 23:55:11.836642,2026-07-06 23:55:11.836642
+822,Naveen Ramachandran,customer822@shopkart.example,+916407143954,Chennai,Tamil Nadu,600096,2025-09-06,Regular,True,2025-09-06 04:46:23.503669,2025-10-02 04:46:23.503669
+823,Maanav Sinha,customer823@shopkart.example,+917736142462,Hyderabad,Telangana,500797,2026-10-23,Premium,True,2026-10-23 21:58:01.602170,2026-11-18 10:49:24.842990
+824,Adya Kapadia,customer824@shopkart.example,+919387496812,Kochi,Kerala,682931,2026-09-24,Premium,True,2026-09-24 03:54:03.971189,2026-09-30 03:54:03.971189
+825,Nandini Verma,customer825@shopkart.example,+916892144511,Pune,Maharashtra,411067,2025-08-15,Regular,True,2025-08-15 20:22:54.914329,2025-09-01 20:22:54.914329
+826,Parth Talwar,customer826@shopkart.example,+916970696171,Jaipur,Rajasthan,302450,2025-06-15,Regular,True,2025-06-15 18:23:52.652761,2025-06-17 18:23:52.652761
+827,Robert Bandi,customer827@shopkart.example,+919532507527,Mumbai,Maharashtra,400806,2025-10-04,Regular,True,2025-10-04 13:24:51.868093,2025-10-21 13:24:51.868093
+828,Omkaar Banik,customer828@shopkart.example,+919287092236,Chennai,Tamil Nadu,600374,2026-06-13,Regular,True,2026-06-13 20:41:02.538310,2026-07-05 20:41:02.538310
+829,Gabriel Majumdar,customer829@shopkart.example,+918687550342,Bengaluru,Karnataka,560828,2025-08-07,Regular,True,2025-08-07 07:37:20.694553,2025-08-20 07:37:20.694553
+830,Nidra Iyer,customer830@shopkart.example,+917570840233,Kochi,Kerala,682890,2026-06-10,Regular,True,2026-06-10 09:16:29.884709,2026-06-20 09:16:29.884709
+831,Gautam Mane,customer831@shopkart.example,+917315774601,Hyderabad,Telangana,500200,2025-11-30,Regular,True,2025-11-30 23:03:01.107919,2025-11-30 23:03:01.107919
+832,Idika Malhotra,customer832@shopkart.example,+917922436593,Pune,Maharashtra,411564,2026-05-02,Premium,True,2026-05-02 20:13:31.929080,2026-05-30 20:13:31.929080
+833,Netra Agrawal,customer833@shopkart.example,+917384857821,Vijayawada,Andhra Pradesh,520275,2025-05-02,Regular,True,2025-05-02 22:42:47.630583,2025-05-07 22:42:47.630583
+834,Elijah Thakur,customer834@shopkart.example,+917321271542,Delhi,Delhi,110586,2025-05-27,Premium,True,2025-05-27 09:43:52.070954,2025-06-17 09:43:52.070954
+835,Zashil Savant,customer835@shopkart.example,+917764167518,Vijayawada,Andhra Pradesh,520002,2025-06-20,Regular,True,2025-06-20 16:09:38.885882,2025-07-01 16:09:38.885882
+836,Harinakshi Shanker,customer836@shopkart.example,+916652712628,Kolkata,West Bengal,700363,2026-10-24,Regular,True,2026-10-24 01:57:40.387176,2026-10-24 01:57:40.387176
+837,Vasatika Dada,customer837@shopkart.example,+919661587747,Delhi,Delhi,110526,2026-03-30,VIP,True,2026-03-30 16:28:53.030171,2026-04-19 16:28:53.030171
+838,Victor Mutti,customer838@shopkart.example,+919465103093,Pune,Maharashtra,411482,2025-05-25,Regular,True,2025-05-25 05:01:19.975501,2025-05-29 05:01:19.975501
+839,Adya Kothari,customer839@shopkart.example,+918740989727,Jaipur,Rajasthan,302965,2025-09-15,VIP,True,2025-09-15 17:37:10.708725,2025-10-02 17:37:10.708725
+840,Faqid Gokhale,customer840@shopkart.example,+917074054590,Delhi,Delhi,110879,2025-06-15,Premium,False,2025-06-15 23:07:59.400210,2025-06-19 23:07:59.400210
+841,Qadim Gupta,customer841@shopkart.example,+916113375081,Bengaluru,Karnataka,560247,2025-10-31,VIP,True,2025-10-31 21:50:11.292736,2025-11-20 21:50:11.292736
+842,Alka Jhaveri,customer842@shopkart.example,+916440680179,Kochi,Kerala,682076,2025-11-17,Premium,True,2025-11-17 03:53:50.819751,2025-12-09 03:53:50.819751
+843,Nachiket Chhabra,customer843@shopkart.example,+919337691008,Vijayawada,Andhra Pradesh,520440,2025-05-04,VIP,True,2025-05-04 06:21:36.720234,2025-05-20 06:21:36.720234
+844,Abeer Basak,customer844@shopkart.example,+919250031075,Delhi,Delhi,110412,2025-02-13,Regular,True,2025-02-13 14:45:11.573486,2025-03-10 14:45:11.573486
+845,Waida Maharaj,customer845@shopkart.example,+916403245510,Delhi,Delhi,110788,2026-07-30,Regular,True,2026-07-30 18:36:36.454073,2026-08-21 18:36:36.454073
+846,Mitali Kapadia,customer846@shopkart.example,+916217527896,Vijayawada,Andhra Pradesh,520473,2025-11-11,Regular,True,2025-11-11 05:50:35.573319,2025-11-27 05:50:35.573319
+847,Vanya Zachariah,customer847@shopkart.example,+918862939017,Chennai,Tamil Nadu,600057,2026-05-19,Premium,True,2026-05-19 08:49:07.653957,2026-05-20 08:49:07.653957
+848,Tanvi Dara,customer848@shopkart.example,+917094241413,Pune,Maharashtra,411659,2024-12-11,Regular,True,2024-12-11 02:02:06.391447,2024-12-21 02:02:06.391447
+849,Advik Kade,customer849@shopkart.example,+918710252613,Mumbai,Maharashtra,400086,2026-04-11,Premium,False,2026-04-11 04:10:32.500211,2026-04-27 04:10:32.500211
+850,Aashi Grover,customer850@shopkart.example,+918909068952,Pune,Maharashtra,411562,2025-08-21,Regular,False,2025-08-21 01:57:23.546370,2025-09-15 01:57:23.546370
+851,Hemal Pau,customer851@shopkart.example,+916303793462,Pune,Maharashtra,411151,2025-12-23,Regular,True,2025-12-23 16:08:53.074882,2025-12-30 16:08:53.074882
+852,Kashish Patla,customer852@shopkart.example,+916028341416,Delhi,Delhi,110594,2025-04-01,Regular,True,2025-04-01 14:30:31.132819,2025-04-14 14:30:31.132819
+853,Karan Karnik,customer853@shopkart.example,+916161727725,Delhi,Delhi,110881,2026-08-03,Premium,True,2026-08-03 10:18:40.029633,2026-08-04 10:18:40.029633
+854,Rachana Raj,customer854@shopkart.example,+918716296840,Mumbai,Maharashtra,400699,2026-07-05,Regular,True,2026-07-05 06:23:22.884996,2026-07-05 06:23:22.884996
+855,Urvashi Andra,customer855@shopkart.example,+918767518638,Kochi,Kerala,682812,2025-04-10,Regular,True,2025-04-10 03:20:08.692367,2025-04-11 03:20:08.692367
+856,Vidhi Mital,customer856@shopkart.example,+919963463376,Delhi,Delhi,110634,2025-03-26,VIP,False,2025-03-26 08:53:00.287424,2025-03-30 08:53:00.287424
+857,Mitali Chaudhary,customer857@shopkart.example,+916081771932,Kochi,Kerala,682078,2025-05-20,Regular,True,2025-05-20 18:22:49.088354,2025-05-20 18:22:49.088354
+858,Vamakshi Char,customer858@shopkart.example,+916026863136,Kochi,Kerala,682386,2026-04-06,Premium,True,2026-04-06 06:47:15.816922,2026-04-16 06:47:15.816922
+859,Jagvi Kurian,customer859@shopkart.example,+918478858404,Chennai,Tamil Nadu,600389,2025-10-12,Regular,False,2025-10-12 15:22:19.929466,2025-10-14 15:22:19.929466
+860,Rushil Yohannan,customer860@shopkart.example,+917756848716,Mumbai,Maharashtra,400503,2025-07-27,Regular,True,2025-07-27 12:26:37.528455,2025-08-21 12:26:37.528455
+861,Ekta Uppal,customer861@shopkart.example,+918755981218,Pune,Maharashtra,411432,2025-03-25,Premium,False,2025-03-25 06:33:42.687905,2025-04-05 06:33:42.687905
+862,Lakshmi Mangat,customer862@shopkart.example,+917176400313,Bengaluru,Karnataka,560564,2025-11-08,Regular,True,2025-11-08 15:55:02.706962,2025-12-06 15:55:02.706962
+863,Geetika Sama,customer863@shopkart.example,+919615381692,Hyderabad,Telangana,500562,2025-10-22,Premium,True,2025-10-22 16:20:12.594119,2025-11-16 16:20:12.594119
+864,Fariq Edwin,customer864@shopkart.example,+917222312117,Chennai,Tamil Nadu,600746,2026-02-21,Regular,True,2026-02-21 00:40:52.886933,2026-03-13 00:40:52.886933
+865,Amara Rana,customer865@shopkart.example,+919970654428,Chennai,Tamil Nadu,600002,2025-07-26,Premium,True,2025-07-26 17:32:59.016568,2025-08-13 17:32:59.016568
+866,Shravya Sachdev,customer866@shopkart.example,+918285904663,Mumbai,Maharashtra,400816,2025-06-04,Premium,True,2025-06-04 23:09:04.913380,2025-06-08 23:09:04.913380
+867,Wahab Krishnamurthy,customer867@shopkart.example,+917664848868,Mumbai,Maharashtra,400854,2025-03-20,Regular,True,2025-03-20 15:16:16.229942,2025-04-01 15:16:16.229942
+868,Shivansh Ganesan,customer868@shopkart.example,+918444303772,Mumbai,Maharashtra,400644,2026-10-05,Premium,True,2026-10-05 07:04:20.600290,2026-10-05 07:04:20.600290
+869,Chatura Bal,customer869@shopkart.example,+917717404868,Kochi,Kerala,682809,2025-09-03,Premium,True,2025-09-03 04:07:06.580079,2025-09-18 04:07:06.580079
+870,Hemang Lala,customer870@shopkart.example,+918410680367,Delhi,Delhi,110707,2026-06-03,VIP,False,2026-06-03 23:29:27.612385,2026-07-02 23:29:27.612385
+871,Dayamai Karnik,customer871@shopkart.example,+919567248558,Pune,Maharashtra,411755,2026-02-12,Premium,True,2026-02-12 14:30:36.293855,2026-03-12 14:30:36.293855
+872,Karan Vyas,customer872@shopkart.example,+919239389448,Hyderabad,Telangana,500765,2025-05-17,Regular,True,2025-05-17 20:52:13.298680,2025-06-02 20:52:13.298680
+873,Eshana Soni,customer873@shopkart.example,+918382964656,Kolkata,West Bengal,700380,2026-07-23,Regular,True,2026-07-23 13:57:21.370884,2026-07-26 13:57:21.370884
+874,Sai Deshmukh,customer874@shopkart.example,+919729440556,Vijayawada,Andhra Pradesh,520153,2025-10-25,Premium,True,2025-10-25 07:18:18.043846,2025-10-28 07:18:18.043846
+875,Tanmayi Saran,customer875@shopkart.example,+919915492774,Pune,Maharashtra,411016,2026-10-26,Regular,True,2026-10-26 10:19:01.310850,2026-10-27 10:19:01.310850
+876,Idika Subramaniam,customer876@shopkart.example,+917192693885,Vijayawada,Andhra Pradesh,520795,2025-12-05,Regular,True,2025-12-05 11:42:23.884642,2025-12-26 11:42:23.884642
+877,Darika Pau,customer877@shopkart.example,+916923418954,Kolkata,West Bengal,700303,2025-12-16,Premium,True,2025-12-16 04:00:06.735137,2025-12-20 04:00:06.735137
+878,Aadi Virk,customer878@shopkart.example,+917787179380,Delhi,Delhi,110225,2025-09-14,Regular,True,2025-09-14 02:27:01.305224,2025-10-11 02:27:01.305224
+879,Bhavini Singh,customer879@shopkart.example,+919899499125,Pune,Maharashtra,411997,2026-07-06,Regular,True,2026-07-06 11:17:48.174332,2026-07-20 11:17:48.174332
+880,Vansha Mistry,customer880@shopkart.example,+918587004379,Pune,Maharashtra,411553,2025-12-13,Regular,True,2025-12-13 17:32:52.413885,2026-01-08 17:32:52.413885
+881,Vihaan Amble,customer881@shopkart.example,+916158187489,Chennai,Tamil Nadu,600799,2024-11-24,Regular,False,2024-11-24 11:42:21.387290,2024-12-03 11:42:21.387290
+882,Megha Krish,customer882@shopkart.example,+917712381294,Delhi,Delhi,110514,2025-12-23,Premium,True,2025-12-23 15:31:52.528832,2026-01-11 15:31:52.528832
+883,Kritika Kannan,customer883@shopkart.example,+919553114576,Hyderabad,Telangana,500184,2025-03-17,VIP,True,2025-03-17 22:56:24.461466,2025-04-14 22:56:24.461466
+884,Zansi Magar,customer884@shopkart.example,+916064003070,Kochi,Kerala,682482,2025-05-28,Premium,True,2025-05-28 05:07:34.602878,2025-06-23 05:07:34.602878
+885,Nitara Guha,customer885@shopkart.example,+919995490003,Bengaluru,Karnataka,560140,2025-06-13,Regular,True,2025-06-13 15:23:21.703157,2025-07-06 15:23:21.703157
+886,Indrajit Shah,customer886@shopkart.example,+918392477250,Chennai,Tamil Nadu,600387,2026-08-03,Premium,True,2026-08-03 14:11:37.335906,2026-08-12 14:11:37.335906
+887,Raghav Nagi,customer887@shopkart.example,+916620145955,Kochi,Kerala,682073,2026-02-11,Premium,True,2026-02-11 17:01:22.229706,2026-03-06 17:01:22.229706
+888,Quincy Chaudry,customer888@shopkart.example,+918358228347,Vijayawada,Andhra Pradesh,520722,2024-12-02,VIP,True,2024-12-02 03:05:18.221635,2024-12-14 03:05:18.221635
+889,Abhiram Kaul,customer889@shopkart.example,+916456423923,Jaipur,Rajasthan,302484,2025-06-11,Premium,True,2025-06-11 17:53:59.544882,2025-06-23 17:53:59.544882
+890,Hema Salvi,customer890@shopkart.example,+916242385761,Pune,Maharashtra,411328,2025-01-22,Premium,True,2025-01-22 21:58:04.897307,2025-02-15 21:58:04.897307
+891,Ubika Balay,customer891@shopkart.example,+917902224123,Chennai,Tamil Nadu,600997,2025-07-03,Premium,True,2025-07-03 04:34:53.482249,2025-07-04 04:34:53.482249
+892,Daksh Lata,customer892@shopkart.example,+917753265237,Mumbai,Maharashtra,400681,2025-07-17,Regular,True,2025-07-17 01:18:53.272235,2025-08-15 01:18:53.272235
+893,Pratyush Handa,customer893@shopkart.example,+916880193280,Chennai,Tamil Nadu,600440,2026-06-07,Regular,True,2026-06-07 01:10:53.120013,2026-07-07 01:10:53.120013
+894,Advik Dara,customer894@shopkart.example,+916985903412,Jaipur,Rajasthan,302612,2026-09-02,Regular,True,2026-09-02 12:19:43.340923,2026-09-09 12:19:43.340923
+895,Saanvi Kota,customer895@shopkart.example,+917310048312,Bengaluru,Karnataka,560517,2026-10-30,Premium,True,2026-10-30 20:26:25.305888,2026-11-11 20:26:25.305888
+896,Girindra Verma,customer896@shopkart.example,+918778131164,Vijayawada,Andhra Pradesh,520440,2026-05-10,Regular,True,2026-05-10 04:35:38.651982,2026-05-27 04:35:38.651982
+897,Devika Naidu,customer897@shopkart.example,+919857130594,Mumbai,Maharashtra,400506,2026-03-19,Regular,True,2026-03-19 13:59:46.091341,2026-03-27 13:59:46.091341
+898,Zehaan Srivastava,customer898@shopkart.example,+919342052149,Vijayawada,Andhra Pradesh,520402,2025-03-13,Regular,True,2025-03-13 10:53:20.391450,2025-03-17 10:53:20.391450
+899,Tejas Chowdhury,customer899@shopkart.example,+918689758288,Vijayawada,Andhra Pradesh,520914,2026-02-27,Regular,True,2026-02-27 13:45:13.207625,2026-03-05 13:45:13.207625
+900,Oliver Majumdar,customer900@shopkart.example,+919860568467,Vijayawada,Andhra Pradesh,520516,2025-05-09,Regular,True,2025-05-09 21:41:52.985400,2025-06-01 21:41:52.985400
+901,Aditya Basak,customer901@shopkart.example,+918271092567,Delhi,Delhi,110822,2026-01-18,Regular,True,2026-01-18 02:18:08.972221,2026-01-27 02:18:08.972221
+902,Kamya Chakraborty,customer902@shopkart.example,+918581052589,Delhi,Delhi,110276,2026-01-16,Regular,True,2026-01-16 16:07:53.519962,2026-02-01 16:07:53.519962
+903,Darpan Bhasin,customer903@shopkart.example,+916207220462,Vijayawada,Andhra Pradesh,520671,2025-05-18,Regular,True,2025-05-18 01:07:37.903780,2025-05-23 01:07:37.903780
+904,Jeremiah Sura,customer904@shopkart.example,+916988270348,Kochi,Kerala,682430,2025-08-04,Regular,True,2025-08-04 17:23:52.145359,2025-08-12 17:23:52.145359
+905,Reva Hans,customer905@shopkart.example,+917236998904,Kolkata,West Bengal,700540,2025-05-06,Regular,True,2025-05-06 18:08:04.164045,2025-06-03 18:08:04.164045
+906,Zashil Baral,customer906@shopkart.example,+919555827380,Chennai,Tamil Nadu,600417,2024-12-03,Premium,True,2024-12-03 07:40:49.544047,2024-12-18 07:40:49.544047
+907,Vrishti Gupta,customer907@shopkart.example,+919656732642,Chennai,Tamil Nadu,600908,2025-11-07,Premium,True,2025-11-07 06:14:14.226277,2025-11-13 06:14:14.226277
+908,Upadhriti Maharaj,customer908@shopkart.example,+917000044499,Mumbai,Maharashtra,400419,2026-01-05,Regular,True,2026-01-05 23:05:13.795456,2026-01-12 23:05:13.795456
+909,Ekapad Wali,customer909@shopkart.example,+916429528721,Jaipur,Rajasthan,302575,2026-08-13,Regular,True,2026-08-13 20:17:59.670547,2026-08-24 20:17:59.670547
+910,Jeevika Setty,customer910@shopkart.example,+916147738748,Kochi,Kerala,682345,2025-03-11,Premium,True,2025-03-11 17:35:20.556392,2025-03-20 17:35:20.556392
+911,Qasim Bahl,customer911@shopkart.example,+919700777287,Mumbai,Maharashtra,400571,2024-11-18,Regular,True,2024-11-18 06:42:01.091149,2024-11-27 06:42:01.091149
+912,Ekani Bhatnagar,customer912@shopkart.example,+916005400487,Hyderabad,Telangana,500171,2026-02-13,Regular,True,2026-02-13 19:50:01.613965,2026-03-07 19:50:01.613965
+913,Ranveer Viswanathan,customer913@shopkart.example,+919044396484,Hyderabad,Telangana,500094,2026-03-13,Regular,False,2026-03-13 01:33:17.901205,2026-03-18 01:33:17.901205
+914,Barkha Naidu,customer914@shopkart.example,+917401426411,Vijayawada,Andhra Pradesh,520381,2026-03-31,Regular,True,2026-03-31 11:18:28.139668,2026-04-19 11:18:28.139668
+915,Ekalinga Bassi,customer915@shopkart.example,+919151305878,Vijayawada,Andhra Pradesh,520542,2025-09-13,Premium,True,2025-09-13 04:40:46.271827,2025-09-15 04:40:46.271827
+916,Saksham Chhabra,customer916@shopkart.example,+918370414136,Chennai,Tamil Nadu,600047,2026-07-20,Regular,True,2026-07-20 02:51:13.602292,2026-07-29 02:51:13.602292
+917,Vrishti Vora,customer917@shopkart.example,+916350541046,Kochi,Kerala,682244,2025-11-07,Regular,True,2025-11-07 15:36:25.725400,2025-12-04 15:36:25.725400
+918,Jeevika Kant,customer918@shopkart.example,+916612401503,Delhi,Delhi,110660,2026-02-16,Premium,True,2026-02-16 18:25:25.634974,2026-02-17 18:25:25.634974
+919,Vyanjana Buch,customer919@shopkart.example,+918865066113,Mumbai,Maharashtra,400867,2026-02-03,Premium,False,2026-02-03 10:31:26.480045,2026-03-02 10:31:26.480045
+920,Ojasvi Pillay,customer920@shopkart.example,+919554427449,Delhi,Delhi,110852,2025-10-25,Premium,True,2025-10-25 18:47:24.077412,2025-11-17 18:47:24.077412
+921,Banjeet Bobal,customer921@shopkart.example,+919240972256,Pune,Maharashtra,411934,2026-06-20,Regular,True,2026-06-20 05:01:23.483836,2026-07-14 05:01:23.483836
+922,Zilmil Chatterjee,customer922@shopkart.example,+918705298789,Delhi,Delhi,110851,2026-07-20,Regular,True,2026-07-20 03:25:17.133534,2026-08-04 03:25:17.133534
+923,Ranveer Hans,customer923@shopkart.example,+919420149734,Kochi,Kerala,682961,2025-01-30,Regular,True,2025-01-30 12:04:36.610762,2025-02-23 12:04:36.610762
+924,Ojasvi Cherian,customer924@shopkart.example,+918176843017,Bengaluru,Karnataka,560936,2025-12-07,VIP,True,2025-12-07 03:56:19.433456,2025-12-30 03:56:19.433456
+925,Prisha Chawla,customer925@shopkart.example,+919615326234,Vijayawada,Andhra Pradesh,520167,2026-05-31,VIP,True,2026-05-31 08:52:50.579922,2026-06-17 08:52:50.579922
+926,Yamini Nazareth,customer926@shopkart.example,+919835920353,Pune,Maharashtra,411795,2025-03-19,Regular,True,2025-03-19 19:39:59.896308,2025-04-10 19:39:59.896308
+927,Indira Murty,customer927@shopkart.example,+916108493332,Pune,Maharashtra,411856,2026-03-12,Regular,True,2026-03-12 00:33:23.059030,2026-03-17 00:33:23.059030
+928,Nitara Sani,customer928@shopkart.example,+919444392772,Bengaluru,Karnataka,560876,2025-12-24,Regular,True,2025-12-24 00:21:21.207192,2026-01-15 00:21:21.207192
+929,Tanish Prashad,customer929@shopkart.example,+918977614321,Kolkata,West Bengal,700511,2026-07-14,Regular,True,2026-07-14 20:07:46.391825,2026-07-16 20:07:46.391825
+930,Jagvi Sethi,customer930@shopkart.example,+917490905249,Vijayawada,Andhra Pradesh,520343,2026-05-30,Regular,True,2026-05-30 02:52:46.565608,2026-06-13 02:52:46.565608
+931,Bhavani Babu,customer931@shopkart.example,+916946206242,Hyderabad,Telangana,500165,2025-10-10,VIP,True,2025-10-10 17:39:06.846658,2025-11-07 17:39:06.846658
+932,Abeer Mital,customer932@shopkart.example,+917254667575,Pune,Maharashtra,411248,2025-11-30,Regular,True,2025-11-30 13:58:47.975556,2025-12-02 13:58:47.975556
+933,Anthony Majumdar,customer933@shopkart.example,+916890107908,Kolkata,West Bengal,700336,2026-11-06,Premium,True,2026-11-06 00:58:46.407999,2026-11-18 10:49:24.842990
+934,Girindra Barad,customer934@shopkart.example,+917481403706,Vijayawada,Andhra Pradesh,520961,2026-09-19,Premium,True,2026-09-19 21:29:51.895041,2026-10-18 21:29:51.895041
+935,Jeevika Krish,customer935@shopkart.example,+917421346414,Pune,Maharashtra,411491,2025-10-20,Premium,True,2025-10-20 04:41:34.164023,2025-11-13 04:41:34.164023
+936,Mugdha Kalla,customer936@shopkart.example,+916418208586,Kolkata,West Bengal,700961,2025-05-07,Regular,True,2025-05-07 10:23:34.751962,2025-05-30 10:23:34.751962
+937,Oscar Sura,customer937@shopkart.example,+917673619065,Chennai,Tamil Nadu,600226,2026-05-08,Regular,False,2026-05-08 17:04:55.876979,2026-06-05 17:04:55.876979
+938,Charita Barad,customer938@shopkart.example,+918110804036,Bengaluru,Karnataka,560127,2026-07-13,Regular,True,2026-07-13 15:34:51.964044,2026-08-11 15:34:51.964044
+939,Daksh Natt,customer939@shopkart.example,+918745825325,Hyderabad,Telangana,500324,2026-05-05,Regular,True,2026-05-05 13:17:17.570719,2026-05-11 13:17:17.570719
+940,Jai Karan,customer940@shopkart.example,+916475746408,Bengaluru,Karnataka,560653,2025-07-29,Premium,True,2025-07-29 11:41:45.024742,2025-08-15 11:41:45.024742
+941,Lavanya Bhagat,customer941@shopkart.example,+916061516549,Vijayawada,Andhra Pradesh,520273,2026-05-17,Regular,True,2026-05-17 07:00:30.266744,2026-05-29 07:00:30.266744
+942,Eta Thakkar,customer942@shopkart.example,+918026260530,Hyderabad,Telangana,500178,2025-06-28,Regular,True,2025-06-28 13:54:59.968783,2025-07-07 13:54:59.968783
+943,Sanaya Thaman,customer943@shopkart.example,+919153355679,Pune,Maharashtra,411629,2026-04-11,VIP,True,2026-04-11 17:55:22.562810,2026-05-01 17:55:22.562810
+944,Manbir Deo,customer944@shopkart.example,+919362218666,Jaipur,Rajasthan,302137,2025-01-22,Regular,True,2025-01-22 15:48:00.435134,2025-02-08 15:48:00.435134
+945,Mohini Lala,customer945@shopkart.example,+917240013802,Kochi,Kerala,682390,2025-07-21,Regular,True,2025-07-21 02:16:51.657862,2025-08-03 02:16:51.657862
+946,Krishna Srivastava,customer946@shopkart.example,+919201597213,Bengaluru,Karnataka,560840,2025-01-19,Premium,True,2025-01-19 14:26:12.623654,2025-02-09 14:26:12.623654
+947,Yatin Kibe,customer947@shopkart.example,+918229870253,Bengaluru,Karnataka,560031,2025-12-31,Premium,True,2025-12-31 12:49:28.724678,2026-01-16 12:49:28.724678
+948,Gaurav Chowdhury,customer948@shopkart.example,+916517974355,Chennai,Tamil Nadu,600327,2025-01-09,VIP,True,2025-01-09 18:52:33.595385,2025-01-17 18:52:33.595385
+949,Rayaan Nagi,customer949@shopkart.example,+917692142715,Vijayawada,Andhra Pradesh,520620,2026-03-23,Regular,True,2026-03-23 05:55:42.458260,2026-04-06 05:55:42.458260
+950,Omkaar Palla,customer950@shopkart.example,+916315083365,Chennai,Tamil Nadu,600439,2025-07-27,Premium,True,2025-07-27 10:26:55.766284,2025-08-04 10:26:55.766284
+951,Madhav Sastry,customer951@shopkart.example,+917745738285,Kochi,Kerala,682282,2026-02-10,Premium,True,2026-02-10 00:05:06.372128,2026-03-06 00:05:06.372128
+952,Kashvi Dugal,customer952@shopkart.example,+916282385827,Delhi,Delhi,110608,2024-12-20,VIP,True,2024-12-20 21:22:29.010498,2025-01-09 21:22:29.010498
+953,Chatura Kibe,customer953@shopkart.example,+918821797324,Mumbai,Maharashtra,400515,2026-05-25,Regular,True,2026-05-25 13:25:57.133010,2026-06-16 13:25:57.133010
+954,Akshay Oza,customer954@shopkart.example,+917110791721,Chennai,Tamil Nadu,600937,2026-10-11,Regular,True,2026-10-11 05:27:22.628883,2026-10-26 05:27:22.628883
+955,Urishilla Bajaj,customer955@shopkart.example,+916879560170,Mumbai,Maharashtra,400379,2026-04-08,Regular,True,2026-04-08 20:24:40.924063,2026-04-16 20:24:40.924063
+956,Samar Virk,customer956@shopkart.example,+916325769924,Kolkata,West Bengal,700015,2025-07-18,Regular,True,2025-07-18 02:29:01.432345,2025-07-31 02:29:01.432345
+957,Andrew Puri,customer957@shopkart.example,+917374840307,Pune,Maharashtra,411220,2026-05-19,Regular,True,2026-05-19 13:38:49.829135,2026-05-19 13:38:49.829135
+958,Aadhya Garde,customer958@shopkart.example,+917029550302,Jaipur,Rajasthan,302165,2026-01-17,Regular,True,2026-01-17 02:24:46.473997,2026-01-17 02:24:46.473997
+959,Chatresh Shroff,customer959@shopkart.example,+916814757395,Vijayawada,Andhra Pradesh,520163,2024-12-31,Regular,False,2024-12-31 13:13:34.395088,2025-01-26 13:13:34.395088
+960,Anika Parsa,customer960@shopkart.example,+917649242906,Bengaluru,Karnataka,560206,2026-03-10,VIP,True,2026-03-10 03:30:35.936722,2026-03-29 03:30:35.936722
+961,Vihaan Rai,customer961@shopkart.example,+917674344501,Hyderabad,Telangana,500356,2026-08-10,VIP,True,2026-08-10 08:39:31.696735,2026-09-04 08:39:31.696735
+962,Vedhika Wali,customer962@shopkart.example,+917854503018,Kochi,Kerala,682284,2025-11-24,Regular,False,2025-11-24 02:30:57.774129,2025-12-21 02:30:57.774129
+963,Anthony Baral,customer963@shopkart.example,+919397566206,Jaipur,Rajasthan,302830,2025-01-21,Regular,True,2025-01-21 17:19:37.980074,2025-01-23 17:19:37.980074
+964,Vrishti Ramaswamy,customer964@shopkart.example,+918653261116,Jaipur,Rajasthan,302483,2025-05-17,Regular,False,2025-05-17 20:13:49.645623,2025-06-12 20:13:49.645623
+965,Isha Mittal,customer965@shopkart.example,+918480323625,Delhi,Delhi,110742,2026-05-15,Regular,True,2026-05-15 16:35:25.496357,2026-06-13 16:35:25.496357
+966,David Kurian,customer966@shopkart.example,+916769256160,Mumbai,Maharashtra,400429,2025-05-09,Premium,True,2025-05-09 11:10:46.242900,2025-05-25 11:10:46.242900
+967,Ati Kar,customer967@shopkart.example,+918121380070,Bengaluru,Karnataka,560104,2026-08-21,Premium,True,2026-08-21 12:07:02.054816,2026-08-28 12:07:02.054816
+968,Gagan Raja,customer968@shopkart.example,+919524932862,Mumbai,Maharashtra,400527,2025-03-08,Premium,True,2025-03-08 05:19:20.896036,2025-03-22 05:19:20.896036
+969,Omisha Khosla,customer969@shopkart.example,+917898120356,Delhi,Delhi,110813,2025-12-03,Regular,True,2025-12-03 15:35:36.930112,2025-12-03 15:35:36.930112
+970,Forum Sen,customer970@shopkart.example,+917219645380,Kolkata,West Bengal,700404,2026-01-10,Regular,True,2026-01-10 00:03:47.819602,2026-01-15 00:03:47.819602
+971,Samaksh Devi,customer971@shopkart.example,+917722009239,Delhi,Delhi,110489,2025-12-18,Premium,True,2025-12-18 11:24:53.815975,2026-01-10 11:24:53.815975
+972,Qushi Dhillon,customer972@shopkart.example,+919691773679,Chennai,Tamil Nadu,600065,2025-07-01,Regular,True,2025-07-01 12:38:05.552958,2025-07-09 12:38:05.552958
+973,Eesha Bir,customer973@shopkart.example,+916396247227,Chennai,Tamil Nadu,600138,2026-03-12,VIP,True,2026-03-12 21:28:30.550588,2026-04-04 21:28:30.550588
+974,Qarin Nadkarni,customer974@shopkart.example,+916941815672,Kochi,Kerala,682510,2025-12-29,Regular,True,2025-12-29 15:00:24.924526,2026-01-16 15:00:24.924526
+975,Eiravati Sachdev,customer975@shopkart.example,+917794140334,Hyderabad,Telangana,500342,2026-07-23,Premium,True,2026-07-23 07:15:30.590883,2026-07-31 07:15:30.590883
+976,Max Guha,customer976@shopkart.example,+917439620355,Kochi,Kerala,682073,2026-10-20,Regular,True,2026-10-20 04:38:54.163554,2026-10-22 04:38:54.163554
+977,Vihaan Kata,customer977@shopkart.example,+919325497895,Mumbai,Maharashtra,400177,2025-02-03,Premium,True,2025-02-03 04:36:09.953978,2025-02-21 04:36:09.953978
+978,Vansha Desai,customer978@shopkart.example,+919467858459,Kochi,Kerala,682875,2025-05-05,Regular,True,2025-05-05 22:00:37.547289,2025-05-07 22:00:37.547289
+979,Qarin Ram,customer979@shopkart.example,+918526782597,Mumbai,Maharashtra,400944,2025-11-19,Premium,True,2025-11-19 03:49:42.005556,2025-12-18 03:49:42.005556
+980,Upkaar Bali,customer980@shopkart.example,+916806839777,Hyderabad,Telangana,500989,2025-11-11,VIP,True,2025-11-11 21:19:54.140018,2025-11-29 21:19:54.140018
+981,Nitara Kapadia,customer981@shopkart.example,+917355827388,Hyderabad,Telangana,500315,2025-09-12,Regular,True,2025-09-12 13:41:06.582991,2025-09-24 13:41:06.582991
+982,Dominic Goel,customer982@shopkart.example,+919727716335,Jaipur,Rajasthan,302344,2026-05-13,Regular,True,2026-05-13 04:51:50.525827,2026-05-21 04:51:50.525827
+983,Ekta Shankar,customer983@shopkart.example,+916754773113,Vijayawada,Andhra Pradesh,520432,2026-09-25,Regular,False,2026-09-25 20:36:31.947296,2026-09-29 20:36:31.947296
+984,Lajita Munshi,customer984@shopkart.example,+919963962542,Delhi,Delhi,110521,2026-08-27,Regular,True,2026-08-27 15:53:28.560475,2026-08-31 15:53:28.560475
+985,Ikbal Seth,customer985@shopkart.example,+919638060475,Vijayawada,Andhra Pradesh,520054,2025-09-01,Regular,True,2025-09-01 00:56:11.259194,2025-09-07 00:56:11.259194
+986,Zilmil Yogi,customer986@shopkart.example,+917487992528,Jaipur,Rajasthan,302087,2025-10-17,Regular,True,2025-10-17 00:06:36.642159,2025-11-06 00:06:36.642159
+987,Zaitra Bawa,customer987@shopkart.example,+916035835713,Chennai,Tamil Nadu,600372,2025-09-02,Regular,True,2025-09-02 11:45:34.746526,2025-09-09 11:45:34.746526
+988,Bhavika Shenoy,customer988@shopkart.example,+916252958647,Bengaluru,Karnataka,560990,2025-04-05,VIP,False,2025-04-05 22:19:09.738231,2025-04-19 22:19:09.738231
+989,Zansi Dhar,customer989@shopkart.example,+918879563855,Delhi,Delhi,110080,2025-03-19,Regular,True,2025-03-19 16:51:41.961321,2025-04-01 16:51:41.961321
+990,Xiti Chowdhury,customer990@shopkart.example,+918674326846,Chennai,Tamil Nadu,600095,2025-10-22,Regular,True,2025-10-22 01:12:17.372646,2025-10-22 01:12:17.372646
+991,Maya Sachdev,customer991@shopkart.example,+918583514079,Bengaluru,Karnataka,560716,2025-03-29,Regular,True,2025-03-29 22:34:12.168903,2025-04-03 22:34:12.168903
+992,Saksham Sha,customer992@shopkart.example,+917205415608,Pune,Maharashtra,411538,2025-07-12,Regular,True,2025-07-12 13:26:56.656123,2025-07-19 13:26:56.656123
+993,Jatin Chand,customer993@shopkart.example,+917633421717,Kochi,Kerala,682161,2025-01-22,Premium,True,2025-01-22 19:11:34.599491,2025-01-26 19:11:34.599491
+994,Frederick Viswanathan,customer994@shopkart.example,+916757148288,Jaipur,Rajasthan,302929,2025-02-09,Regular,True,2025-02-09 10:54:54.777615,2025-02-14 10:54:54.777615
+995,Kritika Rai,customer995@shopkart.example,+918594054916,Chennai,Tamil Nadu,600250,2026-04-18,Regular,True,2026-04-18 03:09:42.317944,2026-05-04 03:09:42.317944
+996,Mason Gaba,customer996@shopkart.example,+919579662244,Mumbai,Maharashtra,400221,2024-12-20,Regular,True,2024-12-20 05:06:04.033485,2025-01-11 05:06:04.033485
+997,Oni Morar,customer997@shopkart.example,+918930200618,Pune,Maharashtra,411796,2026-08-14,VIP,True,2026-08-14 00:54:17.282549,2026-09-10 00:54:17.282549
+998,Bhavya Golla,customer998@shopkart.example,+918407188042,Vijayawada,Andhra Pradesh,520480,2025-07-01,VIP,True,2025-07-01 15:26:51.836774,2025-07-21 15:26:51.836774
+999,Aarush Kulkarni,customer999@shopkart.example,+919088190596,Bengaluru,Karnataka,560640,2025-02-11,Regular,True,2025-02-11 10:44:25.795105,2025-02-22 10:44:25.795105
+1000,Abdul Tak,customer1000@shopkart.example,+918626189807,Hyderabad,Telangana,500313,2024-11-26,Premium,True,2024-11-26 10:30:39.742231,2024-12-08 10:30:39.742231
